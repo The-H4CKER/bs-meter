@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BS-Meter</title>
+
+    <!-- Google Font: Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      html, body {
+        height: 100%;
+        margin: 0;
+        background-color: #121212; /* Dark background */
+        color: white;
+        font-family: 'Roboto', sans-serif;
+      }
+      /* Header with custom logo */
+      .header {
+        display: flex;
+        align-items: center;
+        padding: 10px 20px;
+      }
+      .header img {
+        height: 40px;
+        width: 40px;
+        margin-right: 10px;
+      }
+      .header span {
+        font-size: 1.5rem;
+        font-weight: bold;
+      }
+      /* Title styling */
+      .title {
+        text-align: center;
+        font-size: 4rem;
+        margin-top: 20px;
+      }
+      /* Meter container styling */
+      .meter-container {
+        display: flex;
+        justify-content: center;
+        margin: 20px 0;
+      }
+      /* Input section styling */
+      .input-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .input-section {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+      .input-section input {
+        width: 300px;
+        margin-right: 10px;
+        background-color: #2c2c2c;
+        color: white;
+        border: 1px solid #444;
+      }
+      .input-section select {
+        background-color: #2c2c2c;
+        color: white;
+        border: 1px solid #444;
+      }
+      .btn-primary {
+        background-color: #00AAFF;
+        border-color: #00AAFF;
+      }
+      .btn-primary:hover {
+        background-color: #0088cc;
+        border-color: #0088cc;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header with custom logo from static folder -->
+    <div class="header">
+      <img src="{{ url_for('static', filename='logo.png') }}" alt="Logo">
+      <span>BS-Meter</span>
+    </div>
+
+    <!-- Title (no emoji) -->
+    <div class="title">BS-Meter</div>
+
+    <!-- Big meter graphic (SVG gauge) -->
+    <div class="meter-container">
+      <svg id="bsMeterSVG" width="300" height="200" viewBox="0 0 300 200">
+        <!-- Gauge arc (background) -->
+        <path d="M 50 150 A 100 100 0 0 1 250 150" fill="none" stroke="#444" stroke-width="20" stroke-linecap="round"/>
+        <!-- Needle pointer (initially at 0 value, rotated -90°) -->
+        <line id="needle" x1="150" y1="150" x2="150" y2="60" stroke="red" stroke-width="4" transform="rotate(-90, 150, 150)" />
+        <!-- Center pivot -->
+        <circle cx="150" cy="150" r="5" fill="red"/>
+      </svg>
+    </div>
+
+    <!-- Text input and button -->
+    <div class="input-container">
+      <div class="input-section">
+        <input type="text" id="inputText" class="form-control" placeholder="Enter text...">
+        <select class="form-select" style="width: auto;">
+          <option selected>Attachment</option>
+          <option value="1">Option 1</option>
+          <option value="2">Option 2</option>
+          <option value="3">Option 3</option>
+        </select>
+      </div>
+      <button type="button" id="checkBtn" class="btn btn-primary">CHECK</button>
+    </div>
+
+    <!-- JavaScript to process the input and update the meter -->
+    <script>
+      // Listen for the "CHECK" button click
+      document.getElementById("checkBtn").addEventListener("click", function(){
+        var inputText = document.getElementById("inputText").value;
+        // Send the text to the Flask backend via a POST request
+        fetch("/process", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json"
+          },
+          body: JSON.stringify({ text: inputText })
+        })
+        .then(response => response.json())
+        .then(data => {
+          // Expect the backend to return a JSON with a field "value" (0-100)
+          updateNeedle(data.value);
+        })
+        .catch(err => console.error(err));
+      });
+
+      // Update the gauge needle based on the value (mapping 0-100 to -90° to 90°)
+      function updateNeedle(value) {
+        var angle = (value / 100) * 180 - 90;  // 0 => -90°, 50 => 0°, 100 => 90°
+        document.getElementById("needle").setAttribute("transform", "rotate(" + angle + ", 150, 150)");
+      }
+    </script>
+  </body>
+</html>

@@ -8,4 +8,9 @@ def create_app():
 
     app.register_blueprint(views, url_prefix='/')
 
+    from .endpoint import endpoint_bp
+    app.register_blueprint(endpoint_bp)
+
     return app
+
+
