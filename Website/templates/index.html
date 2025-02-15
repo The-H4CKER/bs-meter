@@ -48,7 +48,7 @@
         justify-content: center;
         margin: 20px 0;
       }
-      /* Input section styling */
+      /* Input container styling */
       .input-container {
         display: flex;
         flex-direction: column;
@@ -59,14 +59,9 @@
         align-items: center;
         margin-bottom: 20px;
       }
-      .input-section input {
+      .input-section input[type="text"] {
         width: 300px;
         margin-right: 10px;
-        background-color: #2c2c2c;
-        color: white;
-        border: 1px solid #444;
-      }
-      .input-section select {
         background-color: #2c2c2c;
         color: white;
         border: 1px solid #444;
@@ -78,6 +73,16 @@
       .btn-primary:hover {
         background-color: #0088cc;
         border-color: #0088cc;
+      }
+      /* Attachment button styling */
+      .btn-secondary {
+        background-color: #444;
+        border-color: #444;
+        margin-left: 10px;
+      }
+      .btn-secondary:hover {
+        background-color: #555;
+        border-color: #555;
       }
     </style>
   </head>
@@ -103,26 +108,24 @@
       </svg>
     </div>
 
-    <!-- Text input and button -->
+    <!-- Text input, attachment, and check button -->
     <div class="input-container">
       <div class="input-section">
         <input type="text" id="inputText" class="form-control" placeholder="Enter text...">
-        <select class="form-select" style="width: auto;">
-          <option selected>Attachment</option>
-          <option value="1">Option 1</option>
-          <option value="2">Option 2</option>
-          <option value="3">Option 3</option>
-        </select>
+        <!-- Attachment button triggers a hidden file input -->
+        <button type="button" id="attachBtn" class="btn btn-secondary">Attach File</button>
+        <!-- Hidden file input for .txt, .pdf, .docx -->
+        <input type="file" id="attachmentInput" style="display:none" accept=".txt,.pdf,.docx">
       </div>
       <button type="button" id="checkBtn" class="btn btn-primary">CHECK</button>
     </div>
 
-    <!-- JavaScript to process the input and update the meter -->
+    <!-- JavaScript to handle both text input and file attachment -->
     <script>
-      // Listen for the "CHECK" button click
+      // Handle plain text input via CHECK button
       document.getElementById("checkBtn").addEventListener("click", function(){
         var inputText = document.getElementById("inputText").value;
-        // Send the text to the Flask backend via a POST request
+        // Send the text to the backend via POST
         fetch("/process", {
           method: "POST",
           headers: {
@@ -132,15 +135,39 @@
         })
         .then(response => response.json())
         .then(data => {
-          // Expect the backend to return a JSON with a field "value" (0-100)
           updateNeedle(data.value);
         })
         .catch(err => console.error(err));
       });
 
-      // Update the gauge needle based on the value (mapping 0-100 to -90° to 90°)
+      // Trigger hidden file input when the attachment button is clicked
+      document.getElementById("attachBtn").addEventListener("click", function(){
+        document.getElementById("attachmentInput").click();
+      });
+
+      // Handle file selection
+      document.getElementById("attachmentInput").addEventListener("change", function(event){
+        var file = event.target.files[0];
+        if (file) {
+          var formData = new FormData();
+          formData.append('file', file);
+
+          fetch("/upload", {
+            method: "POST",
+            body: formData
+          })
+          .then(response => response.json())
+          .then(data => {
+            // Update the meter based on the processed file's value
+            updateNeedle(data.value);
+          })
+          .catch(err => console.error(err));
+        }
+      });
+
+      // Function to update the gauge needle (maps 0-100 to -90° to 90°)
       function updateNeedle(value) {
-        var angle = (value / 100) * 180 - 90;  // 0 => -90°, 50 => 0°, 100 => 90°
+        var angle = (value / 100) * 180 - 90;  // e.g., 0 => -90°, 50 => 0°, 100 => 90°
         document.getElementById("needle").setAttribute("transform", "rotate(" + angle + ", 150, 150)");
       }
     </script>
