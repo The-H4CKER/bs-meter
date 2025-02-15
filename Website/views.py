@@ -2,6 +2,6 @@ from flask import Blueprint
 
 views = Blueprint("views", __name__)
 
-@views.route("/")
+@views.route("/", methods=["GET", "POST"])
 def home():
-    return "<h1>BS-Meter</h1>"
+    user_input = ""
