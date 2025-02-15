@@ -17,11 +17,11 @@
       html, body {
         height: 100%;
         margin: 0;
-        background-color: #121212; /* Dark background */
+        background-color: #121212;
         color: white;
         font-family: 'Roboto', sans-serif;
       }
-      /* Header with custom logo */
+      /* Header styling */
       .header {
         display: flex;
         align-items: center;
@@ -59,60 +59,65 @@
         align-items: center;
         margin-bottom: 20px;
       }
-      .input-section input[type="text"] {
-        width: 300px;
+      /* Bigger input/textarea styling */
+      .input-section input[type="text"],
+      .input-section textarea {
+        width: 500px;
         margin-right: 10px;
         background-color: #2c2c2c;
         color: white;
         border: 1px solid #444;
       }
-      .btn-primary {
-        background-color: #00AAFF;
-        border-color: #00AAFF;
-      }
-      .btn-primary:hover {
-        background-color: #0088cc;
-        border-color: #0088cc;
-      }
-      /* Attachment button styling */
-      .btn-secondary {
-        background-color: #444;
-        border-color: #444;
-        margin-left: 10px;
-      }
-      .btn-secondary:hover {
-        background-color: #555;
-        border-color: #555;
+      /* Animate the needle (dial) on transform changes */
+      #needle {
+        transition: transform 0.5s ease-out;
       }
     </style>
   </head>
   <body>
-    <!-- Header with custom logo from static folder -->
+    <!-- Header with logo -->
     <div class="header">
       <img src="{{ url_for('static', filename='logo.png') }}" alt="Logo">
       <span>BS-Meter</span>
     </div>
 
-    <!-- Title (no emoji) -->
+    <!-- Title -->
     <div class="title">BS-Meter</div>
 
-    <!-- Big meter graphic (SVG gauge) -->
+    <!-- Enlarged meter graphic (SVG gauge) -->
     <div class="meter-container">
-      <svg id="bsMeterSVG" width="300" height="200" viewBox="0 0 300 200">
-        <!-- Gauge arc (background) -->
+      <svg id="bsMeterSVG" width="500" height="300" viewBox="0 0 300 200">
+        <!-- Gauge arc -->
         <path d="M 50 150 A 100 100 0 0 1 250 150" fill="none" stroke="#444" stroke-width="20" stroke-linecap="round"/>
-        <!-- Needle pointer (initially at 0 value, rotated -90°) -->
-        <line id="needle" x1="150" y1="150" x2="150" y2="60" stroke="red" stroke-width="4" transform="rotate(-90, 150, 150)" />
-        <!-- Center pivot -->
+
+        <!-- Markers for gauge -->
+        <!-- Calculated using: angle = 180 - (value/100)*180 -->
+        <!-- 0 marker (value 0, angle 180°) -->
+        <text x="40" y="150" fill="white" font-size="14" text-anchor="middle">0</text>
+        <!-- 25 marker (value 25, angle 135°) -->
+        <text x="72" y="72" fill="white" font-size="14" text-anchor="middle">25</text>
+        <!-- 50 marker (value 50, angle 90°) -->
+        <text x="150" y="40" fill="white" font-size="14" text-anchor="middle">50</text>
+        <!-- 75 marker (value 75, angle 45°) -->
+        <text x="228" y="72" fill="white" font-size="14" text-anchor="middle">75</text>
+        <!-- 100 marker (value 100, angle 0°) -->
+        <text x="260" y="150" fill="white" font-size="14" text-anchor="middle">100</text>
+
+        <!-- Needle pointer (drawn last so it appears above the arc and markers) -->
+        <!-- Initially, for value 50, the needle points upward -->
+        <line id="needle" x1="150" y1="150" x2="150" y2="60" stroke="red" stroke-width="4" />
+
+        <!-- Center pivot (drawn last to cover the needle's base) -->
         <circle cx="150" cy="150" r="5" fill="red"/>
       </svg>
     </div>
 
-    <!-- Text input, attachment, and check button -->
+    <!-- Larger text area, attachment, and check button -->
     <div class="input-container">
       <div class="input-section">
-        <input type="text" id="inputText" class="form-control" placeholder="Enter text...">
-        <!-- Attachment button triggers a hidden file input -->
+        <!-- Larger, scrollable textarea -->
+        <textarea id="inputText" class="form-control" placeholder="Enter text..." rows="6" style="resize: vertical; overflow-y: auto;"></textarea>
+        <!-- Attachment button triggers hidden file input -->
         <button type="button" id="attachBtn" class="btn btn-secondary">Attach File</button>
         <!-- Hidden file input for .txt, .pdf, .docx -->
         <input type="file" id="attachmentInput" style="display:none" accept=".txt,.pdf,.docx">
@@ -120,12 +125,11 @@
       <button type="button" id="checkBtn" class="btn btn-primary">CHECK</button>
     </div>
 
-    <!-- JavaScript to handle both text input and file attachment -->
+    <!-- JavaScript to handle text input and file attachment -->
     <script>
-      // Handle plain text input via CHECK button
+      // Handle plain text input via the CHECK button
       document.getElementById("checkBtn").addEventListener("click", function(){
         var inputText = document.getElementById("inputText").value;
-        // Send the text to the backend via POST
         fetch("/process", {
           method: "POST",
           headers: {
@@ -135,7 +139,7 @@
         })
         .then(response => response.json())
         .then(data => {
-          updateNeedle(data.value);
+          animateNeedle(data.value);
         })
         .catch(err => console.error(err));
       });
@@ -151,23 +155,24 @@
         if (file) {
           var formData = new FormData();
           formData.append('file', file);
-
           fetch("/upload", {
             method: "POST",
             body: formData
           })
           .then(response => response.json())
           .then(data => {
-            // Update the meter based on the processed file's value
-            updateNeedle(data.value);
+            animateNeedle(data.value);
           })
           .catch(err => console.error(err));
         }
       });
 
-      // Function to update the gauge needle (maps 0-100 to -90° to 90°)
-      function updateNeedle(value) {
-        var angle = (value / 100) * 180 - 90;  // e.g., 0 => -90°, 50 => 0°, 100 => 90°
+      // Animate the gauge needle.
+      // Mapping: value 0 → +90° (needle points left),
+      // value 50 → 0° (points up),
+      // value 100 → -90° (points right)
+      function animateNeedle(value) {
+        var angle = 90 - (value / 100) * 180;
         document.getElementById("needle").setAttribute("transform", "rotate(" + angle + ", 150, 150)");
       }
     </script>
