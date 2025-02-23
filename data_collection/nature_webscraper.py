@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 from selenium import  webdriver
+import os
 
 def get_article(suffix):
         r = requests.get('https://www.nature.com' + suffix)
@@ -10,10 +11,14 @@ def get_article(suffix):
             print('invalid get request')
 
 
-def get_article_body(reponse):
-    soup = BeautifulSoup(response.content, 'html.parser')
-    s = soup.find('div', class_='main-body')
-    print(s.get_text(separator=' ', strip=True))
+def get_article_body(r):
+    soup = BeautifulSoup(r.content, 'html.parser')
+    title = soup.find('h1', class_ = 'c-article-title')
+    s = soup.find('div', class_='main-content')
+    content = soup.find_all('p')
+    with open(os.path.join("nature_climate_articles", title.getText() + ".txt"), "w", encoding="utf-8") as f:
+        f.write(s.getText(separator=' ', strip=True))
+
 
 
 # Making a GET request
@@ -26,6 +31,7 @@ soup = BeautifulSoup(r.content, 'html.parser')
 s = soup.find_all('a', class_='c-card__link u-link-inherit')
 for elt in s:
     suffix = elt['href']
+    print(suffix)
     response = get_article(suffix)
     get_article_body(response)
 

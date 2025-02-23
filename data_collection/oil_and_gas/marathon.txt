@@ -1,0 +1,4500 @@
+AU G U S T 2 0 2 4
+
+Perspectives on
+Climate-Related Scenarios
+Risks and Opportunities
+
+Table of Contents
+GLOSSARY OF TERMS
+
+A Message from Our CEO
+
+3
+
+MPC and MPLX Operations
+
+4
+
+approximately: The "~" is used throughout the report and
+means approximate or approximately
+
+Gt CO2e: Giga tonnes CO2e
+
+Introduction
+
+5
+
+Governance
+
+6
+
+barrel: 42 U.S. gallons — a common volume measure for
+crude oil and petroleum products
+
+IPCC: The United Nations Intergovernmental Panel on Climate
+Change
+
+Board Oversight
+
+6
+
+Risk Management
+
+7
+
+Strategy and Scenario Planning
+
+7
+
+Potential Climate-Related Risks and Opportunities
+
+9
+
+Business Planning and Capital Allocation
+
+10
+
+Refining and Marketing
+
+11
+
+Midstream
+
+15
+
+Renewable Fuels
+
+18
+
+Managing Physical Risks to Our Facilities
+
+23
+
+Climate-Related Metrics and Targets
+
+28
+
+Scope 1 & 2 GHG Intensity
+
+29
+
+Scope 3 GHG Emissions
+
+33
+
+Methane Intensity
+
+34
+
+Freshwater Withdrawal Intensity
+
+36
+
+Climate-Related Metrics
+
+37
+
+TCFD Recommendation Index
+
+39
+
+barrel of oil equivalent or boe: A unit of energy based
+on the energy released by burning one barrel of crude oil
+or 5.8 million British thermal units
+
+LDAR: Leak Detection and Repair
+LNG: Liquefied natural gas
+
+bcm: Billion cubic meters — a measure of natural gas
+volume
+
+LPG: Liquefied petroleum gases
+
+bpcd: Barrels per calendar day — the average of how
+much crude oil or other feedstock a refinery processes
+over a period of time, divided by the number of days in
+that period, typically 365 days (a common rate measure
+for petroleum refineries)
+
+MPLX: MPLX is a diversified, large-cap master limited
+partnership formed by Marathon Petroleum Corporation that
+owns and operates midstream energy infrastructure and
+logistics assets, and provides fuels distribution services
+
+bpd: Barrels per day — a common rate measure for
+crude oil and petroleum products
+blue hydrogen: Hydrogen produced through a reaction
+that separates methane into hydrogen and CO2 and then
+captures and sequesters the CO2
+CCUS: Carbon capture, utilization and sequestration
+CDP: Formerly known as the Carbon Disclosure Project,
+CDP is a not-for-profit charity that runs a global disclosure
+system for investors, companies, cities, states and
+regions to report environmental data
+CO2e: Carbon dioxide equivalent — a common unit of
+measurement converting various greenhouse gases
+to carbon dioxide on the basis of their global-warming
+potential. MPC calculates CO2e using the EPA factors
+identified in Table A-1 in 40 CFR Part 98.
+companywide: Means inclusive of all operations within
+MPC and MPLX
+EIA: The U.S. Energy Information Administration
+
+MPC: Marathon Petroleum Corporation
+
+MPLX G&P: Our MPLX Gathering and Processing midstream
+business
+NGL: Natural gas liquid — a light hydrocarbon liquid often
+produced with natural gas
+NZE: IEA's Net-Zero Emissions by 2050 scenario
+PPE: Personal protective equipment
+Renewable diesel: A hydrocarbon diesel fuel produced by
+hydroprocessing of fats, vegetable oils and waste cooking oils
+Renewable fuel: Liquid fuel derived from biomass and
+waste feedstocks, including ethanol, biogasoline, biodiesel,
+renewable diesel, and sustainable aviation fuel
+RNG: Renewable natural gas
+Scope 1 emissions: All direct GHG emissions by a company,
+including fuel combustion, company vehicles and fugitive
+emissions
+Scope 2 emissions: Indirect GHG emissions from consumption
+of purchased electricity, heat or steam
+
+EPA: The U.S. Environmental Protection Agency
+
+Scope 3 emissions: Other indirect GHG emissions that occur in
+a company's value chain that are not captured by Scope 2
+
+ERM: Enterprise Risk Management
+
+scf: standard cubic feet
+
+ESG: Environmental, social and governance
+
+TCFD: Task Force on Climate-related Financial Disclosures,
+formed by the Financial Stability Board — an international body
+that monitors and makes recommendations about the global
+financial system
+
+GHG: Greenhouse gases, such as carbon dioxide and
+methane
+giga: Metric prefix for 109 (a billion)
+
+2
+
+IEA: International Energy Agency
+
+tonne or metric ton: 2,205 pounds
+
+A Message from Our CEO
+When the Task Force on Climate-related Financial
+Disclosures (TCFD) issued its first guidance in 2017, we were
+the first independent refiner to issue a TCFD-aligned report
+later that same year. We believed then, and continue to
+believe now, that a thorough understanding of the risks and
+opportunities inherent in our industry’s evolution is critical
+to implementing the right programs and projects, setting
+the right goals and making the right investments at the right
+time.
+In this report, we provide you with insight into our
+governance and enterprise risk management processes.
+We believe these efforts provide us with a detailed look at
+the energy landscape, including the risks it poses to our
+business, the opportunities it offers us and how we are
+responding to both.
+We continue optimizing our core fuels manufacturing and
+logistics businesses and expanding our natural gas business
+while strategically, and in disciplined fashion, investing in
+renewable and low-carbon energy solutions. Hydrocarbon
+fuels are critical to today’s economy and are likely to
+continue to be for the foreseeable future, even under many
+climate scenarios aligned with the Paris Climate Accords.
+Therefore, optimizing how they are manufactured and
+moved is important to energy markets. It is also foundational
+to our environmental stewardship commitment.
+Part of our optimization efforts include the goals we have
+set for GHG reductions. We are targeting a 30% reduction
+of Scope 1 and 2 GHG emissions intensity by 2030 from
+2014 levels, and we are on track to meet this goal ahead
+of schedule. 2023 marked the ninth year in a row where
+we reduced Scope 1 and 2 GHG emissions intensity. We
+are therefore extending the aforementioned goal to a 38%
+reduction by 2035. Additionally, we have reduced our
+Scope 1, Scope 2 and Scope 3 - Category 11 GHG emissions
+by over 25 million tonnes CO2e since 2019.
+One element of our disciplined approach to achieving GHG
+reductions is our Focus on Energy program, which has
+helped us establish industry-leading recognition in energy
+efficiency. MPC’s refineries have earned more U.S. EPA
+ENERGY STAR® awards than all other refiners in the U.S.
+combined. The energy saved through our efforts amounted
+to over 1.5 billion Btu/hr in 2023, representing more than
+$45 million in cost savings.
+
+Similar to the success of our Focus on Energy program, our
+Focus on Methane program has yielded substantial results
+as we work toward our goal of a 75% reduction of MPLX
+Gathering and Processing methane emissions intensity
+by 2030 from 2016 levels. By the end of 2023, we had
+achieved a 57% reduction.
+Our investments in renewable fuels likewise make significant
+contributions to the ongoing reduction of our companywide
+carbon intensity. In 2023, we delivered approximately 2.6
+billion gallons of renewable fuels, avoiding about 13 million
+tonnes of GHG emissions. Our renewable fuels facilities in
+Dickinson, North Dakota, and Martinez, California, produce
+renewable diesel – a drop-in replacement for petroleumbased diesel – and we have been producing ethanol
+for gasoline blending through our joint venture with The
+Andersons for over a decade. Through our investment last
+year in LF Bioenergy, we are participating in its growing
+portfolio of dairy-based, low-carbon intensity renewable
+natural gas facilities.
+Accountability for our environmental goals is a critical driver
+of our progress in these areas. For 2024, our annual bonus
+program includes a non-financial scorecard, which will be
+a holistic assessment of our environmental, safety and
+human capital performance. Progress on our Scope 1 and
+2 GHG intensity target is included in the assessment of our
+environmental performance.
+As economic and regulatory factors change the global
+energy landscape, we are positioning ourselves to lead in
+sustainability and succeed over the long term. I invite you to
+read this year’s Perspectives on Climate-Related Scenarios
+report to learn important details about the many ways we
+are working toward that goal.
+I am pleased for the progress we have made and conscious
+of the work ahead that will be needed to reach our goals.
+Sincerely,
+
+Maryann T. Mannen
+President and CEO, MPC and MPLX
+
+3
+
+MPC and MPLX Operations
+APPROX.
+
+3 million
+
+barrels per calendar
+day of crude oil
+refining capacity
+®
+
+APPROX.
+
+2.6 billion
+
+gallons of renewable
+fuel delivered in 2023
+
+MPC Refinery
+MPC Owned and Part-Owned
+Light Product Terminal
+MPC Owned Asphalt/
+Heavy Oil Terminal
+
+12 billion
+
+MPC Owned and Part-Owned
+Marine Facility
+
+standard cubic feet per day of
+natural gas processing capacity
+
+MPC/MPLX Pipeline(a)
+Martinez Renewables
+Joint Venture
+MPC Marketing Area
+Ethanol Facility
+
+(joint venture with The Andersons)
+
+APPROX.
+
+829,000
+
+bpcd of natural gas liquid
+fractionation capacity
+
+MPC Renewable Feedstock
+Processing Facility
+
+Note: Illustrative representation of asset map
+As of Dec. 31, 2023
+(a) Includes MPC/MPLX owned and operated lines,
+MPC/MPLX interest lines operated by others and
+MPC/MPLX operated lines owned by others.
+
+®
+
+Virent(b)
+MPC Renewable
+Fuels Facility
+
+(b) Wholly owned subsidiary of MPC working to
+commercialize the conversion of biobased
+feedstocks into renewable fuels and chemicals.
+(c) Includes MPLX owned and operated natural gas
+processing complexes.
+
+MPLX Owned and Part-Owned
+Light Product Terminal
+MPLX Owned Asphalt/
+Heavy Oil Terminal
+MPLX Natural Gas
+Processing Complex(c)
+MPLX Refining
+Logistics Asset
+MPLX Gathering
+System
+MPLX Owned
+Marine Facility
+Cavern
+
+4
+
+Introduction
+Since 2017, MPC has published an annual
+Perspectives on Climate-Related Scenarios report,
+following the recommendations from the Task Force
+on Climate-related Financial Disclosures (TCFD).
+In this report, we provide our stakeholders with a
+summary of how we identify and manage climaterelated risks and opportunities, our governance
+structure around climate-related risks and
+opportunities, and our enterprise risk management
+process for establishing, assessing and managing
+climate-related risks. We also provide a review of
+our business against various “less than 2-degree”
+scenarios, including several 1.5 degree scenarios,
+available through the International Energy Agency
+(IEA) and the United Nations Intergovernmental Panel
+on Climate Change (IPCC).
+The evolution toward a lower-carbon economy,
+combined with events such as geopolitical unrest or
+disruptions in trade flows, can impact energy security
+and reduce public support of climate initiatives. This
+situation recently occurred with the increased use of
+coal in several European countries due to the energy
+supply disruptions associated with the Ukraine-Russia
+conflict. Furthermore, in addition to meeting the rising
+energy demands of a growing population, many who
+are seeking to improve their current standard of living
+will continue to rely on the ability to access reliable
+and affordable sources of energy.
+
+According to
+approximately
+world without
+over 2 billion
+cooking fuels.1
+
+1
+
+the IEA, there remains
+775 million people in the
+access to electricity, and
+without access to clean
+
+Long-term energy security must be achieved in
+parallel to carbon-reduction ambitions to better
+ensure economic and societal development.
+There is not one preordained path to achieving the
+Paris Agreement’s primary ambition of limiting global
+warming to well below 2 degrees Celsius compared
+to pre-industrial levels. Numerous modeled pathways
+to reach the well below 2 degrees Celsius goal have
+been published by entities such as the IEA and IPCC
+and their partners. While some modeled pathways
+rely heavily on eliminating fossil fuels to achieve
+the desired outcome, others rely on more inclusive
+energy strategies, such as replacing coal with natural
+gas, relying on renewables, enhancing energy
+efficiency, nuclear, climate smart agriculture practices,
+carbon capture, utilization and sequestration, and
+other lifestyle changes.
+We believe energy supply and technologies will
+continue to evolve, and we are excited to be
+engaged in its evolution. In 2023, we were one
+of the largest suppliers of renewable fuels in the
+U.S., delivering approximately 2.6 billion gallons of
+renewable fuel to customers. This was accomplished
+via production at our renewable fuels facilities,
+as well as blending ethanol into our gasoline and
+biodiesel into diesel fuel. Through a joint venture,
+we started North Dakota’s first dedicated soybean
+processing complex, which is expected to produce
+approximately 600 million pounds per year of refined
+soybean oil for exclusive use by MPC as a feedstock
+to produce renewable fuels. We also invested in LF
+Bioenergy to produce renewable natural gas (RNG)
+from dairy operations. LF Bioenergy began producing
+RNG at its first plant located in upstate New York in
+April 2023.
+
+Beyond evaluating our business against various
+carbon-constrained scenarios, this report will also
+discuss our focus on taking concrete steps to reduce
+our emissions in the short term via our climate-related
+metrics, some of which are tied to compensation.
+Through the efforts of our dedicated employees, our
+year-on-year reductions are putting us on pace to
+achieve our operational targets ahead of schedule.
+Furthermore, this report will cover how our metrics
+will be updated alongside the evolution of the climate
+and energy landscape.
+Overall, we are committed to implementing solutions
+that result in environmental benefits while providing
+reliable, affordable energy that makes modern life
+possible. We believe the disclosures and analyses in
+this report, in our latest 10-K and on our website help
+demonstrate that MPC and MPLX are well positioned
+for the future, even in a carbon-constrained economy.
+
+IEA (2023, October), World Energy Outlook 2023, https://www.iea.org/reports/world-energy-outlook-2023.
+
+5
+
+Governance
+At MPC, under the leadership and direction of our
+Board of Directors, we identify and manage climaterelated risks and opportunities. Our directors bring a
+range of backgrounds, critical skills, perspectives and
+expertise to our Board. For more information on the
+individual qualifications of each of our directors, please
+see our latest Proxy Statement available at https://www.
+marathonpetroleum.com/Investors/Annual-ReportProxy-Statement/.
+
+Board Oversight
+SUSTAINABILITY GOVERNANCE
+At MPC, our performance, risks and opportunities
+related to ESG topics, including climate change, are
+identified and managed by company leadership with
+the oversight of our Board.
+The Board’s committees are responsible for specific
+areas of oversight and policy decision-making. Specific
+responsibilities of the Board's committees are set forth
+in our Corporate Governance Principles and each
+committee's charter.1,2 Our executive leadership team
+has the primary responsibility for our sustainability
+strategies and standards, which are developed by the
+committees they oversee. Sustainability is embedded
+in several cross-functional leadership committees,
+which helps ensure our objectives are incorporated
+into company standards, metrics and sustainability
+strategies. These are, in turn, cascaded throughout
+the company where they are aligned with related
+procedures and plans at the operational level.
+
+BOARD OF DIRECTORS
+Audit Committee
+Responsibilities and Oversight:
+
+• Oversees risks associated
+with financial, accounting,
+and financial reporting
+matters.
+• Monitors compliance with
+regulatory requirements and
+internal control systems.
+• Oversees our enterprise risk
+management process and
+reviews performance.
+• Reviews ESG and climate
+risk disclosures within
+the financial reporting
+framework.
+• Oversees business
+continuity, data privacy and
+cybersecurity risks.
+
+2
+
+Sustainability is embedded across executive committees
+with primary responsibility for sustainability strategies and
+standards.
+
+Responsibilities and Oversight:
+
+• Oversees risks
+associated with
+corporate governance
+matters, including
+director independence,
+Board composition
+and succession, Board
+leadership structure and
+Board effectiveness.
+• Oversees the evaluation
+of the Board, its
+committees and individual
+directors.
+• Oversees stakeholder
+engagement on corporate
+governance matters.
+
+Sustainability and Public
+Policy Committee
+Responsibilities and Oversight:
+
+• Oversees risks and
+opportunities associated with
+sustainability, ESG, safety and
+public policy matters.
+• Reviews our sustainability
+and climate reports and other
+key sustainability disclosures.
+• Oversees establishment of
+our sustainability targets.
+• Oversees governance
+framework and budgets for
+our political contributions and
+lobbying expenditures.
+• Oversees stakeholder
+engagement related to
+sustainability, ESG and public
+policy matters.
+
+• External Policy Committee
+• Health, Environment, Safety, Security & Product Quality
+Management Committee
+• Enterprise Risk Management Committee
+• Strategic Status Committee
+• Business Integrity Committee
+
+LEADERSHIP TEAM
+Drives sustainability strategies across the enterprise.
+
+• ESG and Sustainability Working Group
+• Health, Environment, Safety & Security Planning Committee
+• Renewables & Low Carbon Strategy Council
+
+CROSS-FUNCTIONAL TEAMS
+Implement key sustainability strategies, programs and plans.
+
+Our Corporate Governance Principles are available at https://www.marathonpetroleum.com/Investors/Corporate-Governance/.
+Committee charters are available at https://www.marathonpetroleum.com/About/Board-of-Directors/.
+
+6
+
+Responsibilities and Oversight:
+
+• Oversees risks associated
+with our compensation
+programs, plans and
+policies to ensure they do
+not encourage excessive
+risk-taking.
+• Oversees our management
+succession planning
+process and our human
+capital management
+strategies and policies,
+including diversity, equity
+and inclusion matters.
+• Oversees stakeholder
+engagement on
+compensation and human
+capital management
+matters.
+
+Corporate Governance
+and Nominating
+Committee
+
+MPC EXECUTIVE LEADERSHIP TEAM
+
+Collaboration and communication among the Board, its
+committees and MPC leadership are critical to maintaining
+our aligned direction on sustainability matters.
+1
+
+Compensation and
+Organization Development
+Committee
+
+• Environmental Justice Team
+• Renewables Compliance Governance Committee
+• Embedding and Communicating ESG Team
+• Focus on Water Team
+• Focus on Energy Team
+• Enterprise Risk Management Community of Practice
+
+Risk Management
+ENTERPRISE RISK MANAGEMENT
+PROCESS
+We utilize an enterprise risk management (ERM)
+process to assess and manage material risks within
+the company. Our enterprise risk manager leads the
+process through quarterly workshops involving our
+executive leadership team and the subject matter
+experts associated with the various risks. Two of
+these enterprise risks are “Low Carbon and Energy
+Evolution” and “ESG and Stakeholder Expectation”,
+which include discussion and oversight of our
+climate-related risks, opportunities and metrics. The
+MPC and MPLX Boards of Directors receive routine
+updates on the ERM risks throughout the year.
+
+ERM COMMUNITY OF PRACTICE
+
+COMPLIANCE-RELATED RISK
+As part of our ERM process, our Board oversees
+risks related to the regulatory landscape. These
+risks include emerging and proposed regulations
+related to issues that have the potential to impact
+our business, such as GHG and other air emissions,
+water withdrawals and effluents, hazardous materials
+management, product specifications, and employee
+health and safety.
+
+We disclose material risks to our company in the
+Risk Factors section of our Annual Report on Form
+10-K and other filings with the U.S. Securities and
+Exchange Commission. Categories of risk described
+in these reports include:
+• Business and operational risks
+• Financial risks
+• Legal and regulatory risks
+
+The evolution of our climate-related disclosures and metrics helps demonstrate the
+effectiveness of our governance process for climate-related matters.
+
+An ERM Community of Practice supports the ERM
+process and workshops. It comprises mid-level risk
+and assurance representatives across our value
+chains to discuss, develop and standardize best
+practices and risk mitigation measures throughout
+the company. The Board’s Audit Committee further
+evaluates performance trends and internal processes
+to ensure effectiveness of the ERM process.
+
+Extended MPLX G&P Methane Intensity Reduction Target
+
+CLIMATE-RELATED RISKS AND
+OPPORTUNITIES
+
+CDP Disclosure1
+
+The Sustainability and Public Policy Committee
+oversees our environmental impact, which include
+climate-related matters, reviews our sustainability
+and climate perspectives reports, and oversees the
+establishment of our sustainability targets.
+
+IDENTIFICATION AND DISCLOSURE
+OF RISKS
+
+2024 2023 2022
+
+2021
+
+2020
+
+2019
+
+2018
+
+Extended Scope 1 and 2 GHG Emissions Intensity Reduction Target
+
+Absolute Scope 3 - Category 11 GHG Emissions Reduction Target
+Scope 3 GHG Emissions Disclosure
+
+Freshwater Withdrawal Intensity Target
+Third-Party GHG Emissions Verification
+MPLX G&P Methane Intensity Reduction Target
+Scope 1 and 2 GHG Emissions Intensity Reduction Target
+TCFD Disclosure
+1
+
+Available at cdp.net/en; we plan on disclosing for 2024, which is due on Sept. 18.
+
+7
+
+Strategy and Scenario Planning
+The energy landscape is continually evolving to address the complex issues of energy security and
+mitigating climate change. Across the U.S., there are significant investments in lower-carbon energy
+technologies spurred, in part, by government policies and strategies to decarbonize the economy. We
+conduct scenario planning to evaluate how various differing future energy outcomes could impact our
+company. We continually evaluate the climate-related risks and opportunities associated with these
+different scenarios to understand where we should invest capital to strengthen our existing assets and
+where to invest in new growth opportunities.
+Our scenario planning includes evaluating both long-term and short-term scenarios. Throughout this
+section, we provide detailed analyses of our business strategies against future scenarios from the
+IEA, IPCC and data from other sources, such as the EIA and HSB Solomon Associates LLC (Solomon).
+Scenarios provide our company with many potential versions of the future so we can plan ahead and
+adjust appropriately as the future unfolds. It is important to remember that scenarios are hypothetical
+constructs; they are not sensitivity analysis. In this year's report, we apply the following hypothetical
+scenarios:
+• IEA Announced Policies Scenario (APS)1 — assumes that all long-term emissions and energy access
+targets, including net-zero commitments, will be met on time and in full, even where policies are not yet
+in place to deliver them.
+• IEA Net-Zero Emissions by 2050 (NZE)1 — sets out a pathway for the global energy sector to achieve
+net-zero CO2 emissions by 2050, updating the IEA analysis first published in 2021. While the APS is
+exploratory, the NZE Scenario is normative, as it is designed to achieve the stated objective and show
+a pathway to that goal.
+• IPCC Scenarios2 — refers to the 16 vetted IPCC Scenarios, identified by the IEA, that reach net-zero
+energy sector emissions by 2050. Because they reach net-zero energy sector emissions by 2050,
+they are comparable in terms of energy sector ambition with the IEA NZE Scenario.
+
+Scenarios are not forecasts or predictions of the future. Rather, they
+highlight central elements of a possible future and draw attention to key
+factors that could drive future developments. Scenarios aim to provide
+governments, companies and other stakeholders with a range of potential
+outcomes to consider.
+
+1
+2
+
+IEA (2023, October), World Energy Outlook 2023, https://www.iea.org/reports/world-energy-outlook-2023.
+IEA (2022, October), World Energy Outlook 2022, https://www.iea.org/reports/world-energy-outlook-2022.
+
+8
+
+Potential Risks and Opportunities
+MPC and MPLX face a multitude of risks, including
+climate-related risks, which are typically categorized
+as transition risks and physical risks. According to
+the TCFD, transition risks relate to the transition to a
+lower-carbon economy, and physical risks relate to
+the physical impact of climate change. Examples of
+these risks can be found on this page, but please see
+item 1A in MPC's and MPLX's latest Form 10-K reports
+for a more comprehensive list of risks we may face.
+
+Technology Risks
+
+POTENTIAL OPPORTUNITIES
+
+• Technology breakthroughs relating to renewable
+fuels or other fuel alternatives, such as hydrogen or
+ammonia, or efficiency improvements for internal
+combustion engines, could reduce demand for
+traditional transportation fuels.
+
+Resource Efficiency
+
+Market Risks
+
+The energy evolution may also produce opportunities
+for MPC and MPLX, examples of which can be found
+on this page.
+
+• Continued consumer acceptance and market
+penetration of electric, hybrid and alternative fuel
+vehicles may decrease demand for petroleum-based
+transportation fuels.
+
+POTENTIAL TRANSITIONAL RISKS
+
+Reputational Risks
+
+Policy and Legal Risks
+
+• Increasing attention and demands for action related
+to climate change and energy transition matters,
+• Legal, technological, political and scientific
+such as promoting the use of substitutes to fossil
+developments regarding emissions, fuel efficiency
+fuel products and encouraging the divestment of
+and alternative fuel vehicles may decrease demand
+fossil fuel equities, as well as pressuring lenders and
+for petroleum-based transportation fuels.
+other financial services companies to limit or curtail
+• A significant decrease in oil and natural gas
+activities with fossil fuel companies, could have a
+production in MPLX’s areas of operation may
+material adverse effect on our access to capital.
+adversely affect MPLX’s business, financial
+condition, results of operations and cash available
+POTENTIAL PHYSICAL RISKS
+for distribution to its unitholders, including MPC.
+We have no control over producers or their
+Acute Physical Risks
+production decisions, which could be affected by
+• Our assets could be subject to acute physical risks,
+governmental regulations.
+such as floods, hurricane-force winds, wildfires and
+• Denials of, delays in receiving or revocations of
+requisite regulatory approvals or permits can
+subject large capital projects to delays. Market
+conditions could deteriorate significantly between
+the project approval date and the project startup
+date, negatively impacting project returns.
+
+winter storms, as well as earth movement in variable,
+steep and rugged terrain, and terrain with varied or
+changing subsurface conditions.
+
+Chronic Physical Risks
+• Our assets could be subject to chronic physical risks,
+such as sea-level rise or longer term water shortages.
+
+• We consider energy efficiency to be a core business
+function and opportunity because it reduces costs
+and GHG emissions, enhancing long-term cost
+competitiveness.
+• Reduced freshwater use intensity increases resiliency
+and reduces long-term operating costs.
+
+Energy Source
+• The availability and procurement of lower-carbon or
+renewable energy to power our operations could further
+reduce the life-cycle carbon intensity of the fuels and
+products we manufacture.
+
+Products and Services, Markets and Resilience
+• Continued coal-to-natural gas switching and production
+of blue hydrogen could increase demand for natural gas.
+• Continued demand for renewable diesel as a drop-in
+replacement for fossil diesel can help further diversify
+our portfolio.
+• Research and development of other renewable fuels
+could provide new products and markets, increasing
+revenues.
+• Domestic production, processing and export of LNG to
+Europe and other regions facing energy security issues
+may steadily increase as these regions look to secure
+energy from the United States.
+• Increased demand for NGLs as petrochemical feedstock
+or cleaner cooking fuel in the developing world could
+strengthen demand for NGLs processed by our facilities.
+• Our MPLX pipelines and rights of way are potentially
+positioned to transport hydrogen and CO2 as those
+markets develop.
+
+9
+
+Business Planning and Capital Allocation
+At MPC and MPLX, our investments strengthen the competitive position of our
+assets, increase our resilience and allocate growth capital between traditional and
+low-carbon investments. As shown to the right, we have undergone a significant
+evolution since becoming an independent company in 2011. Today we are focused
+on optimizing our core refining and logistics portfolio, expanding our natural gas
+business and investing capital in renewable energy and lower-carbon solutions.
+We have moved from being a player in not only the U.S. refining sector, but also
+the renewable fuels and natural gas sectors.
+
+MPC AND MPLX SHARE OF UNITED STATES:
+18%
+
+17%
+
+MPC
+
+12%
+
+MPC
+
+MPLX
+
+MPC and MPLX Portfolio Evolution
+(based on material's energy content of products)
+
+CATEGORY
+
+2011
+
+2023
+
+Petroleum fuels
+
+93%
+
+55%
+
+Natural gas processing
+
+0%
+
+34%
+
+NGLs, renewable fuels and other specialty products
+
+7%
+
+11%
+
+MPC 2024 Capital Outlook
+MAINTENANCE
+
+LOW CARBON ~40%
+OF GROWTH CAPITAL
+
+REFINING & MARKETING
+GROWTH
+RENEWABLE DIESEL
+CAPACITY1
+
+CRUDE OIL REFINING
+CAPACITY2
+
+NATURAL GAS
+PROCESSING3
+
+MPC’s capital allocation can be broken down into sustaining capital and growth
+capital. Sustaining capital underpins our commitment to safety and environmental
+performance and represents approximately 35% of MPC’s anticipated 2024 capital
+spend. The remainder is growth capital, which we invest in a disciplined fashion
+in areas that we believe will enhance our competitiveness. Of MPC’s anticipated
+2024 growth capital, approximately 40% can be attributed to low-carbon projects
+which, for example, can help lower GHG emissions at our refineries or represent
+investments in renewable fuels. The remainder of growth capital is aimed at
+projects that enhance margin and reduce cost and will primarily occur at our large,
+competitively advantaged facilities to help position MPC well into the future.
+RENEWABLES
+
+MPLX (MIDSTREAM)
+
+REFINING
+
+Project hurdle rate
+
+Lower
+
+Medium
+
+Higher
+
+Carbon intensity
+
+Lower
+
+Medium
+
+Higher
+
+OTHER
+
+TRADITIONAL
+
+LOW-CARBON GROWTH EXAMPLES
+Los Angeles Efficiency and Modernization Project4
+• Investing about $330 million in 2024
+• Is expected to reduce Scope 1 GHG emissions by over 750,000 tonnes and will
+help MPC progress toward its 2030 Scope 1 and 2 GHG intensity goal.
+
+Renewable Fuels Investments
+• Investing about $20 million in 2024
+• Includes investments in renewable natural gas, soybean processing, etc.
+
+ epresents MPC's share of the renewable diesel production capacity at our Martinez joint venture and Dickinson renewable fuel facilities as published in MPCs 2023 10-K relative to the US renewable diesel fuel and other biofuels plant
+R
+production capacity as published by the EIA in August 2023.
+2
+Represents MPC's crude oil refining capacity as published in MPC's 2023 10-K relative to US refining capacity as published by the Oil & Gas Journal in December 2023.
+3
+Represents MPLX's natural gas processing volumes as published in MPC's 2022 10-K relative to the 2022 US natural gas plant processing volumes published by EIA.
+4
+This project also addresses NOx emission reductions required by South Coast Air Quality Management District’s Rule 1109.1.
+1
+
+10
+
+Climate Scenario Analysis for Refining and Marketing
+There are a multitude of possibilities for how the future energy system will evolve to address climate
+change and energy security. How and the extent to which the world decarbonizes is dependent
+on multiple factors, including technology innovation, geopolitical stability, and government policies
+and regulations. Several countries, including the United States, have already developed energy
+strategies and put forth initiatives that are more inclusive of lower-carbon technologies in an effort
+to meet the goals of various climate scenarios. However, as the future unfolds, balancing these
+carbon-reduction efforts, while meeting growing energy demand and security, will be challenging as
+we navigate what is expected to be a nonlinear path toward a lower-carbon future.
+
+Global Oil Production in 20233
+Rest of World 44%
+United States 16%
+Russia 12%
+Saudi Arabia 12%
+
+Global oil demand hit a record high in 2023 and is currently expected to reach another year of
+record oil consumption in 2024. The outlook for this year is estimated to be about 1 million barrels
+per day of incremental demand over 2023.1 Much of this is primarily driven by the growing need for
+transportation fuels as 90% of the energy consumed for transportation is currently sourced from oil.2
+To help support this growing demand, the United States produced more crude oil than any other
+nation in 2023.3 As a significant producer of petroleum and other liquids, and as an exporter of
+finished products, the United States is projected to remain an integral part of the global oil market.
+
+There is no singular pathway to keeping the world's temperature
+increase to well below 2 degrees Celsius. The IEA identified 16 IPCCvetted scenarios as achieving the same outcome as its NZE Scenario.4
+While the NZE Scenario relies on steep reductions in oil supply, other
+comparable IPCC Scenarios employ more inclusive strategies to achieve
+the same outcome.
+
+Iraq 5%
+China 5%
+*Oil production includes oil and condensate production
+
+*Oil production includes oil and condensate production
+
+5
+U.S.
+Production
+Petroleum
+and other and
+liquidsNet Exports
+
+(million
+barrels
+day)liquids production
+Petroleum
+andper
+other
+Petroleum products net exports
+Petroleum and other liquids production
+2022
+2022
+projections
+
+history
+
+24
+
+million barrels per day
+
+The refined products that we produce at MPC's refineries and transport to consumers through our
+logistics network are critical to today’s economy and expected to be critical for the foreseeable
+future even under many peer-reviewed and Paris-aligned climate scenarios. We utilize scenario
+analyses to stress test our assets against many future energy systems that are different than today's
+energy system. For this publication, we present a variety of externally-modeled scenarios that
+achieve the global average temperature outcomes of the Paris Agreement. Specifically, we have
+analyzed supply under the IEA APS and NZE Scenarios, along with 16 additional peer-reviewed
+IPCC scenarios.
+
+Canada 6%
+
+0
+
+2010
+
+2020
+
+2030
+
+2040
+
+2050
+
+IEA (2024), Oil Market Report - June 2024, https://www.iea.org/reports/oil-market-report-june-2024.
+IEA (2023, October), World Energy Outlook 2023, https://www.iea.org/reports/world-energy-outlook-2023.
+3
+U.S. EIA (2024, March), United States produces more crude oil than any country, ever [In-Brief Analysis], https://www.eia.gov/todayinenergy/detail.php?id=61545. Note: Global oil production includes global crude oil and condensate production.
+4
+IEA (2022, October), World Energy Outlook 2022, https://www.iea.org/reports/world-energy-outlook-2022.
+5
+U.S. EIA (2023, March), Annual Energy Outlook 2023, https://www.eia.gov/outlooks/aeo/.
+1
+
+2
+
+11
+
+Relative to 2019, the IEA NZE Scenario reflects an oil supply decrease by 78% in
+2050.1 Nonenergy products, such as asphalt and bitumen or feedstock for the
+petrochemical sector, are expected to remain relatively stable and are projected
+to make up a majority of the remaining oil volumes as transport fuel demand falls.
+Similarly, relative to 2019, the APS Scenario indicates an oil supply decrease but
+at a less aggressive total of 46% by 2050, in which only 34% of the oil is used for
+nonenergy purposes. These scenarios indicate significant transitions away from
+oil, which would inherently include a substantial rationalization of global refining
+capacity. The degree to which this rationalization would occur will depend on the
+scenario and a multitude of factors.
+
+Global Oil Supply under Various Scenarios1,2,3
+IPCC
+Scenarios
+IEA NZE
+Oil Supply
+under
+Various Scenarios
+IPCC Scenarios
+
+IEA APS
+
+IEA NZE, 2023
+
+Solomon model point
+
+IEA APS, 2023
+
+2030
+
+2040
+
+As the industry evolves towards a potential world with lower oil supply, it is
+unlikely that every company with petroleum refining or logistics assets would
+experience the same degree of rationalization. Refined products are commodities,
+and in commodity industries, the most cost-efficient operation typically remains
+competitive during periods of rationalization. Typically, less competitive refineries
+would be challenged to remain in production due to market competition.
+Furthermore, rationalization of these refineries may not occur uniformly across all
+markets due to factors such as region specific policies, regulations and supply
+security. As part of a collective effort to reduce the global GHG emissions intensity
+of oil and gas operations under any respective scenario, all producers, including
+ones that may be less vulnerable to rationalization, should individually reduce
+the GHG emissions of their own operations. As such, we remain committed to
+strengthening the resiliency of MPC's business and investing in energy efficiency
+improvements to help reduce the GHG emissions of our own operations.
+
+2019 Oil Supply
+
+TRANSITION RISKS
+2050
+
+-
+
+20
+
+40
+
+60
+Oil Supply (million bpd)
+
+80
+
+100
+
+million barrels per day
+
+2021 IEA NZE Scenario
+
+-27% reduction in oil supply by 2030
+
+2022 IEA NZE Scenario
+Over the last three years, the IEA has slowed the pace
+of global oil supply reductions by 2030 in their NZE
+Scenario. These adjustments, in part, reflect a slowerthan-anticipated pace of the energy evolution.
+IEA (2023, October), World Energy Outlook 2023, https://www.iea.org/reports/world-energy-outlook-2023.
+2
+IEA (2022, October), World Energy Outlook 2022, https://www.iea.org/reports/world-energy-outlook-2022;
+International Institute for Applied Systems Analysis (2022), AR6 Scenario Explorer and Database hosted by IIASA,
+data.ece.iiasa.ac.at/ar6/.
+3
+The "Solomon model point" represents a well below 2 degree scenario that was assessed using the World Oil
+Refining Logistics and Demand (WORLD®) model. Please see page 14 for additional details of this analysis.
+1
+
+12
+
+-24% reduction in oil supply by 2030
+2023 IEA NZE Scenario
+
+-21% reduction in oil supply by 2030
+Note: Reductions are relative to 2019.
+
+120
+
+THE RESILIENCY OF U.S. REFINERS IN THE GLOBAL MARKET
+MPC retained Solomon to evaluate the resiliency of our refining assets.1 Our costs
+are affected by prices of crude oil, natural gas and refined products, as well as
+changes in competitive conditions in the markets we serve. As shown in the chart
+below, the U.S. refining industry has a lower overall cost structure than the rest of
+the world. This is in part due to less expensive natural gas, which is a significant
+operating cost to refineries. This cost disparity has been widened by the disruption
+in energy markets caused by Russia's invasion of Ukraine.
+
+Cost of Transportation Fuels (USD/bbl)
+
+MPC Average
+2022
+World
+Outside USC
+MPC
+U.S. &
+Canada
+(USC)
+
+1
+
+2
+
+3
+
+• Strengthening our portfolio by ceasing crude processing at three less
+competitive refineries and repurposing two for renewable diesel production.
+• Adhering to strict capital discipline to evaluate proposed growth projects against
+capital return thresholds and our longer-term climate targets.
+Through these actions, we expect our refining assets will retain cost
+competitiveness into the future, even in a carbon-constrained economy.
+
+Cost of Producing Transportation Fuels
+2022 Regional Averages
+
+MPC has taken several actions to make our refining assets more resilient and cost
+competitive, which include:
+
+4
+
+Equivalent Distillation Capacity®
+Proprietary © HSB Solomon Associates LLC
+
+The U.S. refining industry remains cost advantaged
+compared to the rest of the global fleet. Furthermore, the
+average production costs of MPC’s refineries continue to
+be below the national average.
+
+Refining Capacity Rationalization Risk Analysis
+Total global refining capacity is expected to remain relatively stable in the near
+term. Refining capacities scheduled to come online over the next five years
+currently outpace the total capacity of announced closures, thereby increasing
+total global refining capacity by less than 5%.2 However, rationalization could
+become more pronounced if transportation fuel demand peaks in the late 2020s
+and more so if demands continue to decrease.
+One analysis has indicated that over 21% of global refining capacity is at risk
+for rationalization by 2030.3 Europe was identified as having the most capacity
+at high risk for rationalization. For North America, the sites identified for risk of
+closure represent only 3% of North America’s total refinery capacity. Furthermore,
+these sites are considered to be low or medium risk. This is in part due to the
+rationalization that already occurred within the U.S. during COVID. Between 2019
+and 2024, nine refineries ceased operations in the U.S., including three refineries
+within MPC's system. As a result of these closures, the U.S., and furthermore MPC,
+remain cost advantaged relative to the world and at lower risk for rationalization.
+
+HSB Solomon Associates (Solomon) is uniquely qualified to perform this analysis because it has cost and production data for more than 320 refineries worldwide through its biennial fuels studies.
+https://solomoninsight.com/industries/refining/benchmarking/fuels-study. The biennial HSB Solomon Associates Fuels Studies are a key resources we use to benchmark our operations and conduct scenario analysis.
+2
+IEA (2024), Oil 2024 - Analysis and forecast to 2030, https://www.iea.org/reports/oil-2024.
+3
+Wood Mackenzie (2024, February), Global Refinery Closure Threat Update 2024, https://www.woodmac.com/reports/refining-and-oil-products-global-refinery-closure-threat-update-2024-150205486/.
+1
+
+13
+
+By 2040, some scenarios include substantial rationalization of global, refining
+capacity. This rationalization is expected to occur in Europe along with some
+impacts in North America. However, like today, North America is expected to
+continue to maintain its position as the region with the second most oil refining
+capacity behind Asia.1
+With the availability of low-cost natural gas and our complex and geographically
+well-positioned refining systems, including optimal accessibility of crude, we
+believe the U.S. refining industry will remain structurally advantaged over the rest
+of the world.
+
+Sites at Risk per Region2
+Not considered at risk
+
+Announced closures
+
+% Region's refinery capacity at risk
+
+Low
+
+High
+
+Medium
+
+Chart Title
+
+120
+
+3%
+
+MPC's refining system is expected to remain well positioned and competitive
+into the future.
+MPC assessed its refining asset competitiveness using the World Oil Refining
+Logistics and Demand (WORLD®) model in a well below 2 degree scenario with
+approximately 20 million barrels per day less oil demand in 2030 compared to
+2019. The U.S. refining sector is examined in-depth. Additionally, developments in,
+and competition with all other world regions are analyzed in areas such as carbon
+regimes, market disruptions, fuel regulations, crude export policies, and trade and
+refining outlooks.
+
+The results of this analysis indicate that the U.S. refining
+sector would remain globally competitive in a carbonconstrained future, with minimal rationalization expected.
+Furthermore, the analysis indicated no rationalization
+among MPC's refining fleet.
+
+Number of Sites
+
+100
+
+26%
+
+80
+
+17%
+
+• Our energy-efficiency programs help lower energy costs and reduce GHG
+emissions.
+
+60
+
+0
+
+30%
+
+Africa
+
+• Our refining system is complex and uniquely positioned to process hard-to-refine
+products.
+
+0%
+
+56%
+
+• We have flexibility on product placement, both within and outside of the U.S.
+Asia
+Pacific
+
+China
+
+Not Considered at Risk
+
+2
+
+• The U.S. refining fleet is cost advantaged, and MPC is cost advantaged in the U.S.
+
+43%
+40
+20
+
+1
+
+MPC Resiliency Drivers:
+
+27%
+
+Europe
+
+Former
+Soviet
+Union
+
+Announced Closures
+
+Latin
+America
+Low
+
+Middle
+East
+
+Medium
+
+North
+America
+High
+
+IEA (2023, October), World Energy Outlook 2023, https://www.iea.org/reports/world-energy-outlook-2023.
+Wood Mackenzie (2024, February), Global Refinery Closure Threat Update 2024, https://www.woodmac.com/reports/refining-and-oil-products-global-refinery-closure-threat-update-2024-150205486/.
+
+14
+
+Climate Scenario Analysis for Midstream
+
+Natural Gas: As shown to the right, many net-zero
+scenarios indicate worldwide natural gas demand
+could remain stable or even increase through 2050
+as the world takes steps to decarbonize. U.S.produced natural gas can help enhance energy
+security, as exemplified by the EU-US Task Force
+on Energy Security established in 2022. The task
+force seeks to reduce the EU’s reliance on Russian
+energy.2 In 2022, the United States more than
+doubled its exports of liquefied natural gas (LNG) to
+the EU, exporting 56 billion cubic meters (bcm), up
+from 22 bcm in 2021. This trend has continued, with
+the U.S. supplying nearly half of the EU's LNG imports
+in 2023.3
+
+NGLs: Demand is expected to remain strong for
+the nonmethane fractions of natural gas, which
+are important feedstocks for the petrochemical
+industry (e.g., steam cracking). The IEA projects
+petrochemical feedstock demand to be higher than
+today even under the NZE Scenario.4 Furthermore,
+there remains a continued need for clean cooking
+fuel in the developing world, which will combat
+indoor air pollution where people still rely on coal and
+traditional biomass.4
+Midstream Energy Infrastructure and Exports: The
+continued strong outlook for U.S. crude, natural
+gas and NGL production will require additional
+infrastructure to link supply to global demand
+markets. Our pipelines, processing and fractionation
+facilities, terminals and transport vessels are well
+situated to connect to export facilities. The IEA
+projects that almost all the growth in U.S. natural gas
+production will be destined for export.
+
+Global Natural Gas Supply under
+Various Scenarios4,5
+IEA NZE,
+2023
+Natural
+Gas
+Supply under Various
+Scenarios
+IPCC
+Scenarios
+IPCC Scenarios
+
+IEA NZE, 2023
+
+IEA APS, 2023
+
+IEA APS, 2023
+
+2030
+
+2019 Natural Gas Supply
+
+The U.S. EIA forecasts that U.S. LNG exports will
+continue to lead growth in U.S. natural gas trade
+as three LNG export projects currently under
+construction start operations and ramp up to full
+production by the end of 2025. MPLX recently
+entered a joint venture to combine the Whistler
+Pipeline and Rio Bravo Pipeline. The combined
+platform will help connect Permian supply to LNG
+export markets.
+
+2040
+
+2050
+
+-
+
+100
+
+200
+
+300
+
+400
+
+500
+
+Natural Gas Supply (billion cu. ft. per day)
+
+billion cubic feet per day
+
+U.S.
+Liquefied Natural Gas Net Exports6
+U.S. Liquefied Natural Gas Net Exports
+(billion cu. ft. per day)
+
+billion cubic feet per day
+
+As the world evolves toward a power system
+comprised of more renewables, natural gas can be
+leveraged as a transition fuel that provides reliable
+and affordable power with a lower-carbon footprint
+than coal. It is a well-demonstrated and versatile fuel
+source that can effectively lower GHG emissions, as
+it produces about half the emissions for the same
+amount of energy as coal.1 Furthermore, during times
+of volatility and geopolitical tensions, which can
+cause spikes in energy prices and consequently,
+increases in coal use, U.S.-produced natural gas can
+help buffer emissions increases by providing a more
+secure, lower-emitting energy alternative to coal.
+Additionally, the U.S. EIA has been revising electricity
+sales forecasts upward due to expectations of power
+demand from data centers. Given its significant
+advantages, strong demand for natural gas is
+expected to continue into the future.
+
+30
+
+2023
+
+25
+20
+15
+10
+5
+0
+2005
+
+2020
+
+2035
+
+2050
+
+Source: U.S. Energy Information Administration, Annual Energy Outlook (AEO2023)
+
+
+U.S.
+EPA (2023, April), Inventory of U.S. Greenhouse Gas Emissions and Sinks: 1990-2021. U.S. Environmental Protection Agency, (EPA 430-R-23-002), https://www.epa.gov/ghgemissions/inventory-us-greenhouse-gas-emissionsandsinks-1990-2021.
+2
+European Commission (2022, March), Joint Statement between the European Commission and the United States on European Energy Security [Statement], https://ec.europa.eu/commission/presscorner/detail/en/STATEMENT_22_2041.
+3
+European Commission (2023, April), EU-U.S. Task Force on Energy Security - Progress Report and Outlook 2022-2023, https://energy.ec.europa.eu/topics/international-cooperation/key-partner-countries-and-regions/united-states-america_en.
+4
+IEA (2023, October), World Energy Outlook 2023, https://www.iea.org/reports/world-energy-outlook-2023.
+5
+IEA (2022, October), World Energy Outlook 2022, https://www.iea.org/reports/world-energy-outlook-2022; International Institute for Applied Systems Analysis (2022), AR6 Scenario Explorer and Database hosted by IIASA, data.ece.iiasa.ac.at/
+ar6/.
+6
+U.S. EIA (2023, March), Annual Energy Outlook 2023, https://www.eia.gov/outlooks/aeo/; U.S. EIA (2024, February), Liquefied U.S. Natural Gas Exports, https://www.eia.gov/dnav/ng/hist/n9133us2A.htm.
+1
+
+15
+
+NATURAL GAS IS A PROVEN EMISSIONS REDUCTION MODEL
+In the United States, the switch from generating electricity from coal to natural gas is the leading
+contributor to the reductions in the CO2 emissions rate from fuel combustion by over 1 billion tonnes
+per year below levels from 2005.1 Over this period, natural gas demand increased nearly 50%,
+equivalent to approximately 28.1 billion standard cubic feet per day (scfd).2 This was accomplished
+through significant private investment across all key segments of the natural gas system, including
+production, gathering and processing, distribution and storage, and transmission. This coal-to-naturalgas strategy has maintained a stable electric grid, kept prices affordable and facilitated a significant
+increase in renewable power without disrupting electricity supplies. This is a proven energy model
+that can be replicated throughout much of the world to reduce near-term GHG emissions.
+As one of the largest natural gas producers in the world, the United States has successfully leveraged
+natural gas as an emissions reduction strategy. This is in stark contrast to China and India, which
+have experienced a large increase in coal use and collectively still produce nearly two-thirds of their
+electricity from coal combustion.
+
+U.S. Power Generation by Fuel
+(billion kWh)
+
+Coal
+
+U.S. Power Generation by Source6
+Coal
+
+Natural Gas
+
+Natural Gas
+Nuclear
+
+Nuclear
+
+Renewables
+
+Renewables
+
+2005
+
+2010
+
+2015
+
+2020
+
+2023
+
+2030
+
+2050
+0
+
+1000
+
+2000
+
+3000
+
+billion
+Source: U.S. Energy Information Administration, Annual Energy Outlook (AEO2023)
+
+From 2020 to 2023, the United States retired 44 gigawatts (GW) of coal-fired power plants.
+These retirements were eclipsed by over 130 GW of net coal-fired power capacity added by
+China and India at 121 GW and 12 GW, respectively.3 In addition, China is currently planning
+to add additional coal-fired capacity, signaling they intend to continue coal use.
+
+4000
+
+5000
+
+6000
+
+kWh
+
+Regional Carbon Dioxide Equivalent Emissions
+from Fuel Combustion4
+12
+China
+
+United States
+
+European Union
+
+India
+
+Japan
+
+10
+
+236% increase
+
+gigatonnes per year
+
+To support near-term gaps in supply and demand resulting from technology shifts towards renewable
+energy and to stabilize energy supplies for the future, multiple scenarios are relying heavily on LNG
+as a transition fuel. Significant shifts away from oil and gas without a reliable and affordable backup
+energy source have impacted energy markets with volatile short-term price spikes, making coal an
+attractive, cheap alternative to quickly bring down energy prices when political pressure increases.
+For example, when natural gas prices spiked after the Russian invasion of Ukraine, this prompted
+European nations to rely on coal in lieu of natural gas, increasing global CO2 emissions by around
+well over 100 million tonnes.4 With transportation flexibility, LNG is projected to play an increasingly
+vital role in interregional trade. In 2023, the U.S. exported more LNG than any other country, and is
+projected to continue increasing net exports over the next decade.5 If the United States and other
+areas of the world leveraged the full potential of natural gas, including supplying LNG to China and
+India, billions of tonnes of additional near-term CO2 reductions could be realized worldwide.
+
+8
+
+6
+
+-20% decrease
+
+4
+
+-21% decrease
+2
+
+-
+
+151% increase
+-13% increase
+2000
+
+2003
+
+2006
+
+2009
+
+2012
+
+2015
+
+2018
+
+2021
+
+U.S. EIA (2023, August), Greenhouse Gas Emissions from Energy Highlights, https://www.iea.org/data-and-statistics/data-product/greenhouse-gas-emissions-from-energy-highlights.
+U.S. EIA (2023, February), Annual U.S. Natural Gas Consumption by End Use, https://www.eia.gov/dnav/ng/ng_cons_sum_dcu_nus_a.htm.
+Global Energy Monitor (2024, January), Global Coal Plant Tracker - Summary Tables, https://globalenergymonitor.org/projects/global-coal-plant-tracker/.
+4
+IEA (2022), Global Energy Review: CO2 Emissions in 2021, https://www.iea.org/reports/global-energy-review-co2-emissions-in-2021-2.
+5
+U.S. EIA (2024, April), The United States was the world's largest liquefied natural gas exporter in 2023 [In-Brief Analysis], https://www.eia.gov/todayinenergy/detail.php?id=61683.
+6
+U.S. EIA (2023, March), Annual Energy Outlook 2023, https://www.eia.gov/outlooks/aeo/; U.S. EIA (2024), Monthly Energy Review - April 2024, (DOE/EIA-0035), www.eia.gov/mer. Petroleum and other fuels are not shown in graph as these make up less than 1% of the total generation.
+1
+
+2
+3
+
+16
+
+MPLX'S PARTICIPATION IN U.S. GHG EMISSIONS
+REDUCTIONS
+Since 2015, we have invested over $20 billion to acquire and
+expand natural gas gathering and processing capacity through
+our master limited partnership, MPLX. This has resulted in
+MPLX growing into one of the largest natural gas processing
+companies in the U.S. These investments facilitated the buildout of infrastructure in the Marcellus, Utica and Permian basins,
+among others, and helped to significantly reduce the carbon
+intensity of the U.S. energy supply chain. This infrastructure
+build-out corresponds with the increase in natural gas electricity
+generation shown on Page 16. During this period, electricity
+demand remained relatively flat, while CO2 emissions from
+electricity generation fell significantly.
+When evaluating the gross emissions facilitated by these
+investments, MPLX’s Scope 1 and 2 GHG emissions grew year
+over year as gathering and processing infrastructure build-out
+progressed. However, when emissions that were avoided from
+coal-to-gas switching are considered more comprehensively,
+MPLX's investments helped to facilitate the decrease in GHG
+emissions achieved by the U.S. electric power sector.
+
+MPLX processed ~9.0 billion cubic feet per
+day of natural gas in 2023, which could
+produce 445 billion kWh of electricity.
+The annual volume of natural gas processed by MPLX avoids an
+estimated 273 million tonnes of CO2e from the U.S. energy supply
+chain per year when compared to coal for electricity generation.
+
+479
+million tonnes
+CO2e
+
+A full conversion of the remaining U.S. coal power plant fleet
+to natural gas could result in an additional 410 million metric
+tonne reduction in CO2 emissions per year. This is achievable
+today without the use of unproven technology or a complete
+transformation of the energy supply chain. Worldwide, if natural
+gas were embraced, the world could achieve billions of tonnes
+of additional CO2 reductions per year, and more if CCUS is
+deployed.
+
+206
+
+COAL
+1
+
+-273
+
+NATURAL GAS
+
+ PC uses the U.S. EPA Inventory of US GHG Emissions and Sinks 1990 – 2021 and data
+M
+from the U.S. Energy Information Administration to estimate potential U.S. emissions
+reductions for the coal to natural gas power plant fleet conversion and the impact of CO2e
+avoided from gas processed by MPLX.
+
+17
+
+Climate Scenario Analysis of Renewable Fuels
+
+Although most renewable fuels today are not currently net-zero fuels,
+the processes to produce them are becoming more efficient, with
+several liquid renewable fuels today delivering a 50% to 80% reduction
+in embedded life-cycle GHGs when compared to the fossil-based fuels.1
+Each renewable fuel has a unique carbon intensity (CI). The carbon
+emissions associated with each point in the value chain are added
+together to determine the CI of the fuel. Carbon reductions anywhere
+along the value chain, such as changes in farming practices, more
+efficient refining or incorporating renewable energy, will result in a lower
+CI value for the fuel. Some renewable fuels, like renewable natural gas
+collected from dairy farms, can even have a net-negative CI.1
+
+Bioenergy Supply under Various Scenarios
+
+Bioenergy
+Supply
+under Various
+Scenarios2,3
+IPCC Scenarios
+IEA NZE, 2023
+IEA APS, 2023
+IEA NZE, 2023
+
+IPCC Scenarios
+
+IEA APS, 2023
+
+2030
+
+2040
+2019 Bioenergy Supply
+
+Liquid renewable fuels are derived from biomass and waste feedstocks
+and include ethanol, biogasoline, biodiesel, renewable diesel and
+sustainable aviation fuel. Because renewable fuels are sourced from
+biomass materials (e.g., plants and animal fats) or existing sources
+of methane (e.g., renewable natural gas), the CO2 released from
+combusting these fuels is part of the current carbon cycle and offset by
+the CO2 recently removed from the atmosphere. As a result, combusting
+these renewable fuels does not increase net atmospheric CO2 levels.
+
+2050
+
+-
+
+50
+
+100
+
+150
+200
+Bioenergy Supply (exajoules per year)
+
+250
+
+300
+
+350
+
+exajoules per year
+
+Renewable fuels are an important tool to reduce the carbon intensity of
+liquid and gaseous fuels because they can be used in existing engines
+and infrastructure. As shown to the right, each of the vetted IEA and
+IPCC net-zero scenarios model significant increases in renewable fuels
+over the next 30 years. However, renewable fuels can be expensive to
+produce. For example, many renewable feedstocks are more expensive
+today than finished petroleum-based transportation fuels even before
+any processing takes place. As a result, renewable fuels rely heavily
+on government programs to incentivize production. Examples include
+the U.S. Renewable Fuel Standard (RFS), California Low Carbon Fuel
+Standard (LCFS) and various blending mandates throughout the
+world. Some products, like sustainable aviation fuel, can struggle to
+be economic even with subsidies. Without the market mandates and
+subsidies, production would not be economical as compared to the cost
+of traditional transportation fuels.
+
+California Air Resources Board (2024, July 2), Low Carbon Fuel Standard Pathway Certified Carbon Intensities, Certified Fuel Pathway Table, https://ww2.arb.ca.gov/resources/documents/lcfs-pathway-certified-carbon-intensities.
+IEA (2023, October), World Energy Outlook 2023, https://www.iea.org/reports/world-energy-outlook-2023.
+3
+IEA (2022, October), World Energy Outlook 2022, https://www.iea.org/reports/world-energy-outlook-2022; International Institute for Applied Systems Analysis (2022), AR6 Scenario Explorer and Database hosted by IIASA, data.ece.iiasa.ac.at/ar6/.
+1
+
+2
+
+18
+
+RENEWABLE LIQUID FUELS
+MPC has a robust renewable liquid fuels portfolio
+that delivered approximately 2.6 billion gallons of
+renewable fuels to customers in 2023, making us one
+of the largest marketers of renewable fuels in the U.S.
+One of our goals is to continually lower the
+carbon intensity of the products we offer to
+our customers, and this volume of renewable
+fuel avoids approximately 13 million tonnes of
+CO2 transportation emissions per year.1
+
+Over the past four years, over $1 billion has been
+invested to convert two of our petroleum refineries
+to produce renewable diesel. In 2020, we completed
+the conversion of our Dickinson, North Dakota,
+refinery, which produced nearly 154 million gallons
+of renewable diesel and other renewable products
+in 2023. We also formed a 50/50 joint venture with
+Neste in 2022 to complete the conversion of our
+Martinez, California, refinery and began producing
+renewable diesel in the first quarter of 2023. We
+expect to reach full capacity by the end of 2024.
+Green Bison Soy Processing, a joint venture with
+ADM, is North Dakota’s first dedicated soybean
+processing complex, and its production of refined
+soybean oil will be supplied exclusively to MPC as
+a feedstock for renewable fuels. This new, stateof-the-art processing plant, which began receiving
+
+soybeans in late 2023, enhances our ability to source
+and optimize logistically advantaged feedstock
+for our growing renewable fuels business. This
+facility is expected to deliver enough soybean oil
+to produce approximately 75 million gallons per
+year of renewable diesel. Furthermore, Green Bison
+Soy Processing was recognized by the Economic
+Development Association of North Dakota as the
+2023 Economic Development Project of the Year.
+We recently expanded our renewable fuels portfolio,
+with an equity investment in LF Bioenergy, a company
+that produces renewable natural gas (RNG) from
+dairy operations. The joint venture is focused on
+developing and growing a portfolio of dairy-based,
+low carbon-intensity RNG projects. The first plant,
+located in upstate New York, started operating in the
+first half of 2023. Dairy-based RNG has a negative
+carbon intensity because it captures biomethane that
+is currently entering the atmosphere, instead using it
+as fuel or feedstock for industrial purposes, thereby
+lowering its global warming potential.2,3 Dairy-based
+RNG has a carbon intensity typically in the negative
+150 to negative 400 grams of CO2 per megajoule
+range, as compared to conventional natural gas with
+a carbon intensity of approximately 80 grams of CO2
+per megajoule.2
+The Green Bison and LF Bioenergy projects
+represent hundreds of millions of dollars in
+investment, and we continue to evaluate a
+broad portfolio of options to further expand our
+renewable fuels portfolio. MPC brings value through
+our expertise and where we believe our capital
+investment will result in positive returns.
+
+ PC estimated avoided emissions using fuel carbon intensity values generated per the California Air Resources Board Low Carbon Fuel Standard life-cycle
+M
+analysis models and documentation (i.e., CA-GREET3.0).
+2
+U.S. EPA (2021, January), An Overview of Renewable Natural Gas from Biogas, (EPA 456-R-21-001), https://www.epa.gov/sites/default/files/2021-02/documents/
+lmop_rng_document.pdf.
+3
+California Air Resources Board (2024, July 2), Low Carbon Fuel Standard Pathway Certified Carbon Intensities, Certified Fuel Pathway Table, https://ww2.arb.
+ca.gov/resources/documents/lcfs-pathway-certified-carbon-intensities.
+1
+
+MPC Renewable Fuels Production
+Outlook
+(equity share)
+Biodiesel
+
+Ethanol
+
+Renewable Diesel
+
+ enewable
+R
+Naphtha
+
+Renewable LPGs
+
+ enewable
+R
+Natural Gas
+
+Chart Title
+
+2025E
+
+2023
+
+2022
+
+2021
+
+2020
+0
+
+200
+
+400
+
+600
+
+800
+
+1,000
+
+(million
+gallons
+year)
+million
+gallons
+perper
+year
+
+Renewable and
+Emerging Technologies
+Focused on renewable opportunities
+that offer attractive returns, lower
+costs, increase reliability and reduce
+emissions
+Deploying emerging technologies that
+reduce environmental impact while
+enhancing business performance
+
+19
+
+RENEWABLE FUELS PORTFOLIO
+THE ANDERSONS
+
+VIRENT BIOFORMING® TECHNOLOGY
+
+DICKINSON RENEWABLE FUELS
+
+• Ethanol biofuel
+• ~405 million gallons/year capacity
+
+• Patented technologies for renewable gasoline,
+SAF, BioPX®
+• ~10,000 gallons/year capacity
+
+• Renewable diesel and naphtha
+• ~184 million gallons/year capacity
+
+BEATRICE PRETREATMENT
+
+CINCINNATI AGGREGATION
+
+GREEN BISON SOY PROCESSING
+
+• Renewable feedstocks
+• ~58 million gallons/year capacity
+
+• Aggregation of renewable feedstocks
+
+• Soybean oil and meal
+• ~600 million pounds/year capacity
+
+MARTINEZ RENEWABLE FUELS
+
+LF BIOENERGY
+
+• Renewable diesel, naphtha, and propane
+• ~730 million gallons/year expected capacity
+
+• Renewable natural gas
+• ~390 million British thermal units/day capacity
+
+(JOINT VENTURE)
+
+(JOINT VENTURE)
+
+20
+
+(MPC INVESTMENT)
+
+(JOINT VENTURE)
+
+RECENT RENEWABLE AND EMERGING TECHNOLOGY INVESTMENTS
+Green Bison Soy Processing
+Joint venture with capacity to process
+150,000 bushels of local soybeans per day
+using state-of-the-art automation technology
+
+Flyscan
+Equity investment
+in airborne pipeline
+leak detection
+
+Martinez Renewable Fuels
+Joint venture with an expected capacity
+of 730 million gallons per year to deliver
+low-carbon fuels to support California's
+climate goals
+
+DELIBERATE, MEASURED, AND
+STRATEGIC INVESTMENTS
+
+One Energy
+Equity investment
+in provider of
+behind-the-meter
+power solutions
+
+Blue Planet™
+
+LF Bioenergy
+
+Equity investment in technology
+to convert CO2 into solid
+aggregate and concrete block
+
+Equity investment in an
+emerging producer of dairyfarm-based, low-carbon intensity
+renewable natural gas
+Sapphire Technologies
+Equity investment in manufacturer of in-line
+turboexpanders that harness gas expansion to
+produce reliable and clean electricity
+
+21
+
+CARBON CAPTURE, UTILIZATION AND SEQUESTRATION
+Carbon Capture, Utilization and
+Sequestration (CCUS)
+MPC and MPLX support the continued development
+and use of CCUS technology as a strategy to reduce
+emissions of CO2 and the carbon intensity of the
+products we supply.
+As identified by the IPCC and IEA, CCUS
+technologies are expected to play a key role in
+achieving long-term carbon reduction goals. It is an
+effective and proven technology that can enable
+efforts like low-carbon hydrogen production, a
+resource that can further support the decarbonization
+of “hard-to-abate” sectors, such as petroleum refining,
+chemical and steel manufacturing, and heavy-duty
+transportation and shipping.
+
+However, to date, CCUS technology has been used
+in limited applications. To further the goal of largescale CCUS development and deployment and to
+make progress toward reducing GHG emissions, U.S.
+legislation through the Bipartisan Infrastructure Law
+and Inflation Reduction Act is providing substantial
+funding to support these efforts. Furthermore, private
+companies, federal, state and local governments,
+policy institutions, academia, national laboratories
+and others are bringing their resources and expertise
+to bear. MPC supports the continued development
+and use of CCUS technology and strive to enable
+stakeholders to leverage regional resources and
+advantages to reduce greenhouse gas emissions.
+
+~400,000
+TONNES OF CO2
+
+captured from MPC and MPLX
+operations and their respective joint
+ventures in 2023 for use in
+industrial applications
+food and beverage industry
+
+22
+
+Blue Planet Partnership
+MPC is collaborating with Blue Planet Systems
+Corporation to advance the commercialization of Blue
+Planet’s patented Geomimetic® technology, which
+uses mineralization to sequester and permanently
+store CO2 in synthetic limestone aggregate. This
+aggregate is then used to make concrete, the second
+most consumed material on earth after water, and
+other building products. Blue Planet's patented
+technology and closed-loop processes mimic the
+low-energy chemistry in nature that is responsible for
+the formation of limestone, which holds a significant
+amount of Earth's carbon.
+
+TONNES CO2 CAPTURED
+Los Angeles, California, refinery
+
+~109,000
+
+Albion, Michigan, ethanol plant
+
+~87,000
+
+Greenville, Ohio, ethanol plant
+
+~92,000
+
+Denison, Iowa, ethanol plant
+
+~67,000
+
+Catcher Ranch, Oklahoma, gas plant
+
+~44,000
+
+Total CO2 captured
+Note: Total may not equal sum of components due to independent rounding.
+
+~400,000
+
+Managing Physical Risks to Our Facilities
+Our facilities are subject to acute physical risks, such
+as floods, hurricane-force winds, tornadoes, wildfires,
+extreme temperatures and winter storms, and chronic
+physical risks, such as sea-level rise and drought. We
+have incurred and will continue to incur additional
+costs to protect our assets and operations from such
+physical risks and employ the evolving technologies
+and processes available to mitigate such risks. To the
+extent such severe weather events or other climate
+conditions increase in frequency and/or severity, we
+may be required to modify operations and incur costs
+that could affect our business.
+
+accompanied by an unprecedented Category 4
+storm surge, and Hurricane Harvey in 2017, which
+was accompanied by record rainfall and regionwide
+flooding. Neither of these major storms caused any
+material flooding to our Galveston Bay operations.
+
+Managing Acute Physical
+Risks
+
+Our Garyville refinery is positioned on a local high
+point and is currently protected by an external levee
+system that runs along the Mississippi River with
+several spillways both upstream and downstream
+of our facility. This system has adequately protected
+the refinery from significant flooding, including during
+severe hurricanes like Katrina in 2005, Gustav in
+2008 and Ida in 2021. In addition, an 18-mile levee
+system called the West Shore Lake Pontchartrain
+Hurricane and Storm Damage Risk Reduction System
+is currently being constructed by the Pontchartrain
+Levee District with federal and local funding to
+protect areas around the refinery from a storm surge
+in Lake Pontchartrain.
+
+EXTREME WEATHER EVENTS –
+HURRICANES AND TROPICAL STORMS
+Hurricanes and tropical storms pose potential risks
+to our Gulf Coast assets through excessive winds,
+storm surge and/or flooding. Efforts to mitigate these
+weather-related risks include measures to protect
+against flooding, hardening infrastructure to protect
+against wind damage and electrical upgrades to
+ensure power supply continuity.
+
+External Flood and Storm Surge Controls
+Our two Gulf Coast refineries and associated
+logistics assets are protected from storm surge and
+flooding through external levee and pump station
+systems. Our Galveston Bay refinery is protected
+by an external levee and pump station system that
+protects 36 square miles of land in the Texas City
+area. This levee, ranging in height from 19 to 23 feet,
+has provided adequate protection through several
+storms, including Hurricane Ike in 2008, which was
+
+TEXAS CITY HURRICANE FLOOD PROTECTION
+
+Dickinson
+
+In fact, our Galveston Bay refinery continued to
+operate throughout Hurricane Harvey, albeit at
+reduced rates, due to interruptions at the ports
+and pipelines that supply crude to the refinery and
+transport finished products from the refinery. We were
+able to quickly increase throughput as ports and
+pipelines reopened since we did not shut down.
+
+Beyond these external barriers, we have
+implemented additional safeguards within MPC's
+Gulf Coast operational areas, including locating most
+pumps and compressors on foundations above grade
+and adopting hurricane preparedness measures
+that are implemented well before a storm can impact
+operations.
+
+Texas City Hurricane
+Flood Protection
+Galveston Bay
+Texas City
+
+MPC GALVESTON
+BAY REFINERY
+La Marque
+
+"Levee"
+
+LEVEE SYSTEMS PROTECTING GARYVILLE REFINERY
+Lake Maurepas
+
+18-mile levee
+$760 million
+
+Commenced construction in 2023
+Proposed
+ring levees
+
+Paulina
+
+SURGE
+ORM
+ST
+
+Lake
+Pontchartrain
+
+MPC GARYVILLE
+REFINERY
+Wallace
+
+Vacherie
+
+Edgard
+
+Bonnet Carre
+Spillway
+Montz
+
+Mississippi River levee system
+West Pontchartrain levee system
+Mississippi River spillway (1 of 2)
+
+23
+
+Managing Acute Physical Risks (continued)
+Facility Hardening and Other Measures
+Wind and/or water damage to our control systems
+or electrical motors could lead to significant repair
+costs or downtime to our Gulf Coast operating sites.
+In recent years, new centralized control rooms were
+built at our Garyville and Galveston Bay refineries to
+withstand wind and storm surges characteristic of the
+most extreme weather in their respective locations:
+• Galveston Bay's centralized control room is built to
+withstand winds from a Category 5 hurricane and
+located approximately 20 feet above grade.
+• Garyville’s centralized control room is built to
+withstand a Category 3 hurricane and located
+five feet above grade. This design represented
+worst-case conditions at the refinery based upon
+thousands of simulated hurricane scenarios making
+landfall along the Louisiana coast.
+These hardening measures are designed to protect
+the main control systems at our two Gulf Coast
+refineries so they may remain in good operational
+standing during extreme weather events. Beyond our
+control rooms, we also designed process vessels,
+storage tanks and other logistical assets to withstand
+significant winds, so they typically experience little to
+no damage even in the most significant hurricanes. On
+occasion, we have experienced some wind damage to
+insulation and cooling towers; however, this damage
+is repairable and has not hindered the restart or
+operation of our assets.
+
+Electrical Infrastructure and Power Supply
+We continue to proactively implement a multiyear
+program to replace and upgrade electrical
+infrastructure at our refineries. Improvements include,
+but are not limited to, cable replacement, highresistance ground installations, combining substations,
+installing new safety features and elevating
+infrastructure to avoid flooding. Our refineries on the
+24
+
+Gulf Coast each have redundant power supplies
+and historically have experienced few problems
+maintaining power during severe weather events,
+including hurricanes. Our other facilities – such as fuel
+terminals and pipeline stations – historically exposed
+to hurricanes or other severe weather elevate power
+infrastructure above historic flood levels and maintain
+a combination of on-site generators and contracts
+for rapid procurement of generators in the event of
+power loss. Notably, in 2017, all our operations in the
+greater Houston area maintained power throughout
+Hurricane Harvey and its aftermath.
+
+Extreme heat could potentially increase in frequency,
+severity, and duration from climate change. Rising
+temperatures can cause significant damage, repair
+costs, and service interruptions to infrastructure,
+specifically energy infrastructure. Increases in
+extreme heat can lead to increased peak electricity
+demand. The higher demand places considerable
+stress on the components of the electric grid,
+which can result in a reduction in energy supply,
+consequently leading to an increase in energy costs
+and/or heightening the risk of equipment failures and
+power outages during periods of peak demand.
+
+EXTREME WEATHER EVENTS: WINTER
+STORMS AND HEAVY RAINFALL
+
+Wind/Wildfire
+
+Extreme Temperatures/Winterization
+Refineries in regions that experience freezing
+and extreme winter weather have implemented
+winterization plans that identify both short- and
+long-term actions to ensure the refinery is prepared
+for winter every year. The plans describe the steps
+each year that the refinery needs to implement to
+prepare for inclement weather along with long-term
+projects to winter-proof equipment. The Galveston
+Bay Refinery completed a project to winterize its onsite cogeneration (cogen) facility that generates both
+electricity and heat. The project involved installing
+enclosures around 192 temperature-sensitive
+instruments, replacing dozens of steam/condensate
+manifolds and supplying remote monitoring capability
+to identify potential problems more quickly.
+Hard freezes in 2021 and 2022 disrupted
+cogeneration operations. However, during a
+statewide cold snap in January 2024, the project’s
+upgrades allowed the facility to run efficiently and
+reliably even as news reports noted Texas industrial
+sites reported 36 weather-related upsets – including
+unintentional emissions releases – to the state’s
+environmental agency.
+
+Facilities could experience wind effects due to
+potential changes in wind patterns associated with
+climate change. Potential refinery impacts include
+wind damage. The forceful impact of strong winds,
+which may be amplified by climate change, can result
+in considerable harm to structures, equipment, and
+vital infrastructure of industrial facilities; however,
+refinery infrastructure is typically designed for a wind
+load of up to 120 mph. A refinery is not likely to be
+adversely affected by excessive wind speeds and/
+or extended periods of elevated winds due to the
+physical rigidity and inherent strength of refinery
+infrastructure components. Overhead electrical and
+communication utility lines could be affected by
+excessive wind speeds; however, refineries typically
+have redundant measures in place to mitigate the
+effects of any potential downed wires.
+Wildfire effects may occur due to potential changes in
+wildfire occurrences associated with climate change.
+The presence of ash and smoke in the air could
+create adverse conditions for refinery personnel.
+Such conditions may necessitate facilitating additional
+personal protective equipment (PPE) to mitigate the
+effects of poor air quality.
+
+Pipeline Integrity Management
+Our midstream segment owns, leases or has an
+ownership interest in approximately 19,000 miles
+of pipelines throughout the United States. We
+continuously monitor and manage the integrity of our
+pipeline systems based on changing conditions. One
+of the programs monitors stream crossings using a
+powerful combination of physical inspections and
+predictive modeling. By doing so, we identify and
+proactively relocate pipeline segments deeper below
+waterway beds to reduce risk of future scouring if
+flow conditions change due to increased rainfall or
+increased development.
+
+Our robust programs and procedures help us
+to safely maintain our operations throughout
+severe weather incidents and quickly recover. We
+have standing agreements in place for alternate
+workspaces, necessary office equipment and
+multiple means to maintain internet and telephone
+connectivity, even during prolonged power outages.
+
+We also have agreements for supplies such as
+generators, repair materials, water and more. We
+maintain an emergency mass-notification system to
+communicate with personnel before, during and after
+an emergency. This information assists in providing
+humanitarian aid to our personnel, contractors and
+local communities.
+
+We have approximately 500 MPC and MPLX employees
+on our corporate emergency response teams. Additional
+employees are active in the emergency response teams
+within the various operating organizations.
+
+EMERGENCY PREPAREDNESS AND
+RESPONSE
+Beyond maintaining our physical assets, we also
+prepare and train personnel to respond in the
+event of an emergency such as a major flood, fire
+or hurricane. We have a dedicated Emergency
+Preparedness Group that coordinates preparedness
+and response activities throughout the company. This
+enables us to respond rapidly and appropriately if an
+emergency incident occurs.
+We train personnel in the Incident Command System,
+a globally recognized organizational structure
+designed to integrate resources across multiple
+agencies and organizations when an emergency
+event occurs. To maintain readiness, we conduct
+training sessions that include tabletop exercises with
+a review of our emergency plans and resources.
+We also conduct periodic training simulations that
+involve federal organizations, such as the U.S. EPA or
+the U.S. Coast Guard; state environmental protection
+or wildlife agencies; local emergency responders,
+such as fire departments and law enforcement; and
+representatives of tribal governments.
+
+EST
+Emergency Strike Team
+
+A stand-alone response management team capable of supplementing,
+relieving or taking command of a major emergency.
+
+ESG
+Emergency Support Group
+
+Provides key support functions, such as IT, communications and
+geographic information system mapping during an incident.
+
+BRT
+Business Recovery Team
+
+Works to meet MPC's, MPLX's and customers’ needs during supply
+disruptions.
+
+CMT
+Crisis Management Team
+
+A group of executive-level advisors prepared to respond to MPC’s and
+MPLX’s needs during significant incidents.
+
+TAG
+Threat Assessment Group
+
+Tasked with determining the potential impact of a threat to MPC or
+MPLX, informing impacted stakeholders and recommending steps to
+protect people and assets.
+
+INTL
+International Team
+
+Determines the potential impact, recommends response strategies and
+responds to incidents related to the shipment of products outside the
+United States.
+
+25
+
+Managing Chronic Physical Risks
+SEA-LEVEL RISE
+In 2019, the IPCC published the Special Report
+on the Ocean and Cryosphere in a Changing
+Climate, which included potential sea-level rise in
+various representative concentration pathway (RCP)
+scenarios. The high emissions scenario, RCP 8.5, had
+the highest sea-level rise, with a median value of 0.84
+meters (2.76 feet) and likely range of 0.61 to 1.1 meters
+(2.00 to 3.61 feet).
+MPC operates five coastal petroleum refineries
+located in Anacortes, Washington; Garyville,
+Louisiana; Texas City, Texas (Galveston Bay); Los
+Angeles, California; and Kenai, Alaska. We also have
+one coastal joint venture renewable fuels facility
+in Martinez, California, and 18 coastal terminals
+located in Alaska, California, Florida, Louisiana,
+Texas and Washington. The National Oceanic and
+Atmospheric Administration’s sea-level rise viewer
+can be used to screen for potential flooding levels
+due to sea-level rise. At 4 feet of sea-level rise,
+
+which is above the high end of the likely range in the
+high-emissions scenario, flooding was not indicated
+at our Anacortes, Garyville, Galveston Bay or Los
+Angeles refineries or the majority of our terminals.
+The tool did identify a low level of flooding at the
+northern end of the Martinez joint venture facility at
+Avon Wharf. However, a project was completed in
+2017 to upgrade the Avon Marine Terminal to the
+latest Marine Oil Terminal Engineering & Maintenance
+Standards that considered potential sea-level rise
+in its design. As part of the permit for the project, a
+technical memorandum estimating future water levels
+at the Avon terminal was prepared. The assessment
+projects that 2030 water levels would increase by
+approximately 2.7 inches (0.221 feet), resulting from an
+extreme tide or 100-year flood conditions and that the
+Avon terminal pipeway infrastructure would not be
+inundated (Simpson, Gumpertz & Heger Inc., 2021).
+The assessment further concluded that, assuming a
+measured water-level rise of approximately 0.1 inch
+per year, the pipelines would not likely be inundated
+
+until 2070, which provides adequate time to monitor
+and mitigate any potential impacts.
+Several of our terminals showed minor impacts
+above 3 feet of sea-level rise, which is at the high
+end of the likely range in a high-emissions scenario.
+However, because of the chronic nature of sea-level
+rise, we believe there is adequate time to monitor
+and mitigate any potential impacts to these assets.
+In 2023, updates to elevation in the Florida region
+recategorized two of our four terminals from being
+in a low-level area with 3 feet of sea-level rise and
+the potential for flooding to having no indication of
+flooding.
+While we can use different scenarios and tools to
+screen for potential risks, the actual acute and chronic
+physical risks faced by our facilities in the future are
+not certain. As such, we have developed mature
+systems designed to effectively manage these risks
+through our ERM process.
+
+Screening of Select Physical Risks
+ASSET
+Petroleum Refineries
+
+SIZE
+Crude Capacity (MBPD)
+
+Galveston Bay, Texas
+
+631
+
+—
+
+—
+
+Garyville, Louisiana
+
+597
+
+—
+
+—
+
+Los Angeles, California
+
+365
+
+Coastal
+
+SEA-LEVEL RISE RISK
+Inundated at 4 ft Sea-level Rise1
+
+—
+-
+
+HURRICANE RISK
+
+WATER AVAILABILITY RISK
+
+—
+
+El Paso, Texas
+
+133
+
+—
+
+—
+
+Anacortes, Washington
+
+119
+
+—
+
+—
+
+—
+
+Kenai, Alaska
+
+68
+
+—
+
+—
+
+—
+
+Salt Lake City, Utah
+Remaining Refineries
+Midstream
+Terminals
+G&P Facilities
+
+1
+
+68
+
+—
+
+—
+
+—
+
+969
+Count
+>100
+>100
+
+—
+
+—
+
+—
+
+—
+
+17
+
+51
+
+7
+
+—
+
+—
+
+—
+
+—
+12
+
+1
+Based on interpretations of the National Oceanic and Atmospheric Administration (NOAA) Sea Level Rise Viewer, which is a screening-level tool to illustrate the scale of potential flooding. Available at: https://coast.noaa.gov/slr/. Accessed June 2024.
+Note: Assets in Alaska are not included in the screening as the NOAA Sea Level Rise Viewer is only available for the contiguous U.S.
+
+26
+
+WATER AVAILABILITY AND DROUGHT
+Fresh water is essential to sustaining life. Our
+society relies on water for food, health, livelihoods
+and recreation. Water is also vital to our operations.
+It is used to add heat to our refining process (as
+steam), remove heat from the process (as cooling
+water), remove impurities from crude oil, protect
+equipment from corrosion, control emissions and
+clean equipment during maintenance activities.
+Water availability and other water risks, such as water
+quality, are a major concern throughout much of the
+world, including parts of the U.S. Population growth,
+together with a changing climate, could further
+exacerbate these water risks. Climate change could
+intensify short- and long-term drought risk across the
+southwest United States. A drought could reduce or
+
+eliminate water sources normally available to a facility.
+As shown below, our two facilities located in areas
+with the highest water risk, as indicated by a World
+Resources Institute tool1, are our Los Angeles refinery
+and the Martinez Renewable Fuels joint venture.
+The Los Angeles refinery has a diverse source of
+water supply, which helps minimize the risk of one
+source being restrained. In some areas, drought
+and associated periods of high temperatures could
+contribute to dry conditions that drive wildfires.
+During drought, water utilities may face a reduced
+volume of water or loss of water supply sources,
+while experiencing increased demand from
+customers, requiring a decrease in use and water
+availability. During severe drought conditions,
+authorities may implement water rationing measures
+
+on certain industries in order of priority or
+contractual agreement.
+To manage risk surrounding water use, in 2020, we
+adopted a formal Focus on Water program, which is
+designed to assess site water use and understand
+and mitigate water risks. To further the program’s
+success, we also established a companywide
+target to reduce freshwater withdrawal intensity by
+20% below 2016 levels by 2030. To date, we have
+achieved an 18% reduction in intensity below 2016
+levels, which equates to over 3.5 billion gallons of
+fresh water saved per year. Projects identified by
+the Focus on Water program have the potential to
+save an additional 500 million gallons of fresh water
+per year.
+
+Water Risk Analysis (Aqueduct Assessment Tool)1
+St. Paul Park,
+Minnesota
+
+Kenai,
+Alaska
+
+LOW
+
+Detroit, Anacortes,
+Michigan Washington
+1
+
+Salt Lake City,
+Utah
+
+Robinson, Galveston Bay, Catlettsburg,
+Texas
+Kentucky
+Illinois
+
+LOW-MEDIUM
+
+Dickinson,
+Mandan, Canton,
+North Dakota North Dakota Ohio
+
+Garyville,
+Louisiana
+
+El Paso,
+Texas
+
+Los Angeles,
+California
+
+MEDIUM-HIGH
+
+HIGH
+
+EXTREMELY HIGH
+
+Martinez,
+California
+
+World Resource Institute, Aqueduct Assessment Tool, available at https://www.wri.org/aqueduct/tools.
+
+27
+
+Climate-Related Metrics and Targets
+The suite of targets below helps measure progress with our climate strategy and risk management
+processes. We assess progress with these targets on an annual basis and may modify them or adopt new
+metrics as we achieve our goals or as new sources of information come to light. Our performance to date
+has resulted in real, sustainable emissions reductions and significant investment in the energy evolution.
+
+Since 2019, we have reduced absolute Scope
+1, 2 and 3 - Category 11 GHG emissions by
+more than 25 million tonnes per year on a
+sustainable basis.
+
+We are planning to take the following actions relating to our metrics:
+• Extend our Scope 1 and 2 GHG emissions intensity target to a 38% reduction by 2035 from 2014 levels.
+• Continue to evaluate potential adjustments to our absolute Scope 3 - Category 11 target given the wide variability in demand for our products being modeled in 1.5
+degree scenarios, the relative strength of our assets compared to the global refining sector, and the significant uncertainty surrounding Scope 3 accounting and the
+use of offsets or divestments in light of the recently-issued U.S. Securities and Exchange Commission climate disclosure rules, which are stayed pending judicial review.
+Please see Page 33 for more information.
+• Evaluate potential adjustments to our methane targets as we complete initiatives to incorporate a more measurement-informed inventory. Please see Page 34 for more
+information.
+
+Operational Targets1
+
+Value Chain Target
+
+Incentives to reduce the impact of our operations on the environment
+Scope 1 and 2 GHG Emissions Intensity
+2035 Goal
+
+2030 Goal
+
+Progress
+
+27%
+
+30%
+38%
+AND
+
+BY
+2030
+BY
+2035
+
+Reduce Scope 1 and 2 GHG emissions
+intensity 30% by 2030 and 38% by 2035
+from 2014 levels
+1
+
+Methane Emissions Intensity
+2030 Goal
+
+Progress
+
+57%
+
+75%
+75% reduction of MPLX G&P methane
+emissions intensity by 2030 from 2016 levels
+
+Helps our business strategy consider longterm climate-related market risk
+Freshwater Withdrawal Intensity
+2030 Goal
+
+Progress
+
+18%
+
+20%
+20% reduction of freshwater withdrawal
+intensity by 2030 from 2016 levels
+
+Absolute Scope 3 - Category 11 GHG Emissions
+2030 Goal
+
+Progress
+
+6%
+
+15%
+15% reduction of Scope 3 - Category 11 GHG
+emissions by 2030 from 2019 levels
+
+Data before 2019 is inclusive of facilities that MPC did not yet own so that performance can be compared across the same asset base over time.
+
+We utilize several reporting protocols and guidance documents to develop and compute our GHG emissions and targets, including: U.S. EPA’s Mandatory Greenhouse Gas Reporting Rule reporting protocols (40
+CFR Part 98), the Science Based Targets initiative (SBTi), Greenhouse Gas Protocol, and Ipieca’s petroleum industry guidelines for reporting greenhouse gas emissions. Beginning in 2020, an independent third
+party, LRQA, has validated our GHG data and emissions calculation methodologies related to the above metrics. This comprehensive review and assurance promotes accurate disclosures that align with accepted
+reporting practices. The latest assurance statement can be found at https://www.marathonpetroleum.com/content/documents/Responsibility/Reports_Policies/2024/2023_LRQA_Assurance_Statement.pdf.
+
+28
+
+Scope 1 and 2 GHG Emissions Intensity Target
+
+We have achieved a significant reduction through
+multiple initiatives, including our Focus on Energy
+program, the acquisition and expansion of our MPLX
+G&P business, along with our growth in renewable
+fuels.
+We have achieved significant energy savings, GHG
+reductions and costs savings through our Focus
+on Energy program. This includes avoiding the
+equivalent of over 1.5 billion Btu/hour of energy use,
+which saved over $45 million in 2023. This is roughly
+the same amount of energy used by over 90,000
+homes or 160,000 gasoline-powered passenger
+vehicles.1 As a five-time EPA ENERGY STAR® Partner
+of the Year — Sustained Excellence award recipient,
+we are an active participant in the program, sharing
+our strategies and successes with other industrial
+companies.
+
+We have reduced our Scope 1 and 2
+GHG intensity for the ninth straight
+year, for a 27% reduction since 2014.
+
+• Achieved a reduction in our intensity for the ninth
+consecutive year demonstrating the resiliency and
+effectiveness of our Focus on Energy program.
+
+As we are on track to reach our existing
+goal prior to 2030, we are extending
+the target to a 38% reduction by 2035.
+
+• Since 2014, GHG emissions from our refinery flares
+have decreased by over 30%.
+• Since 2019, our companywide Scope 1 and 2 GHG
+emissions have decreased by over 10% on an
+absolute basis.
+• Five refineries (Anacortes, Washington; Canton,
+Ohio; Garyville, Louisiana; Robinson, Illinois; St.
+Paul Park, Minnesota) received 2023 ENERGY
+STAR certifications for being in the top 25% of
+similar facilities nationwide on the basis of energy
+efficiency. MPC has earned more certifications than
+all other refining companies combined. Please see
+page 30 for more information on our 2023 Focus
+on Energy initiatives and achievements.
+
+Companywide Scope 1 and 2
+GHG Emissions Intensity
+Actual
+
+Overall, we view our Scope 1 and 2 emissions
+intensity as a direct measure of our climate
+performance, which helps us assess our progress
+with our energy evolution initiatives.
+
+MPC Scope 1 & 2 GHG Intensity
+
+30
+%
+
+1
+
+Re
+du
+cti
+on
+
+-27%
+
+19
+
+MPC employees attending the ENERGY STAR Partner of the Year
+Award ceremony in Washington, D.C.
+
+2030 Goal Trajectory
+
+31
+
+tonnes CO2e/thousand BOE
+
+Because our manufacturing sites entail a wide
+range of inputs, including but not limited to crude
+oil, natural gas, natural gas liquids and renewable
+feedstocks, we normalized these manufacturing
+inputs on a common energy unit known as barrels of
+oil equivalent (boe).
+
+Some other notable items related to our 2023 Scope
+1 and 2 GHG emissions are as follows:
+
+tonnes CO2e/thousand boe input
+
+In 2020, we adopted a companywide manufacturing
+Scope 1 and 2 GHG emissions intensity reduction
+target to reduce our intensity 30% below 2014 levels
+by 2030. The metric is computed by aggregating
+the Scope 1 and 2 GHG emissions across all our
+organizations divided by total manufacturing inputs.
+
+2014
+
+2023
+
+2030
+
+U.S. EPA (2024, January), Greenhouse Gas Equivalencies Calculator,
+https://www.epa.gov/energy/greenhouse-gas-equivalencies-calculator.
+
+29
+
+Focus on Energy (FOE)
+IMPROVING ENERGY EFFICIENCY
+
+REFINING ENERGY EFFICIENCY
+
+Energy efficiency is one of our key metrics with both
+environmental and financial benefits. By identifying
+where energy can be conserved cost effectively, we
+reduce our operating costs, save money and reduce
+our environmental footprint. Our FOE program is
+our holistic approach to improving energy efficiency
+in our refining organization to drive continuous
+improvement and reduce GHG emissions. In the
+past decade, our FOE program helped us avoid the
+equivalent of several billion Btu/hr of energy use.
+
+With FOE programs in place at all 13 of our refineries,
+we’ve expanded these efforts to include our
+renewable facilities. In 2023, key performance
+indicators were developed for the Martinez
+Renewable Fuels facility, with plans to duplicate
+efforts for the Dickinson Renewable Fuels facility.
+
+Through the success of our FOE program, MPC has
+been recognized by the EPA for our contributions to
+building an energy efficiency economy, winning the
+2024 ENERGY STAR® Partner of the Year – Sustained
+Excellence Award. ENERGY STAR is a voluntary
+program managed by the U.S. EPA that aims to
+assist industry in improving energy efficiency and
+reducing environmental impact. This honor, MPC’s
+fifth consecutive, puts the company in a distinguished
+group.
+
+• Identify and track energy operating parameters
+
+Significant Refining Energy Wins
+As a part of our Focus on Energy program, we have
+energy coordinators at our refineries who:
+• Develop and implement energy conservation
+roadmaps
+• Consider energy efficiency in the scope of new
+projects
+St. Paul Park Insulation Improvements
+The St. Paul Park, Minnesota, refinery completed a
+three-year project to reinforce insulation across the
+entire site, which is lowering energy consumption
+and is anticipated to reduce GHG emissions by nearly
+16,000 tonnes per year.
+
+The Partner of the Year – Sustained Excellence Award
+is the highest level of recognition in the EPA’s ENERGY
+STAR program. Only approximately 20 industrial companies in the U.S. received
+this designation in 2024. Winning companies must go above and beyond the
+criteria for Partner of the Year recognition by showing continuous improvement
+over time in organizationwide energy savings and environmental performance,
+demonstrating best practices and actively promoting the ENERGY STAR
+program.
+
+30
+
+Garyville Steam Optimization
+Garyville's Technical Services Department optimized
+reboilers on a propylene tower, which removes
+ethane and other light components from refinerygrade propylene, and a butamer stabilizer tower,
+which separates off-gas and chlorides from
+isobutane. These two optimizations can save over
+10,000 pounds per hour of steam and reduce carbon
+dioxide-equivalent emissions by approximately 7,000
+metric tonnes per year.
+
+Catlettsburg Steam System Improvements
+A multiyear project has addressed the root cause
+of steam leaks and steam trap issues by improving
+management of condensate used as feedwater
+for four steam generators. This project reduces
+degradation of the condensate and steam system
+by lessening the wear and tear on the system. This
+project anticipates a 40% reduction in steam leaks
+and steam trap failure that will lower steam demand
+by as much as 30,000 pounds per hour, or the
+equivalent of approximately 10,700 metric tonnes of
+carbon dioxide-equivalent emissions.
+
+Cumulative count of US EPA ENERGY STAR
+Certifications awarded to refineries
+(through 2023 certification year)
+
+68
+43
+
+All other
+U.S. refiners
+
+31
+
+MIDSTREAM ENERGY EFFICIENCY
+To build upon the success of our refinery-specific FOE program, MPC expanded
+FOE with programs now in progress at various MPLX facilities.
+
+Significant Midstream Energy Wins
+As part of the ENERGY STAR program, the EPA launched the ENERGY STAR
+Challenge for Industry in 2010 to encourage manufacturing plants to decrease
+GHG emissions, generate momentum for energy savings, establish good energy
+management practices, increase visibility of energy management efforts and
+motivate employees to support energy initiatives. MPLX recognized the potential
+benefits for the company, its customers and the public. MPLX marked an industry
+first by entering the ENERGY STAR Challenge for Industry in December 2022.
+Bluestone Gas Processing Facility
+MPLX's Bluestone gas processing facility is the first facility in the midstream natural
+gas processing sector to enter the Challenge for Industry. Since its inception,
+energy intensity has been reduced at Bluestone by approximately 12% within 24
+months, with aspirations to reduce this energy intensity further. This has avoided
+an estimated 50,000 tonnes of CO2e emissions.
+To build on the success of Bluestone, additional MPLX gas processing facilities
+have recently entered into the ENERGY STAR Challenge, namely the Houston,
+Pennsylvania, facility, which is the largest gas processor in Pennsylvania, and the
+Sherwood, West Virginia, facility, which is the largest gas processing facility in the
+United States. As the ENERGY STAR program becomes more established within
+our midstream operations, we expect there will be opportunities to expand it to
+additional facilities, which will further reduce company energy use.
+
+MPLX's Bluestone natural gas plant in Pennsylvania
+reduced its energy intensity by approximately 10% within
+just one year of establishing a baseline as part of the
+ENERGY STAR Challenge for Industry. This achievement
+in part helped MPC receive the ENERGY STAR® Partner
+of the Year – Sustained Excellence Award, which the EPA
+presents at its discretion.
+32
+
+MPC’s Evolving View of Scope 3 GHG Emissions
+MPC’s absolute Scope 3 - Category 11 emissions target is related to production from
+our petroleum refining assets. When we established the target in February of 2022, we
+considered expectations from our shareholders and the overall refining outlook. It was
+also informed by the criteria provided in the Science Based Targets initiative (SBTi) Oil and
+Gas Sector draft guidance. From the time our target was set, the aforementioned items
+have shifted and regulatory uncertainty has emerged:
+
+Refining Scope 3 — Category 11
+Actual
+
+Goal Trajectory
+
+Refining Scope 3 Category 11
+
+440
+
+million tonnes CO2e
+
+• Russia’s invasion of Ukraine sparked a global energy crisis that altered the global
+energy landscape. Regions like the U.S. have had to compensate for the altered global
+fuel supply due to the impacts the conflict had on regional refining capacity and output.
+Energy prices surged, governments began prioritizing energy security, and U.S. refined
+product exports have spiked.
+• The current pace of the energy evolution has recalibrated as evidenced by lower
+projected reductions in oil demand by IEA and other agencies. Refer to Page 12 for
+more information.
+• The SBTi instituted a policy to pause target commitments and validations for fossil fuel
+companies.1 The work to finalize science-based target setting methods and guidance for
+oil and gas companies remains in development.
+
+-6%
+
+340
+
+• The Securities and Exchange Commission (SEC) adopted rules to enhance and
+standardize climate-related disclosures by public companies and in public offerings. The
+rule includes disclosure requirements for climate-related targets. On April 4, 2024, the
+SEC voluntarily stayed the rule, pending judicial review. There is significant uncertainty
+as to the timeline and outcome, considering the litigation pertaining to the rule.
+
+2019
+
+15%
+Red
+uct
+ion
+
+2023
+
+2030
+
+Note: 2020 data is not representative of a normal year because
+production was impacted by COVID-19 lockdowns.
+
+Beyond the aforementioned items, oil demand is at a record high globally, and we expect
+oil demand to continue to set records into the foreseeable future. The forecast outlook
+for this year estimates about 1 million barrels per day of incremental demand over 2023,
+primarily driven by the growing need for transportation fuels.2 However, global supply
+remains constrained. Anticipated capacity additions have progressed more slowly than
+expected, and the level of announced capacity additions remains limited for the rest of
+the decade. There is also uncertainty as to how the world will progress toward the Paris
+Agreement's objective to limit global warming, which includes a multitude of scenarios
+with varying levels of oil demand as outlined on Page 12.
+
+Depending on the outcome of these and other factors, future
+adjustments to our Scope 3 - Category 11 target may be necessary.
+
+1
+
+2
+
+ cience Based Targets initiative (2024), Oil and Gas, https://sciencebasedtargets.org/sectors/oil-andS
+gas#what-is-the-sb-tis-policy-on-fossil-fuel-companies, accessed June 2024.
+IEA (2024), Oil Market Report - June 2024, https://www.iea.org/reports/oil-market-report-june-2024.
+
+33
+
+Methane Emissions Intensity Reduction Target
+
+PURSUIT OF MEASUREMENTINFORMED INVENTORY
+We continue to pursue more measurement-informed
+methane emissions data from our MPLX G&P assets
+to supplement the methane emissions inventory
+mandated by U.S. EPA’s Mandatory GHG Reporting
+Rule (40 CFR Part 98). As outlined in our 2022 report,
+we performed extensive monitoring and verification
+of methane emissions across our MPLX G&P assets
+through our involvement in The Environmental
+Partnership and collaboration with Cheniere Energy,
+Inc. All commitments were completed with a
+comprehensive top-down/bottom-up gap analysis.
+The EPA recently issued updates to its GHG reporting
+rule, which are effective for 2025 emissions to be
+reported in 2026. These updates include significantly
+higher emission factors for compressor engines due
+to methane slip. Our extensive testing indicated that
+our fleet generally operates at a lower rate than the
+updated emission factors, but at rates higher than the
+factors used in the current rule. The higher emissions
+from compressor engines and other sources are
+expected to increase our baseline and current annual
+reported methane emissions by over 20,000 tonnes.
+
+34
+
+As a result, we are evaluating ways to reduce the
+methane slip from compressor engines through
+potential retrofits and optimization. A new program,
+Equipment, Compression Health & Optimization, was
+rolled out and tested to optimize engine operation
+and determine methane slip reduction potential.
+
+We deployed Bridger Photonics technology on
+aircraft and performed data analysis in collaboration
+with The Environmental Partnership. This led to
+a 2024 flight campaign to further improve our
+understanding of our emissions profile and our ability
+to respond to emissions data.
+
+Some additional methane verification measures
+we are implementing across our MPLX G&P assets
+include routine monitoring of our compressor
+stations using optical gas imaging, pilot testing
+continuous fence line methane monitoring systems
+and participating in a West Virginia University study
+of storage tank emissions within the Marcellus Shale
+region. We also joined the Appalachian Methane
+Initiative in 2023 - a coalition of major U.S. natural
+gas operators aimed at enhancing monitoring in the
+Appalachian Basin and facilitating reductions in the
+region.
+
+METHANE EMISSIONS INTENSITY
+TARGETS
+
+REDUCING METHANE EMISSIONS
+FROM OUR OPERATIONS
+As shown to the right, since 2016, we have
+implemented measures that have achieved over
+10,000 tonnes per year of methane emissions
+reductions through our Focus on Methane program.
+Even using the revised factors in EPA's updated GHG
+reporting rule, we remain a very efficient operator
+with overall MPLX emissions intensity near the
+Inflation Reduction Act targets set for our industry
+segments. Additional details regarding our achieved
+and planned methane emissions reductions can be
+found on the next page.
+In 2023, we met our goal to install low-emissions
+packing and test ports at 50% of our reciprocating
+compressors. LDAR monitoring is occurring at 100%
+of our compressor stations, even those not requiring
+permit or regulatory LDAR.
+
+As a result of new data and revised emissions factors
+for select equipment, we plan to update our methane
+targets by the time reporting occurs under the
+updated rule to reflect changes in the assumptions
+that were used to set our targets. This additional time
+will allow us to evaluate options to reduce emissions
+from a variety of sources. This includes performing
+further testing of compressor engines and ways to
+reduce methane slip.
+
+MPLX G&P Methane Intensity
+Actual
+
+Goal Trajectory
+MPLX G&P Methane Intensity
+
+methane emissions (scf)/natural gas throughput (scf)
+
+Methane has a higher global warming potential than
+carbon dioxide, albeit with a much shorter life span in
+the atmosphere. As a result, the near-term reduction
+in methane emissions is a high priority for meeting
+society’s GHG emissions reduction goals over the
+next 5 to 15 years. We remain focused on reducing
+methane emissions across our MPLX G&P assets
+using the following initiatives and targets:
+
+0.040%
+
+75
+%
+
+Re
+du
+cti
+on
+
+-57%
+
+0.000%
+
+2016
+
+2023
+
+2030
+
+Focus on Methane
+Reductions Achieved
+Since 2016
+(tonnes per year)
+
+Additional potential reductions
+identified through 2030
+(tonnes per year)
+
+Pneumatic Devices
+• Over 80% of 25,000+ pneumatic controllers are already powered by compressed air
+• Eliminate all ~340 high-bleed natural gas-driven controllers from service
+• Convert ~3,100 remaining natural gas-driven control valves to compressed air or other zero or near-zero methane
+emissions technology
+• Route emissions from ~1,100 gas-driven pumps to control devices or convert to compressed air or other zero or nearzero methane emissions technology
+
+~3,000
+
+~7,000
+
+Pipeline Launchers and Receivers
+• Implemented controls for existing pipeline launchers and receivers that are opened frequently
+• Designed new installations with a smaller launcher/receiver chamber
+• Modified purging practices to reduce venting events
+
+~1,000
+
+Sharing technology with natural
+gas industry to reduce others'
+emissions
+
+~2,000
+
+~1,000
+
+Control Reciprocating Compressor Emissions*
+• Install monitoring ports and complete periodic monitoring on ~1,000 reciprocating compressors to proactively replace
+rod packing when warranted
+• Install low-emissions rod packing and measurement ports on 50% of reciprocating compressors by the end of 2023,
+75% by the end of 2024, and 100% by the end of 2025
+• Explore ability to reduce methane slip including engine optimization, retrofits and/or electrification
+• Eliminate compressor venting at high-emitting facilities
+
+~1,000
+
+up to ~7,000
+
+Maintenance Venting and Other Controls
+• Optimize necessary maintenance venting and blowdowns to reduce emissions going to the atmosphere, including
+using vapor recovery units and/or portable flares
+• Install additional controls where appropriate (e.g., select tanks)
+
+~5,000
+
+~1,000
+
+Flaring Improvements*
+• Make process improvements to reduce flaring
+• Achieve enhanced control efficiency
+
+---
+
+up to ~5,000
+
+Advancing Measurement and Quantification Technology
+• Analyze methane emissions data from Fourier-transform infrared spectroscopy (FTIR) testing
+• Employ advanced monitoring technologies, such as satellite imagery, flyovers and drones, to identify leaks and inform
+emissions calculations
+• Pilot continuous measurement systems, such as fenceline monitors, to conduct more frequent and real-time monitoring
+
+---
+
+TBD
+
+Total
+
+~12,000
+
+Up to ~21,000
+
+MPLX FOCUS AREAS FOR METHANE REDUCTIONS
+
+LDAR
+
+LEAK DETECTION
+AND REPAIR
+
+REDUCE
+
+Fugitive Leak Detection and Repair (LDAR)
+• Implementing LDAR programs at all compressor stations
+• Implementing LDAR programs at facility types not expected to be covered by EPA’s updated regulations
+
+* Estimates. Based on reductions that may be achieved on the basis of EPA's revised GHG reporting rule.
+
+35
+
+Freshwater Withdrawal Intensity Reduction Target
+Fresh water is vital to society and our operations. It
+is used to add heat to our manufacturing process (as
+steam), remove heat from the process (as cooling
+water), remove impurities from crude oil, protect
+equipment from corrosion, control emissions and
+clean equipment during maintenance activities.
+
+resulting in less freshwater demand. On the boiler
+systems, the water cycles of concentration were
+optimized on low pressure heat boilers, also resulting
+in less freshwater usage.
+
+Water availability is a major concern throughout
+much of the world, including parts of the United
+States. Population growth, together with a changing
+climate, could further exacerbate global water stress.
+As shown on Page 27, our Los Angeles refinery and
+Martinez Renewable Fuels joint venture are located in
+areas designated as high for water risk as defined by
+the Global Reporting Initiative and World Resources
+Institute assessment tools.
+
+The El Paso refinery reduced freshwater usage
+by over 25 million gallons by focusing on water
+management. This was achieved through
+modifications to their tank hydrostatic testing
+procedures and increasing cycles of concentration in
+their water treatment system.
+
+GALVESTON BAY REFINERY
+Galveston Bay completed a project to increase the
+capacity of their reverse osmosis system, allowing
+more water to be reused. Approximately 68 million
+gallons of freshwater was saved by diverting more
+reverse osmosis reject water for reuse.
+
+Highlights from the Focus on Water program in 2023
+include:
+
+LOS ANGELES REFINERY
+
+MARTINEZ RENEWABLE FUELS
+
+36
+
+Actual
+
+Goal Trajectory
+
+MPC Freshwater Withdrawal Intensity
+100
+
+SALT LAKE CITY REFINERY
+The Salt Lake City Refinery has lowered its steam
+consumption, energy use and water use by
+optimizing the flow of stripping steam to its main
+amine regenerator. Over 700 pounds per hour of
+steam were saved as well as over 700 thousand
+gallons of water.
+
+The Los Angeles refinery implemented several
+changes to cooling tower and steam boiler operations,
+resulting in over 600 million gallons of water saved, in
+2023. The facility updated the iron specification limits
+to reduce both freshwater and chemical usage. Level
+controls on cooling tower basins were also improved,
+
+MPC Freshwater Withdrawal Intensity
+
+Our Martinez facility was recently converted to a
+renewable diesel facility from a petroleum refinery.
+At full capacity, this facility is expected to use
+approximately 1 billion fewer gallons of freshwater per
+year than when it operated as a petroleum refinery.
+
+Megaliters // thousand
+megaliters
+thousandBOE
+boe
+
+To manage risk surrounding freshwater use in 2020,
+we adopted a formal Focus on Water program. The
+program is designed to assess site freshwater use,
+understand and mitigate water risks, and identify
+opportunities to reduce freshwater use. We have
+implemented the Focus on Water program at all of
+our refineries and are paying special attention to our
+plants located in California, Texas and Utah where
+water stress is higher than at our other locations.
+
+EL PASO REFINERY
+
+To ensure success of the Focus on
+Water program, we established
+a companywide target to reduce
+freshwater withdrawal intensity 20%
+by 2030 from 2016 levels. To date,
+we have achieved an 18% reduction
+in intensity below 2016 levels.
+
+20
+%
+
+Re
+du
+cti
+on
+
+-18%
+
+70
+
+2016
+
+2023
+
+2030
+
+Greenhouse Gas Metrics(1)(2)
+
+Unit of measure
+
+Result
+2014
+
+Result
+2016
+
+Result
+2019
+
+Result
+2021
+
+Result
+2022
+
+Result
+2023
+
+million boe processed inputs
+
+1,026
+
+1,075
+
+1,142
+
+1,012
+
+1,068
+
+1,054
+
+Activity
+1
+
+MPC Refining manufacturing inputs
+
+2
+
+MPLX G&P gas plant manufacturing inputs
+
+million boe processed inputs
+
+332
+
+513
+
+675
+
+670
+
+673
+
+714
+
+3
+
+Total MPC and MPLX manufacturing inputs
+
+million boe processed inputs
+
+1,358
+
+1,588
+
+1,817
+
+1,682
+
+1,741
+
+1,769
+
+4
+
+MPLX G&P gas gathering throughput
+
+billion scf natural gas
+
+-
+
+1,541
+
+2,178
+
+1,873
+
+2,075
+
+2,247
+
+5
+
+MPLX G&P gas processing throughput
+
+billion scf natural gas
+
+-
+
+2,366
+
+3,062
+
+3,004
+
+3,022
+
+3,216
+
+Scope 1 GHG emissions(3)(4)
+6
+
+MPC Refining Scope 1 GHG emissions
+
+million tonnes CO2e
+
+31.4
+
+32.4
+
+31.0
+
+27.5
+
+28.3
+
+27.6
+
+7
+
+MPLX G&P Scope 1 GHG emissions
+
+million tonnes CO2e
+
+3.3
+
+4.8
+
+5.4
+
+4.98
+
+5.1
+
+5.1
+
+8
+
+MPLX L&S Scope 1 GHG emissions
+
+million tonnes CO2e
+
+0.3
+
+0.4
+
+0.3
+
+0.5
+
+0.3
+
+0.3
+
+9
+
+MPC Other Scope 1 GHG emissions
+
+million tonnes CO2e
+
+0.04
+
+0.03
+
+0.06
+
+0.03
+
+0.01
+
+0.01
+
+10
+
+Total MPC and MPLX Scope 1 GHG emissions
+
+million tonnes CO2e
+
+35.0
+
+37.7
+
+36.8
+
+33.0
+
+33.7
+
+33.0
+
+11
+
+Total Scope 1 biogenic CO2 emissions
+
+million tonnes biogenic CO2
+
+0.0
+
+0.0
+
+0.0
+
+0.1
+
+0.08
+
+0.08
+
+4.3
+
+4.4
+
+4.0
+
+3.5
+
+3.4
+
+3.4
+
+Scope 2 GHG emissions (location-based)
+
+(4)(5)
+
+12
+
+MPC Refining Scope 2 GHG emissions
+
+million tonnes CO2e
+
+13
+
+MPLX G&P Scope 2 GHG emissions
+
+million tonnes CO2e
+
+1.9
+
+2.9
+
+3.2
+
+2.7
+
+2.8
+
+2.8
+
+14
+
+MPLX L&S Scope 2 GHG emissions
+
+million tonnes CO2e
+
+0.6
+
+0.7
+
+0.6
+
+0.6
+
+0.5
+
+0.5
+
+15
+
+MPC Other Scope 2 GHG emissions
+
+million tonnes CO2e
+
+0.4
+
+0.5
+
+0.4
+
+0.1
+
+0.0
+
+0.0
+
+16
+
+Total MPC and MPLX Scope 2 GHG emissions
+
+million tonnes CO2e
+
+7.1
+
+8.5
+
+8.2
+
+6.9
+
+6.7
+
+6.8
+
+Scope 3 GHG emissions(4)(6)
+22
+
+MPC Scope 3 - Category 11 GHG emissions (refinery yield method)
+
+23
+
+Biogenic MPC Scope 3 - category 11 GHG emissions (refinery yield method)
+
+million tonnes CO2e
+
+-
+
+-
+
+426
+
+379
+
+404
+
+400
+
+million tonnes biogenic CO2
+
+-
+
+-
+
+1
+
+2
+
+2
+
+2
+
+GHG Intensities
+
+(7)(8)
+
+24
+
+MPC Refining Scope 1 and 2 GHG intensity
+
+tonnes CO2e / thousand boe input
+
+33.7
+
+33.1
+
+29.5
+
+29.3
+
+28.4
+
+28.1
+
+25
+
+MPLX G&P Scope 1 and 2 GHG intensity
+
+tonnes CO2e / thousand boe input
+
+15.6
+
+15.0
+
+12.7
+
+11.5
+
+11.6
+
+11.1
+
+26
+
+MPC and MPLX total Scope 1 and 2 GHG intensity
+
+tonnes CO2e / thousand boe input
+
+29.9
+
+28.0
+
+23.8
+
+22.9
+
+22.4
+
+21.7
+
+27
+
+MPC and MPLX total Scope 1 and 2 GHG intensity
+
+reduction from 2014 baseline
+
+-
+
+-6%
+
+-21%
+
+-23%
+
+-25%
+
+-27%
+
+37
+
+Greenhouse Gas Metrics(1)(2) (continued)
+
+Unit of measure
+
+Result
+2014
+
+Result
+2016
+
+Result
+2019
+
+Result
+2021
+
+Result
+2022
+
+Result
+2023
+
+24.1
+
+18.4
+
+15.2
+
+14.3
+
+11.6
+
+Methane(1)(2)(9)
+28
+
+MPLX G&P gas gathering methane emissions
+
+thousand tonnes CH4
+
+-
+
+29
+
+MPLX G&P gas processing methane emissions
+
+thousand tonnes CH4
+
+-
+
+3.8
+
+7.9
+
+3.5
+
+3.4
+
+5.3
+
+30
+
+MPLX G&P total methane emissions
+
+thousand tonnes CH4
+
+-
+
+28.0
+
+26.3
+
+18.7
+
+17.7
+
+16.9
+
+31
+
+MPLX G&P gas gathering methane emissions
+
+billion scf CH4
+
+-
+
+1.26
+
+0.96
+
+0.79
+
+0.75
+
+0.60
+
+32
+
+MPLX G&P gas processing methane emissions
+
+billion scf CH4
+
+-
+
+0.20
+
+0.41
+
+0.18
+
+0.18
+
+0.28
+
+33
+
+MPLX G&P total methane emissions
+
+billion scf CH4
+
+-
+
+1.46
+
+1.37
+
+0.98
+
+0.92
+
+0.88
+
+34
+
+MPLX G&P gas gathering methane emissions intensity
+
+methane (scf) / inputs (scf)
+
+-
+
+0.082%
+
+0.044%
+
+0.042%
+
+0.036%
+
+0.027%
+
+35
+
+MPLX G&P gas processing methane emissions intensity
+
+methane (scf) / inputs (scf)
+
+-
+
+0.008%
+
+0.013%
+
+0.006%
+
+0.006%
+
+0.009%
+
+36
+
+MPLX G&P combined methane emissions intensity
+
+methane (scf) / inputs (scf)
+
+-
+
+0.037%
+
+0.026%
+
+0.020%
+
+0.018%
+
+0.016%
+
+37
+
+MPLX G&P combined methane emissions intensity
+
+reduction from 2016 baseline
+
+-
+
+-
+
+-30%
+
+-46%
+
+-51%
+
+-57%
+
+Water Metrics (MPC and MPLX Combined)(1)(2)
+38
+
+Total freshwater withdrawal
+
+thousand megaliters
+
+-
+
+148
+
+156
+
+134
+
+134
+
+134
+
+39
+
+Total water discharge
+
+thousand megaliters
+
+-
+
+83
+
+89
+
+79
+
+79
+
+80
+
+40
+
+Total freshwater withdrawal in stressed areas
+
+thousand megaliters
+
+-
+
+36
+
+39
+
+30
+
+28
+
+33
+
+41
+
+Total water discharge in stressed areas
+
+thousand megaliters
+
+-
+
+21
+
+21
+
+16
+
+18
+
+23
+
+42
+
+Freshwater withdrawal intensity
+
+megaliters / million boe input
+
+-
+
+93
+
+86
+
+80
+
+77
+
+76
+
+43
+
+Freshwater withdrawal intensity
+
+reduction from 2016 baseline
+
+-
+
+-
+
+-8%
+
+-14%
+
+-17%
+
+-18%
+
+(1) Totals may not equal sum of components due to independent rounding.
+(2) Operational GHG emissions data and water data reported for facilities which MPC and MPLX have operational control. Data before 2019 is inclusive of facilities that MPC did not yet own so performance can be compared across the same
+asset base over time.
+(3) Scope 1 direct GHG emissions include those from Refining, Midstream and Retail/other and are typically calculated per the EPA’s Mandatory Greenhouse Gas Reporting Program or the 2009 API Compendium of Greenhouse Gas Emissions
+Methodologies for the Oil and Natural Gas Industry. Global Warming Potentials used are from Table A-1 to Subpart A of 40 CFR Part 98 as of the year they were reported. It includes emissions from fuel combustion, company vehicles and
+fugitive emissions.
+(4) Inclusive of carbon dioxide (CO2 ), methane (CH4 ), nitrous oxide (N2O) and sulfur hexafluoride (SF6 ). Nitrogen trifluoride (NF3), hydrofluorocarbons (HFC), and perfluorocarbons (PFC) emissions are considered to not be significant to our
+operations and are therefore excluded.
+(5) Scope 2 emissions include indirect GHG emissions from consumption of purchased electricity, heat or steam.
+(6) M
+ PC estimates emissions from third-party use of sold products in alignment with methods in Category 11 of Ipieca’s Estimating Petroleum Industry Value Chain (Scope 3) Greenhouse Gas Emissions (2016). Emissions estimates are based on
+refinery yields as stated in MPC’s Annual Report on Form 10-K, emission factors from EPA’s GHG Emission Factors Hub at the EPA Center for Corporate Climate Leadership, and storage factors derived from Table 3-24 and Annex 2 of EPA’s
+Inventory of U.S. Greenhouse Gas Emissions and Sinks.
+(7) Excludes GHGs associated with exported power from cogeneration units.
+(8) Excludes Retail and GHGs associated with exported power from cogeneration units.
+(9) M
+ ethane emissions were calculated pursuant to the EPA's Mandatory Greenhouse Gas Reporting Rule (MRR) at 40 CFR Part 98. As highlighted on Page 34, EPA has updated the MRR to include revised methane emission factors from large
+gas-fired compressors. We expect that our reported methane emissions to entail an increase of ~20,000 metric tonnes per year in our baseline and annual reported methane emissions when the rule takes effect.
+
+38
+
+TCFD Recommendation Index
+The table below shows how the disclosures in this report align with the recommendations of the Financial Stability Board’s Task Force on Climate-related Financial
+Disclosures (TCFD), as the TCFD has described the categories, and where the relevant information can be found in this report.
+TCFD RECOMMENDATION
+
+Section
+
+Page
+
+Governance
+Disclose the organization’s
+governance around climaterelated risks and opportunities.
+
+Describe the board’s oversight of climate-related risks and opportunities.
+
+Governance
+
+6
+
+Describe management’s role in assessing and managing climate-related risks and
+opportunities.
+
+Governance
+Risk Management
+
+6
+7
+
+Describe the climate-related risks and opportunities the organization has identified over
+the short, medium and long term.
+
+Strategy and Scenario Planning
+
+9
+
+Describe the impact of climate-related risks and opportunities on the organization’s
+businesses, strategy and financial planning.
+
+Strategy and Scenario Planning
+
+10
+
+Describe the resilience of the organization’s strategy, taking into consideration different
+climate-related scenarios, including a 2°C or lower scenario.
+
+Strategy and Scenario Planning
+
+11-12
+
+Describe the organization’s processes for identifying and assessing climate-related risks.
+
+Governance
+Risk Management
+Strategy and Scenario Planning
+
+6
+7
+9
+
+Describe the organization’s processes for managing climate-related risks.
+
+Risk Management
+Managing Physical Risks to Our Facilities
+
+Describe how processes for identifying, assessing and managing climate-related risks
+are integrated into the organization’s overall risk management.
+
+Risk Management
+
+Disclose the metrics used by the organization to assess climate-related risks and
+opportunities in line with its strategy and risk management process.
+
+Climate-Related Metrics and Targets
+
+28
+
+Disclose Scope 1, Scope 2, and, if appropriate, Scope 3 greenhouse gas (GHG)
+emissions, and the related risks.
+
+Climate-Related Metrics and Targets
+
+37-38
+
+Describe the targets used by the organization to manage climate-related risks and
+opportunities and performance against targets.
+
+Climate-Related Metrics and Targets
+
+28-36
+
+Strategy
+Disclose the actual and
+potential impacts of climaterelated risks and opportunities
+on the organization’s
+businesses, strategy and
+financial planning where such
+information is material.
+Risk Management
+
+Disclose how the organization
+identifies, assesses and
+manages climate-related risks.
+
+7
+23-27
+7
+
+Metrics and Targets
+Disclose the metrics and
+targets used to assess and
+manage relevant climaterelated risks and opportunities
+where such information is
+material.
+
+39
+
+Forward-looking Statements
+This publication contains forward-looking statements regarding Marathon Petroleum Corporation (MPC) and MPLX LP (MPLX). These forward-looking statements may relate to, among other things, our expectations,
+estimates and projections concerning its business and operations, financial priorities, strategic plans and initiatives, capital return plans, capital expenditure plans, operating cost reduction objectives, and
+environmental, social and governance (ESG) plans and goals. Forward-looking and other statements regarding our ESG plans and goals are not an indication that these statements are material to investors or are
+required to be disclosed in our filings with the Securities and Exchange Commission (SEC). In the context of this disclosure, the term “material” is distinct from, and should not be confused with, such term as defined
+for SEC reporting purposes. You can identify forward-looking statements by words such as “anticipate,” “believe,” “commitment,” “could,” “design,” “endeavor”, “estimate,” “expect,” “forecast,” “goal,” “guidance,”
+“intend,” “may,” “objective,” “opportunity,” “outlook,” “plan,“ “policy,” “position,” “potential,” “predict,” “priority,” “progress”, “project,” “prospective,” “pursue,” “seek,” “should,” “strategy,” “strive”, “target,” “trends”, “will,”
+“would” or other similar expressions that convey the uncertainty of future events or outcomes.
+Forward-looking statements in this document include, among other things, statements regarding our ESG plans and goals, including those related to our Scope 1 and Scope 2 greenhouse gas (GHG) emissions
+intensity targets; methane emissions intensity targets; freshwater withdrawal intensity targets; Scope 3 – Category 11 GHG emissions reduction targets; success or timing of completion of ongoing or anticipated
+capital or maintenance projects; future market, industry, regulatory and legislative conditions; future safety performance; Diversity, Equity and Inclusion (DE&I) initiatives; future financial and operating performance
+and results; management of future risks; future levels of capital, environmental or maintenance expenditures, general and administrative and other expenses; business strategies, growth opportunities and expected
+investments, including plans to improve commercial performance, lower costs and optimize our asset portfolio; consumer demand for refined products, natural gas, renewables and natural gas liquids, such as
+ethane, propane, butanes and natural gasoline, which we refer to as “NGLs”; the timing, amount and form of any future capital return transactions, including dividends and share repurchases by MPC or distributions
+and unit repurchases by MPLX; the anticipated effects of actions of third parties such as competitors, activist investors, federal, foreign, state or local regulatory authorities, or plaintiffs in litigation.
+We caution that these statements are based on management’s current knowledge and expectations and are subject to certain risks and uncertainties, many of which are beyond our control, that could cause actual
+results and events to differ materially from the statements made herein. Factors that could cause actual results to differ materially from those implied in the forward-looking statements include but are not limited to:
+general economic, political or regulatory developments, including changes in governmental policies relating to refined petroleum products, crude oil, natural gas, NGLs, GHG emissions, or renewables, or taxation;
+the regional, national and worldwide demand for refined products, natural gas and renewables and related margins; the regional, national or worldwide availability and pricing of crude oil, natural gas, NGLs and
+other feedstocks and related pricing differentials; the success or timing of completion of ongoing or anticipated projects, including meeting the expected production rates for the projects within the expected
+timeframes, if at all; the timing and ability to obtain necessary regulatory approvals and permits and to satisfy other conditions necessary to complete planned projects or to consummate planned transactions within
+the expected timeframes if at all; the availability of desirable strategic alternatives to optimize portfolio assets and the ability to obtain regulatory and other approvals with respect thereto; the inability or failure of our
+joint venture partners to fund their share of operations and development activities; the financing and distribution decisions of joint ventures we do not control; our ability to successfully implement our sustainable
+energy strategy and principles and achieve our ESG plans and goals within the expected timeframes, if at all; the occurrence of industrial accidents; changes in government incentives for emission reduction
+products and technologies; the outcome of research and development efforts to create future technologies necessary to achieve our ESG plans and goals; the availability of feedstocks for lower-emission fuels;
+our ability to scale projects and technologies on a commercially competitive basis; actions of competitors; changes in regional and global economic growth rates and consumer preferences, including consumer
+support for emission-reduction products and technology; the availability of cost-effective carbon credits; our ability to identify and recruit diverse employee candidates; and the factors set forth under the headings
+“Risk Factors” and “Disclosures Regarding Forward-Looking Statements” in MPC’s and MPLX’s Annual Reports on Form 10-K for the year ended Dec. 31, 2023, and in other filings with the SEC.
+Copies of MPC’s SEC filings are available on the SEC website, MPC’s website at https://www.marathonpetroleum.com/Investors/ or by contacting MPC’s Investor Relations office. Copies of MPLX’s SEC filings are
+available on the SEC website, MPLX’s website at http://ir.mplx.com or by contacting MPLX’s Investor Relations office.
+Any forward-looking statement speaks only as of the date of the applicable communication and we undertake no obligation to update any forward-looking statement except to the extent required by applicable law.
+Neither future distribution of this material nor the continued availability of this material in archive form on our website should be deemed to constitute an update or re-affirmation of these figures or statements as of
+any future date. This publication is a shareholder-requested publication and is purposefully focused on unknown future events. This publication is not intended to communicate any material investment information.
+The statements and analysis in these documents represent a good faith effort to address these requests despite significant unknown variables.
+Historical, current and forward-looking sustainability-related information and statements may be based on standards for measuring progress that are still developing, internal controls and processes that continue to
+evolve, and assumptions that are subject to change in the future. We caution that this information is approximate, these statements and information reflect our current plans and aspirations and are not guarantees
+of future performance, nor promises that our goals will be met, and are subject to numerous and evolving risks and uncertainties that we may not be able to predict or assess. In some cases, we may determine to
+adjust or abandon our commitments, targets or goals or establish new ones to reflect changes in our business, operations, or plans.
+Any reference to our support of a third-party organization within this publication does not constitute or imply an endorsement by us of any or all of the positions or activities of such organization. Any website
+references are included for convenience only and we assume no liability for third-party content contained on the referenced websites.
+
+40
+
+41
+
+ENERGY STAR® Accomplishments
+U.S. EPA’s ENERGY STAR Partner of the
+Year Sustained Excellence Award
+
+11 Facilities Achieving the ENERGY STAR
+Challenge for Industry
+
+ SEVENTH consecutive Partner of the Year Award
+ FIFTH consecutive Partner of the Year Sustained
+Excellence Award
+
+
+
+
+
+
+
+
+
+
+
+
+
+FIVE Refineries ENERGY STAR Certified
+
+
+
+
+
+
+Anacortes, Washington (3 years)
+Canton, Ohio (17 years)
+Garyville, Louisiana (17 years)
+Robinson, Illinois (8 years)
+St. Paul Park, Minnesota (5 years)
+
+Marathon Petroleum Corporation
+Corporate Headquarters
+539 S. Main St.
+Findlay, Ohio 45840
+marathonpetroleum.com
+
+Champaign, Illinois Terminal
+Charleston, West Virginia Terminal
+Cincinnati, Ohio Terminal
+Cincinnati Renewable Fuels, LLC (2 times)
+Jackson, Michigan Terminal
+Lansing, Michigan Terminal
+Muncie, Indiana Terminal
+Nashville, Tennessee - 51st Terminal
+Nashville, Tennessee - Bordeaux Terminal
+Nashville, Tennessee - Downtown Terminal
+Youngstown, Ohio Terminal
+
+
