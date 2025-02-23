@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>BS-Meter</title>
@@ -13,168 +13,290 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- Dropzone.js -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.9.3/dropzone.min.css">
+
     <style>
-      html, body {
-        height: 100%;
-        margin: 0;
-        background-color: #121212;
-        color: white;
-        font-family: 'Roboto', sans-serif;
-      }
-      /* Header styling */
-      .header {
-        display: flex;
-        align-items: center;
-        padding: 10px 20px;
-      }
-      .header img {
-        height: 40px;
-        width: 40px;
-        margin-right: 10px;
-      }
-      .header span {
-        font-size: 1.5rem;
-        font-weight: bold;
-      }
-      /* Title styling */
-      .title {
-        text-align: center;
-        font-size: 4rem;
-        margin-top: 20px;
-      }
-      /* Meter container styling */
-      .meter-container {
-        display: flex;
-        justify-content: center;
-        margin: 20px 0;
-      }
-      /* Input container styling */
-      .input-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-      }
-      .input-section {
-        display: flex;
-        align-items: center;
-        margin-bottom: 20px;
-      }
-      /* Bigger input/textarea styling */
-      .input-section input[type="text"],
-      .input-section textarea {
-        width: 500px;
-        margin-right: 10px;
-        background-color: #2c2c2c;
-        color: white;
-        border: 1px solid #444;
-      }
-      /* Animate the needle (dial) on transform changes */
-      #needle {
-        transition: transform 0.5s ease-out;
-      }
-    </style>
-  </head>
-  <body>
-    <!-- Header with logo -->
-    <div class="header">
-      <img src="{{ url_for('static', filename='logo.png') }}" alt="Logo">
-      <span>BS-Meter</span>
-    </div>
-
-    <!-- Title -->
-    <div class="title">BS-Meter</div>
-
-    <!-- Enlarged meter graphic (SVG gauge) -->
-    <div class="meter-container">
-      <svg id="bsMeterSVG" width="500" height="300" viewBox="0 0 300 200">
-        <!-- Gauge arc -->
-        <path d="M 50 150 A 100 100 0 0 1 250 150" fill="none" stroke="#444" stroke-width="20" stroke-linecap="round"/>
-
-        <!-- Markers for gauge -->
-        <!-- Calculated using: angle = 180 - (value/100)*180 -->
-        <!-- 0 marker (value 0, angle 180°) -->
-        <text x="40" y="150" fill="white" font-size="14" text-anchor="middle">0</text>
-        <!-- 25 marker (value 25, angle 135°) -->
-        <text x="72" y="72" fill="white" font-size="14" text-anchor="middle">25</text>
-        <!-- 50 marker (value 50, angle 90°) -->
-        <text x="150" y="40" fill="white" font-size="14" text-anchor="middle">50</text>
-        <!-- 75 marker (value 75, angle 45°) -->
-        <text x="228" y="72" fill="white" font-size="14" text-anchor="middle">75</text>
-        <!-- 100 marker (value 100, angle 0°) -->
-        <text x="260" y="150" fill="white" font-size="14" text-anchor="middle">100</text>
-
-        <!-- Needle pointer (drawn last so it appears above the arc and markers) -->
-        <!-- Initially, for value 50, the needle points upward -->
-        <line id="needle" x1="150" y1="150" x2="150" y2="60" stroke="red" stroke-width="4" />
-
-        <!-- Center pivot (drawn last to cover the needle's base) -->
-        <circle cx="150" cy="150" r="5" fill="red"/>
-      </svg>
-    </div>
-
-    <!-- Larger text area, attachment, and check button -->
-    <div class="input-container">
-      <div class="input-section">
-        <!-- Larger, scrollable textarea -->
-        <textarea id="inputText" class="form-control" placeholder="Enter text..." rows="6" style="resize: vertical; overflow-y: auto;"></textarea>
-        <!-- Attachment button triggers hidden file input -->
-        <button type="button" id="attachBtn" class="btn btn-secondary">Attach File</button>
-        <!-- Hidden file input for .txt, .pdf, .docx -->
-        <input type="file" id="attachmentInput" style="display:none" accept=".txt,.pdf,.docx">
-      </div>
-      <button type="button" id="checkBtn" class="btn btn-primary">CHECK</button>
-    </div>
-
-    <!-- JavaScript to handle text input and file attachment -->
-    <script>
-      // Handle plain text input via the CHECK button
-      document.getElementById("checkBtn").addEventListener("click", function(){
-        var inputText = document.getElementById("inputText").value;
-        fetch("/process", {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json"
-          },
-          body: JSON.stringify({ text: inputText })
-        })
-        .then(response => response.json())
-        .then(data => {
-          animateNeedle(data.value);
-        })
-        .catch(err => console.error(err));
-      });
-
-      // Trigger hidden file input when the attachment button is clicked
-      document.getElementById("attachBtn").addEventListener("click", function(){
-        document.getElementById("attachmentInput").click();
-      });
-
-      // Handle file selection
-      document.getElementById("attachmentInput").addEventListener("change", function(event){
-        var file = event.target.files[0];
-        if (file) {
-          var formData = new FormData();
-          formData.append('file', file);
-          fetch("/upload", {
-            method: "POST",
-            body: formData
-          })
-          .then(response => response.json())
-          .then(data => {
-            animateNeedle(data.value);
-          })
-          .catch(err => console.error(err));
+        html, body {
+            height: 100%;
+            margin: 0;
+            background-color: #121212;
+            color: white;
+            font-family: 'Roboto', sans-serif;
         }
-      });
 
-      // Animate the gauge needle.
-      // Mapping: value 0 → +90° (needle points left),
-      // value 50 → 0° (points up),
-      // value 100 → -90° (points right)
-      function animateNeedle(value) {
-        var angle = 90 - (value / 100) * 180;
-        document.getElementById("needle").setAttribute("transform", "rotate(" + angle + ", 150, 150)");
-      }
+        .container {
+            max-width: 80%;
+            margin: 0 auto;
+        }
+
+        /* Header styling */
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 15px 30px;
+            background-color: #1E1E1E;
+            border-bottom: 2px solid #333;
+        }
+
+        .header a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-right: 20px;
+            transition: color 0.3s ease;
+        }
+
+        .header a:hover {
+            color: #3498db;
+        }
+
+        .header img {
+            height: 40px;
+            width: 40px;
+            margin-right: 10px;
+        }
+
+        .title {
+            text-align: center;
+            font-size: 4rem;
+            margin-top: 20px;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        .meter-container {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        #meterImage {
+            width: 400px;
+            height: 250px;
+        }
+        .needle {
+            position: absolute;
+            top: 59%;
+            left: 50%;
+            transform-origin: 50% 100%;
+            transform: rotate(0deg);
+            width: 4px;
+            height: 150px;
+            background-color: red;
+            transition: transform 0.5s ease-out;
+            border-radius: 2px;
+        }
+
+        .input-container {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            margin-top: 20px;
+            padding: 20px;
+        }
+
+        .input-box input[type="text"],
+        .input-box textarea {
+            width: 700px;
+            background-color: #2c2c2c;
+            color: white;
+            border: 1px solid;
+        }
+        .input-box textarea::placeholder {
+            color: white;
+        }
+
+
+        .attachment-box {
+            flex: 30%;
+        }
+
+
+
+        .dropzone {
+            width: 100%;
+            border: 2px dashed #bbb;
+            background: #222;
+            padding: 20px;
+            text-align: center;
+            color: #bbb;
+            border-radius: 10px;
+            transition: all 0.3s ease;
+        }
+
+        .dropzone img {
+
+            margin-top: -20px;
+        }
+
+
+        .dropzone:hover {
+            background: #333;
+            border: 2px dashed #3498db;
+        }
+
+        #uploadedFileContainer {
+            margin-top: 20px;
+            text-align: center;
+            font-weight: bold;
+            color: grey;
+        }
+
+        #checkBtn {
+            margin-top: 10px;
+            width: auto;
+            padding: 8px 20px;
+            background-color: white;
+            color: black;
+            border: none;
+            transition: background-color 0.3s ease;
+        }
+
+        #checkBtn:hover {
+            background-color: #2980b9;
+        }
+
+        #clearBtn {
+            color: white;
+            border: none;
+            background: transparent;
+            margin-left: 10px;
+            margin-top: 10px;
+            display: none;
+            transition: color 0.3s ease;
+        }
+
+        #clearBtn:hover {
+            color: #3498db;
+        }
+
+        #needle {
+            transition: transform 0.5s ease-out;
+        }
+
+        @media (max-width: 768px) {
+            .input-container {
+                flex-direction: column;
+            }
+
+            .input-box, .attachment-box {
+                flex: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header with navigation -->
+    <div class="header">
+        <div class="d-flex align-items-center">
+            <a href="/">
+                <img src="{{ url_for('static', filename='logo.png') }}" alt="Logo">
+            </a>
+            <a href="/">BS-Meter</a>
+            <a href="/about">About</a>
+        </div>
+    </div>
+
+
+    <div class="title" style="font-weight: bold;">BS-Meter</div>
+
+    <div class="text-center mt-2" style="font-size: 1rem; color: #bbb;">
+        an AI-powered text authenticity analyzer that leverages machine learning <br>
+        and Wittgenstein's language philosophy to quantify the likelihood of bullsh*t in any given text
+    </div>
+
+    <div class="meter-container">
+        <img id="meterImage" src="{{ url_for('static', filename='meter.png') }}" alt="Meter">
+        <div id="needle" class="needle"></div>
+    </div>
+
+    <div class="container">
+        <div class="input-container">
+            <div class="input-box">
+                <textarea id="inputText" class="form-control" placeholder="Enter text..." rows="6"></textarea>
+                <button type="button" id="checkBtn" class="btn btn-primary">Check</button>
+                <button type="button" id="clearBtn" class="btn btn-secondary">Clear</button>
+            </div>
+
+            <div class="attachment-box">
+                <form action="/upload" class="dropzone" id="fileDropzone">
+                    <div class="dz-message">
+                        <img src="{{ url_for('static', filename='upload-icon.png') }}" alt="Upload" class="dropzone-icon">
+                        <p>
+                        Drag & drop a file or <strong>click to browse</strong>
+                    </div>
+                </form>
+                <div id="uploadedFileContainer" style="display: none;">
+                    Uploaded File: <div id="fileNameContainer"><span id="fileName"></span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.9.3/dropzone.min.js"></script>
+    <script>
+        Dropzone.autoDiscover = false;
+        var myDropzone = new Dropzone("#fileDropzone", {
+            url: "/upload",
+            maxFiles: 1,
+            acceptedFiles: ".txt,.pdf,.docx",
+            init: function() {
+                this.on("success", function(file, response) {
+                    if (response.error) {
+                        alert(response.error);
+                    } else {
+                        document.getElementById("uploadedFileContainer").style.display = "block";
+                        document.getElementById("fileName").innerText = file.name;
+                        file.previewElement.querySelector(".dz-filename").style.display = "none"; // Hide the file name
+                        animateNeedle(response.value);
+                    }
+                });
+                this.on("addedfile", function() {
+                    if (this.files.length > 1) {
+                        this.removeFile(this.files[0]);
+                    }
+                });
+            }
+        });
+
+
+        document.getElementById("inputText").addEventListener("input", function() {
+            var clearBtn = document.getElementById("clearBtn");
+            var inputText = document.getElementById("inputText").value;
+
+            if (inputText.trim().length > 0) {
+                clearBtn.style.display = "inline-block";  // Show the "Clear" button
+            } else {
+                clearBtn.style.display = "none";  // Hide the "Clear" button if no text is written
+            }
+        });
+
+        document.getElementById("checkBtn").addEventListener("click", function() {
+            var inputText = document.getElementById("inputText").value;
+            fetch("/process", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ text: inputText })
+            })
+            .then(response => response.json())
+            .then(data => { animateNeedle(data.value); })
+            .catch(err => console.error(err));
+        });
+
+        document.getElementById("clearBtn").addEventListener("click", function() {
+            document.getElementById("inputText").value = "";  // Clear the textarea
+            document.getElementById("clearBtn").style.display = "none";  // Hide the "Clear" button
+        });
+
+        function animateNeedle(value) {
+            var angle = -(90 - (value / 100) * 180);
+            document.getElementById("needle").style.transform = "rotate(" + angle + "deg)";
+        }
     </script>
-  </body>
+
+</body>
 </html>

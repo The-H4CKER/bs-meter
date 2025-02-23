@@ -6,6 +6,7 @@ import docx
 
 endpoint_bp = Blueprint('endpoint_bp', __name__)
 
+
 def extract_text_from_pdf(file_stream):
     reader = PyPDF2.PdfReader(file_stream)
     text = ""
@@ -15,10 +16,12 @@ def extract_text_from_pdf(file_stream):
             text += page_text
     return text
 
+
 def extract_text_from_docx(file_stream):
     doc = docx.Document(file_stream)
     text = "\n".join([para.text for para in doc.paragraphs])
     return text
+
 
 @endpoint_bp.route('/upload', methods=['POST'])
 def upload():
@@ -42,3 +45,24 @@ def upload():
     # For example, a placeholder BS value calculation:
     value = min(len(text) * 10, 100)  # Replace with your actual logic
     return jsonify({'value': value})
+
+
+@endpoint_bp.route("/process", methods=["POST"])
+def process_text():
+    data = request.get_json()
+
+    if not data or "text" not in data:
+        return jsonify({"error": "No text provided"}), 400
+
+    text = data["text"].strip()
+
+    if len(text) == 0:
+        return jsonify({"error": "Empty text"}), 400
+
+    # Placeholder for real AI model processing
+    value = min(len(text) * 10, 100)  # Replace with your actual logic
+
+    return jsonify({"value": value})  # Return score to frontend
+
+
+
