@@ -30,7 +30,7 @@ def upload():
 
     file = request.files['file']
     filename = file.filename.lower()
-    text = ""
+    mode = request.form.get('mode', 'general')
 
     if filename.endswith('.txt'):
         text = file.read().decode('utf-8')
@@ -43,7 +43,7 @@ def upload():
 
     # Process the extracted text as you would with plain input text.
     # For example, a placeholder BS value calculation:
-    value = min(len(text) * 10, 100)  # Replace with your actual logic
+    value = min(len(text) * 10, 100)
     return jsonify({'value': value})
 
 
@@ -55,12 +55,14 @@ def process_text():
         return jsonify({"error": "No text provided"}), 400
 
     text = data["text"].strip()
+    mode = data.get("mode", "general")
+    print(mode)
 
     if len(text) == 0:
         return jsonify({"error": "Empty text"}), 400
 
     # Placeholder for real AI model processing
-    value = min(len(text) * 10, 100)  # Replace with your actual logic
+    value = min(len(text) * 10, 100)
 
     return jsonify({"value": value})  # Return score to frontend
 
