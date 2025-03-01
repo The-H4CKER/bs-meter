@@ -41,8 +41,6 @@ def upload():
     else:
         return jsonify({'error': 'Unsupported file type'}), 400
 
-    # Process the extracted text as you would with plain input text.
-    # For example, a placeholder BS value calculation:
     value = min(len(text) * 10, 100)
     return jsonify({'value': value})
 
@@ -64,7 +62,7 @@ def process_text():
     # Placeholder for real AI model processing
     value = min(len(text) * 10, 100)
 
-    return jsonify({"value": value})  # Return score to frontend
+    return jsonify({"value": value})
 
 
 
