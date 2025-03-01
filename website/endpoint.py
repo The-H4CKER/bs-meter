@@ -1,4 +1,4 @@
-# Website/endpoint.py
+# website/endpoint.py
 import io
 from flask import Blueprint, request, jsonify
 import PyPDF2
