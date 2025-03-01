@@ -246,6 +246,10 @@
             transition: transform 0.5s ease-out;
         }
 
+        #result-text {
+            animation: fadeIn 1s ease-in-out;
+        }
+
         @keyframes fadeIn {
             from { opacity: 0; }
             to { opacity: 1; }
@@ -410,9 +414,9 @@
             if (value < 30) {
                 resultText.textContent = `Your text is not bullshit! Score: ${value}`;
             } else if (value < 70) {
-                resultText.textContent = `Your text is somewhat bullshit! Score: ${value}`;
+                resultText.textContent = `Your text has hints of bullshit! Score: ${value}`;
             } else {
-                resultText.textContent = `Your text is very bullshit!!! Score: ${value}`;
+                resultText.textContent = `Your text is likely to be bullshit!!! Score: ${value}`;
             }
         }
 
