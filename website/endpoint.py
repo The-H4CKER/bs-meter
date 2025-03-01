@@ -4,6 +4,8 @@ from flask import Blueprint, request, jsonify
 import PyPDF2
 import docx
 
+from website import xgb
+
 endpoint_bp = Blueprint('endpoint_bp', __name__)
 
 
@@ -41,7 +43,11 @@ def upload():
     else:
         return jsonify({'error': 'Unsupported file type'}), 400
 
-    value = min(len(text) * 10, 100)
+
+
+    # Placeholder for real AI model processing
+    text = ' '.join(text.split())
+    value = str(xgb.score(text) * 100)
     return jsonify({'value': value})
 
 
@@ -60,8 +66,9 @@ def process_text():
         return jsonify({"error": "Empty text"}), 400
 
     # Placeholder for real AI model processing
-    value = min(len(text) * 10, 100)
-
+    text = ' '.join(text.split())
+    value = str(xgb.score(text) * 100)
+    print(value)
     return jsonify({"value": value})
 
 
