@@ -20,5 +20,8 @@ def score(text):
     processed_text = preprocess_text(text)
 
     # Make a prediction on the new text
-    prediction = loaded_model.predict(processed_text)
+    prediction = loaded_model.predict_proba(processed_text)
     return prediction
+
+
+score("Hello from the other side. I must have called 1000 times..")
