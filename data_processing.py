@@ -4,9 +4,16 @@ from sklearn.feature_extraction.text import TfidfVectorizer, ENGLISH_STOP_WORDS
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 from xgboost import XGBClassifier
+from transformers import RobertaTokenizer
 
 nature_dir = "dataset/nature_articles/"
 chatgpt_dir = "dataset/chatgpt_articles/"
+
+tokenizer = RobertaTokenizer.from_pretrained("roberta-base")
+
+
+def tokenize(text):
+    return tokenizer(text["text"], truncation=True, padding="max_length", max_length=512)
 
 
 def load_articles_from_folder(folder, label):
