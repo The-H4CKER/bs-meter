@@ -1,15 +1,24 @@
-import os
-from pandas import DataFrame
-from sklearn.feature_extraction.text import TfidfVectorizer, ENGLISH_STOP_WORDS
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import accuracy_score
+from joblib import load
 from xgboost import XGBClassifier
 
+# Define stop words
+vectorizer = load("../models/tfidf_model.joblib")
+model = XGBClassifier(eval_metric="logloss")
 
-def score(text):
-    model = XGBClassifier()
-    model.load_model("../models/model.xgb")
-    custom_stop_word_list = list(ENGLISH_STOP_WORDS.union({"figure", "fig"}))
-    vectorizer = TfidfVectorizer(stop_words=custom_stop_word_list)
-    vectorizer.fit_transform(text)
-    return model.predict(text)
+# Load the trained model from the saved file
+loaded_model = XGBClassifier()
+loaded_model.load_model("../models/model.json")
+
+
+# Function to preprocess a single string
+def preprocess_text(text):
+    # Use the same vectorizer that was fitted on the training data
+    return vectorizer.transform([text])
+
+
+# Test with a single text
+single_text = "Example text to classify using the trained XGBoost model"
+processed_text = preprocess_text(single_text)
+
+# Make a prediction on the new text
+prediction = loaded_model.predict(processed_text)
