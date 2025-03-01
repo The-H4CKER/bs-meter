@@ -4,12 +4,12 @@ from xgboost import XGBClassifier
 
 def score(text):
     # Define stop words
-    vectorizer = load("../models/tfidf_model.joblib")
+    vectorizer = load("models/tfidf_model.joblib")
     model = XGBClassifier(eval_metric="logloss")
 
     # Load the trained model from the saved file
     loaded_model = XGBClassifier()
-    loaded_model.load_model("../models/model.json")
+    loaded_model.load_model("models/model.json")
 
     # Function to preprocess a single string
     def preprocess_text(text):
