@@ -100,6 +100,14 @@
             border-radius: 2px;
         }
 
+        .result-text {
+            text-align: center;
+            font-size: 1.5rem;
+            margin-top: 20px;
+            color: white;
+            animation: fadeIn 1s ease-in-out;
+        }
+
         .mode-selection {
             display: flex;
             justify-content: center;
@@ -238,6 +246,11 @@
             transition: transform 0.5s ease-out;
         }
 
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
         @media (max-width: 768px) {
             .input-container {
                 flex-direction: column;
@@ -247,6 +260,8 @@
                 flex: 100%;
             }
         }
+
+
     </style>
 </head>
 <body>
@@ -276,6 +291,7 @@
             <div id="needle" class="needle"></div>
         </div>
     </div>
+    <div id="resultText" class="result-text"></div>
 
     <!-- Mode Selection Section -->
     <div class="mode-selection">
@@ -339,6 +355,7 @@
                         document.getElementById("fileName").innerText = file.name;
                         file.previewElement.querySelector(".dz-filename").style.display = "none"; // Hide the file name
                         animateNeedle(response.value);
+                        displayResultText(response.value);
                     }
                 });
                 this.on("addedfile", function() {
@@ -370,7 +387,8 @@
                 body: JSON.stringify({text: inputText, mode: selectedMode})
             })
             .then(response => response.json())
-            .then(data => { animateNeedle(data.value); })
+            .then(data => { animateNeedle(data.value);
+                            displayResultText(data.value); })
             .catch(err => console.error(err));
         });
 
@@ -385,6 +403,17 @@
 
             // Apply only the rotation part of the transform
             needle.style.transform = `translate(-50%, -100%) rotate(${angle}deg)`;
+        }
+
+        function displayResultText(value) {
+            const resultText = document.getElementById("resultText");
+            if (value < 30) {
+                resultText.textContent = `Your text is not bullshit! Score: ${value}`;
+            } else if (value < 70) {
+                resultText.textContent = `Your text is somewhat bullshit! Score: ${value}`;
+            } else {
+                resultText.textContent = `Your text is very bullshit!!! Score: ${value}`;
+            }
         }
 
         document.addEventListener("DOMContentLoaded", function () {
