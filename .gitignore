@@ -1,3 +1,4 @@
 dataset/
 website/__pycache__/
 model_training/__pycache__/
+.venv/
