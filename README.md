@@ -3,10 +3,9 @@
 
 ## Contributing
 Contributions to enhance the BS Meter are welcome! Please submit issues and pull requests on GitHub. When contributing, ensure that:
-
-Your code adheres to the repository style guidelines.
-You provide tests for new features or bug fixes.
-You update documentation as needed.
+- Your code adheres to the repository style guidelines.
+- You provide tests for new features or bug fixes.
+- You update documentation as needed.
 
 ## Citation
 If you use the BS Meter in your research or projects, please cite the original paper:
