@@ -23,4 +23,4 @@ def score(text):
     return prediction
 
 
-score("Hello from the other side. I must have called 1000 times..")
+# score("Hello from the other side. I must have called 1000 times..")
