@@ -54,7 +54,6 @@ def roberta_classify(text: str, model_name: str) -> tuple[int, float]:
     confidence, predicted_class = torch.max(probabilities, dim=1)
     return predicted_class.item(), confidence.item()
 
-
 def main():
     # example usages
     roberta_train("dataset/nature_articles", "dataset/chatgpt_articles", "./Roberta_Model_testing")
