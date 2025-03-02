@@ -1,3 +1,6 @@
 dataset/
 .venv/
+.idea/
+results/
+models/RoBERTa/
 website/__pycache__/
