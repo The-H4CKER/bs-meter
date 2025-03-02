@@ -56,8 +56,8 @@ def roberta_classify(text: str, model_name: str) -> tuple[int, float]:
 
 def main():
     # example usages
-    roberta_train("dataset/nature_articles", "dataset/chatgpt_articles", "./Roberta_Model_testing")
-    roberta_classify("Hello World!", "./Roberta_Model")
+    #roberta_train("dataset/nature_articles", "dataset/chatgpt_articles", "./Roberta_Model_testing")
+    print(roberta_classify("Hello World!", "./Roberta_Model"))
 
 
 if __name__ == "__main__":
