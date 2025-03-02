@@ -5,9 +5,9 @@ from datasets import Dataset
 from data_processing import load_articles_from_folder, tokenize
 
 
-def roberta_train(pure_articles_dir: str, bs_articles_dir: str, save_dir: str, model_name: str = "roberta_base") -> bool:
-    pure_articles = load_articles_from_folder(pure_articles_dir, 0)[:20]
-    bs_articles = load_articles_from_folder(bs_articles_dir, 1)[:20]
+def roberta_train(pure_articles_dir: str, bs_articles_dir: str, save_dir: str, model_name: str = "roberta-base") -> bool:
+    pure_articles = load_articles_from_folder(pure_articles_dir, 0)
+    bs_articles = load_articles_from_folder(bs_articles_dir, 1)
     shuffle(pure_articles)
     shuffle(bs_articles)
 
@@ -46,8 +46,8 @@ def roberta_train(pure_articles_dir: str, bs_articles_dir: str, save_dir: str, m
 
 
 def roberta_classify(text: str, model_name: str) -> tuple[int, float]:
-    model = RobertaForSequenceClassification(model_name)
-    inputs = tokenize(text)
+    model = RobertaForSequenceClassification.from_pretrained(model_name)
+    inputs = tokenize(text, for_torch=True)
     outputs = model(**inputs)
     logits = outputs.logits
     probabilities = torch.nn.functional.softmax(logits, dim=-1)
