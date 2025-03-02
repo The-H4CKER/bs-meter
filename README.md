@@ -4,6 +4,11 @@
 
 <!-- Add your installation instructions here -->
 
+```bash
+git clone https://github.com/your-username/your-repo.git
+cd your-repo
+```
+
 ## Contributing
 
 Contributions to enhance the BS Meter are welcome! Please submit issues and pull requests on GitHub. When contributing, ensure that:
