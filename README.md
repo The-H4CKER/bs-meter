@@ -1,18 +1,26 @@
 # BS Meter
+
 ## Installation
 
+<!-- Add your installation instructions here -->
+
 ## Contributing
+
 Contributions to enhance the BS Meter are welcome! Please submit issues and pull requests on GitHub. When contributing, ensure that:
 - Your code adheres to the repository style guidelines.
 - You provide tests for new features or bug fixes.
 - You update documentation as needed.
 
 ## Citation
+
 If you use the BS Meter in your research or projects, please cite the original paper:
-Trevisan, A., Giddens, H., Dillon, S., & Blackwell, A. F. (2024). Measuring Bullshit in the Language Games played by ChatGPT. arXiv preprint arXiv:2411.15129.
+
+> Trevisan, A., Giddens, H., Dillon, S., & Blackwell, A. F. (2024). *Measuring Bullshit in the Language Games played by ChatGPT*. arXiv preprint arXiv:2411.15129.
 
 ## Acknowledgements
+
 This project is based on the research conducted by Alessandro Trevisan, Harry Giddens, Sarah Dillon, and Alan F. Blackwell. Their work provides the theoretical and experimental foundation for this BS Meter. We also acknowledge the contributions of the open-source community in developing the tools and libraries used in this project.
 
 ## License
+
 This project is licensed under the MIT License. See the LICENSE file for details.
