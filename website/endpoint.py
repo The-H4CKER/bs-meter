@@ -46,8 +46,9 @@ def upload():
 
 
     # Placeholder for real AI model processing
-    text = ' '.join(text.split())
-    value = str(xgb.score(text) * 100)
+    text = ' '.join([i for i in text.split() if i.isalnum()])
+    print(text)
+    value = str(xgb.score(text)[0][1] * 100)
     return jsonify({'value': value})
 
 
@@ -66,8 +67,9 @@ def process_text():
         return jsonify({"error": "Empty text"}), 400
 
     # Placeholder for real AI model processing
-    text = ' '.join(text.split())
-    value = str(xgb.score(text) * 100)
+    text = ' '.join([i for i in text.split() if i.isalnum()])
+    print(text)
+    value = str(xgb.score(text)[0][1] * 100)
     print(value)
     return jsonify({"value": value})
 
