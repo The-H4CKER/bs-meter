@@ -1,2 +1,5 @@
 dataset/
 .venv/
+.idea/
+results/
+models/RoBERTa/
