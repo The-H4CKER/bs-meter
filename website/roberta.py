@@ -2,7 +2,7 @@ import torch
 from random import shuffle
 from transformers import RobertaForSequenceClassification, Trainer, TrainingArguments
 from datasets import Dataset
-from data_processing import load_articles_from_folder, tokenize
+from model_training.data_processing import load_articles_from_folder, tokenize
 
 
 def roberta_train(pure_articles_dir: str, bs_articles_dir: str, save_dir: str, model_name: str = "roberta-base") -> bool:
@@ -57,7 +57,7 @@ def roberta_classify(text: str, model_name: str) -> tuple[int, float]:
 def main():
     # example usages
     #roberta_train("dataset/nature_articles", "dataset/chatgpt_articles", "./Roberta_Model_testing")
-    print(roberta_classify("Hello World!", "./Roberta_Model"))
+    print(roberta_classify("Hello World!", "./models/RoBERTa"))
 
 
 if __name__ == "__main__":

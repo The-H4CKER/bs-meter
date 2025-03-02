@@ -3,10 +3,10 @@ import io
 from flask import Blueprint, request, jsonify
 import PyPDF2
 import docx
-from roberta import roberta_classify
 
 
 from website import xgb
+from website.roberta import roberta_classify
 
 endpoint_bp = Blueprint('endpoint_bp', __name__)
 
@@ -45,12 +45,10 @@ def upload():
     else:
         return jsonify({'error': 'Unsupported file type'}), 400
 
-
-
     # Placeholder for real AI model processing
     text = ' '.join([i for i in text.split() if i.isalnum()])
 
-    type, val = roberta_classify(text, "./Roberta_Model")
+    type, val = roberta_classify(text, "./models/RoBERTa")
     if type == 0:
         val = 1-val
     value1 = str(xgb.score(text)[0][1] * 100)
@@ -74,7 +72,7 @@ def process_text():
         return jsonify({"error": "Empty text"}), 400
 
     # Placeholder for real AI model processing
-    type, val = roberta_classify(text, "./Roberta_Model")
+    type, val = roberta_classify(text, "./models/RoBERTa")
     if type == 0:
         val = 1 - val
     value1 = str(xgb.score(text)[0][1] * 100)
