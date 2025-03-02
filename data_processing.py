@@ -6,13 +6,12 @@ from sklearn.metrics import accuracy_score
 from xgboost import XGBClassifier
 from transformers import RobertaTokenizer
 
-nature_dir = "dataset/nature_articles/"
-chatgpt_dir = "dataset/chatgpt_articles/"
-
 tokenizer = RobertaTokenizer.from_pretrained("roberta-base")
 
 
-def tokenize(text):
+def tokenize(text, for_torch=False):
+    if for_torch:
+        return tokenizer(text, return_tensors="pt", truncation=True, padding="max_length", max_length=512)
     return tokenizer(text["text"], truncation=True, padding="max_length", max_length=512)
 
 
@@ -26,17 +25,18 @@ def load_articles_from_folder(folder, label):
     return articles
 
 
-nature_articles = load_articles_from_folder(nature_dir, 0)
-chatgpt_articles = load_articles_from_folder(chatgpt_dir, 1)
+def main():
+    nature_dir = "dataset/nature_articles/"
+    chatgpt_dir = "dataset/chatgpt_articles/"
+    nature_articles = load_articles_from_folder(nature_dir, 0)
+    chatgpt_articles = load_articles_from_folder(chatgpt_dir, 1)
+    data = nature_articles + chatgpt_articles
+    df = DataFrame(data, columns=["text", "label"])
+    custom_stop_word_list = list(ENGLISH_STOP_WORDS.union({"figure", "fig"}))
+    vectorizer = TfidfVectorizer(stop_words=custom_stop_word_list)
+    X = vectorizer.fit_transform(df["text"])
+    y = df["label"]
 
 
-data = nature_articles + chatgpt_articles
-df = DataFrame(data, columns=["text", "label"])
-
-
-custom_stop_word_list = list(ENGLISH_STOP_WORDS.union({"figure", "fig"}))
-vectorizer = TfidfVectorizer(stop_words=custom_stop_word_list)
-
-
-X = vectorizer.fit_transform(df["text"])
-y = df["label"]
+if __name__ == "__main__":
+    main()
