@@ -2,4 +2,4 @@ dataset/
 .venv/
 .idea/
 results/
-models/RoBERTa/
+models/RoBERTa/model.safetensors
