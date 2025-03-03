@@ -1,6 +1,6 @@
-dataset/
-.venv/
 .idea/
+.venv/
+dataset/
+models/RoBERTa/model.safetensors
 results/
 website/__pycache__/
-models/RoBERTa/model.safetensors
