@@ -1,7 +1,6 @@
 .idea/
 .venv/
+**/__pycache__/
 dataset/
 models/RoBERTa/model.safetensors
-model_training/__pycache__/
 results/
-website/__pycache__/
