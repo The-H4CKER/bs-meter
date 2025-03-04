@@ -5,26 +5,31 @@ BS-Meter is an AI-powered text authenticity analyzer that leverages machine lear
 ## Installation
 
 ### Prerequisites
+
 Make sure you have Python installed. You can download it from [python.org](https://www.python.org/).
 
 ### Clone Repository
+
 ```bash
 git clone https://github.com/The-H4CKER/bs-meter.git
 cd bs-meter
 ```
 
 ### Create Virtual Environment (Recommended)
+
 ```bash
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 ```
 
 ### Install Dependencies
+
 ```bash
 pip install -r requirements.txt
 ```
 
-# Usage
+## Usage
+
 ```bash
 python main.py
 ```
@@ -32,6 +37,7 @@ python main.py
 ## Contributing
 
 Contributions to enhance the BS Meter are welcome! Please submit issues and pull requests on GitHub. When contributing, ensure that:
+
 - Your code adheres to the repository style guidelines.
 - You provide tests for new features or bug fixes.
 - You update documentation as needed.
