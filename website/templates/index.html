@@ -159,6 +159,7 @@
 
         .input-box {
             flex: 70%; /* 70% width for the text box */
+            position: relative;
         }
 
         .attachment-box {
@@ -196,8 +197,13 @@
         }
 
         .dropzone img {
-            width: 100px;
-            height: 100px;
+            max-width: 100px;  /* Keeps it responsive */
+            max-height: 100px;
+            object-fit: contain;  /* Ensures the image scales without cropping */
+            display: block; /* Removes any default inline spacing issues */
+            margin: 0 auto; /* Centers the image */
+            width: auto; /* Maintains aspect ratio */
+            height: auto; /* Maintains aspect ratio */
             margin-top: -20px;
         }
 
@@ -205,6 +211,23 @@
         .dropzone:hover {
             background: #333;
             border: 2px dashed #3498db;
+        }
+
+        .spinner {
+            position: absolute;
+            top: 39%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 10;
+        }
+
+        .loader {
+            border: 4px solid #f3f3f3; /* Light grey */
+            border-top: 4px solid #3498db; /* Blue */
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            animation: spin 1s linear infinite;
         }
 
         /* Footer */
@@ -221,6 +244,8 @@
             text-align: center;
             font-weight: bold;
             color: grey;
+            border: none !important;
+            background: transparent !important;
         }
 
         #checkBtn {
@@ -274,6 +299,10 @@
             }
         }
 
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
 
     </style>
 </head>
@@ -327,6 +356,9 @@
         <div class="input-container">
             <div class="input-box">
                 <textarea id="inputText" class="form-control" placeholder="Enter text..." rows="6"></textarea>
+                <div id="loadingSpinner" class="spinner" style="display: none;">
+                    <div class="loader"></div>
+                </div>
                 <button type="button" id="checkBtn" class="btn btn-primary">Check</button>
                 <button type="button" id="clearBtn" class="btn btn-secondary">Clear</button>
             </div>
@@ -393,18 +425,32 @@
             }
         });
 
-        document.getElementById("checkBtn").addEventListener("click", function() {
+        document.getElementById("checkBtn").addEventListener("click", function () {
             var inputText = document.getElementById("inputText").value;
-            var selectedMode = document.querySelector('input[name="mode"]:checked').value
+            var selectedMode = document.querySelector('input[name="mode"]:checked').value;
+
+            // Show the loading spinner
+            document.getElementById("loadingSpinner").style.display = "block";
+
             fetch("/process", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
-                body: JSON.stringify({text: inputText, mode: selectedMode})
+                body: JSON.stringify({ text: inputText, mode: selectedMode }),
             })
-            .then(response => response.json())
-            .then(data => { animateNeedle(data.value);
-                            displayResultText(data.value); })
-            .catch(err => console.error(err));
+                .then((response) => response.json())
+                .then((data) => {
+                    // Hide the loading spinner
+                    document.getElementById("loadingSpinner").style.display = "none";
+
+                    // Process the response
+                    animateNeedle(data.value);
+                    displayResultText(data.value);
+                })
+                .catch((err) => {
+                    // Hide the loading spinner on error
+                    document.getElementById("loadingSpinner").style.display = "none";
+                    console.error(err);
+                });
         });
 
         document.getElementById("clearBtn").addEventListener("click", function() {
