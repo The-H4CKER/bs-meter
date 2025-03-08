@@ -5,12 +5,16 @@ from model_training.data_processing import load_articles_from_folder, tokenize
 import math
 
 
-def roberta_train(pure_articles_dir: str, bs_articles_dir: str, save_dir: str, model_name: str = "roberta-base", generalise=True) -> bool:
+def roberta_train(pure_articles_dir: str, bs_articles_dir: str, save_dir: str, model_name: str = "roberta-base", generalise=True, amount=1.0) -> bool:
     pure_articles = load_articles_from_folder(pure_articles_dir, 0)
     bs_articles = load_articles_from_folder(bs_articles_dir, 1)
     shuffle(pure_articles)
     shuffle(bs_articles)
 
+    n = len(pure_articles)
+    m = len(bs_articles)
+    pure_articles = pure_articles[:int(amount*n)]
+    bs_articles = bs_articles[:int(amount*m)]
     n = len(pure_articles)
     m = len(bs_articles)
     total_length = n + m
@@ -37,7 +41,8 @@ def roberta_train(pure_articles_dir: str, bs_articles_dir: str, save_dir: str, m
         weight_decay=weight_decay,
         per_device_train_batch_size=per_device_train_batch_size,
         per_device_eval_batch_size=per_device_eval_batch_size,
-        learning_rate=learning_rate
+        learning_rate=learning_rate,
+        fp16=True
     )
 
     trainer = Trainer(
@@ -49,7 +54,7 @@ def roberta_train(pure_articles_dir: str, bs_articles_dir: str, save_dir: str, m
 
     trainer.train()
 
-    if trainer.evaluate()["eval_loss"] <= 1e-4:
+    if trainer.evaluate()["eval_loss"] <= 0.1:
         trainer.save_model(save_dir)
         return True
     return False
@@ -57,7 +62,11 @@ def roberta_train(pure_articles_dir: str, bs_articles_dir: str, save_dir: str, m
 
 def main():
     # example usages
-    roberta_train("../dataset/nature_articles", "../dataset/chatgpt_articles", "./Roberta_Model_testing")
+    roberta_train("../dataset/nature_articles", "../dataset/chatgpt_articles", "./Roberta_Model_testing_2", generalise=False)
+    roberta_train("../dataset/nature_articles", "../dataset/chatgpt_articles", "./Roberta_Model_testing_3", generalise=False, amount=0.5)
+    roberta_train("../dataset/nature_articles", "../dataset/chatgpt_articles", "./Roberta_Model_testing_4", generalise=True, amount=0.5)
+    roberta_train("../dataset/nature_articles", "../dataset/chatgpt_articles", "./Roberta_Model_testing_5", generalise=False, amount=0.25)
+    roberta_train("../dataset/nature_articles", "../dataset/chatgpt_articles", "./Roberta_Model_testing_6", generalise=True, amount=0.25)
 
 
 if __name__ == "__main__":
