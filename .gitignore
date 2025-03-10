@@ -4,3 +4,4 @@
 dataset/
 results/
 *.safetensors
+model_testing/test_results/
