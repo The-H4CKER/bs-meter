@@ -18,8 +18,8 @@ cd bs-meter
 ### Create Virtual Environment (Recommended)
 
 ```bash
-python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+python -m venv .venv
+source .venv/bin/activate  # On Windows use `venv\Scripts\Activate.ps1`
 ```
 
 ### Install Dependencies
@@ -27,6 +27,10 @@ source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 ```bash
 pip install -r requirements.txt
 ```
+
+### Add RoBERTa Model
+
+Download [model.tensors](https://drive.google.com/file/d/1e3b62UMX4NAlWr6U4FQpq2gVn9ZSt1nk/view?usp=drive_link) and move it to [bs-meter/models/RoBERTa/](https://github.com/The-H4CKER/bs-meter/tree/main/models/RoBERTa).
 
 ## Usage
 
