@@ -1,5 +1,12 @@
 from joblib import load
 from xgboost import XGBClassifier
+from re import sub
+
+
+def preprocessor(text):
+    figure_pattern = r"\b[Ff]ig\. ?[\d]+[a-zA-Z0-9,–-]*"
+    text = sub(figure_pattern, "", text)
+    return text.strip()
 
 
 def score(text):
