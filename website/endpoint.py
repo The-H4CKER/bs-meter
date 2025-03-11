@@ -4,6 +4,7 @@ from flask import Blueprint, request, jsonify
 import PyPDF2
 import docx
 import numpy as np
+import re
 
 from website import xgb
 from website.roberta import roberta_classify
@@ -45,7 +46,7 @@ def upload():
     else:
         return jsonify({'error': 'Unsupported file type'}), 400
 
-    text = ' '.join([i for i in text.split() if i.isalnum()])
+    text = parse_text(text)
 
     type, val = roberta_classify(text, "./models/RoBERTa")
     if type == 0:
@@ -64,9 +65,9 @@ def process_text():
     if not data or "text" not in data:
         return jsonify({"error": "No text provided"}), 400
 
-    text = data["text"].strip()
+    text = parse_text(data["text"])
     mode = data.get("mode", "general")
-
+    print(text)
     if len(text) == 0:
         return jsonify({"error": "Empty text"}), 400
 
@@ -94,3 +95,6 @@ def log_transform(x):
     # return 100-(-np.log10(x/100) * 30)
 
 
+def parse_text(text):
+    cleaned_text = re.sub(r'[^a-zA-Z0-9.]+', ' ', text)
+    return cleaned_text
