@@ -5,3 +5,4 @@ dataset/
 results/
 *.safetensors
 model_testing/test_results/
+model_testing/test_results_with_scaling/
