@@ -48,11 +48,8 @@ def upload():
 
     text = parse_text(text)
 
-    type, val = roberta_classify(text, "./models/RoBERTa")
-    if type == 0:
-        val = 1 - val
     value1 = min(100, log_transform(xgb.score(text)[0][1] * 100))
-    value2 = val * 100
+    value2 = roberta_classify(text, "./models/RoBERTa")
     value = str((value1 + value2) // 2)
     print(value1, value2, value)
     return jsonify({'value': value})
@@ -71,11 +68,11 @@ def process_text():
     if len(text) == 0:
         return jsonify({"error": "Empty text"}), 400
 
-    type, val = roberta_classify(text, "./models/RoBERTa")
-    if type == 0:
-        val = 1 - val
+    # Placeholder for real AI model processing
+    value1 = str(xgb.score(text)[0][1] * 100)
     value1 = min(100, log_transform(xgb.score(text)[0][1] * 100))
-    value2 = val * 100
+    value2 = roberta_classify(text, "./models/RoBERTa")
+
     value = str((value1 + value2) // 2)
     print(value1, value2, value)
     return jsonify({"value": value})
