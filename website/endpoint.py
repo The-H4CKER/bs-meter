@@ -3,7 +3,7 @@ import io
 from flask import Blueprint, request, jsonify
 import PyPDF2
 import docx
-
+import numpy as np
 
 from website import xgb
 from website.roberta import roberta_classify
@@ -45,15 +45,15 @@ def upload():
     else:
         return jsonify({'error': 'Unsupported file type'}), 400
 
-    # Placeholder for real AI model processing
     text = ' '.join([i for i in text.split() if i.isalnum()])
 
     type, val = roberta_classify(text, "./models/RoBERTa")
     if type == 0:
-        val = 1-val
-    value1 = str(xgb.score(text)[0][1] * 100)
-    value2 = str(val * 100)
-    value = value1 + ' , ' + value2
+        val = 1 - val
+    value1 = min(100, log_transform(xgb.score(text)[0][1] * 100))
+    value2 = val * 100
+    value = str((value1 + value2) // 2)
+    print(value1, value2, value)
     return jsonify({'value': value})
 
 
@@ -66,19 +66,31 @@ def process_text():
 
     text = data["text"].strip()
     mode = data.get("mode", "general")
-    print(mode)
 
     if len(text) == 0:
         return jsonify({"error": "Empty text"}), 400
 
-    # Placeholder for real AI model processing
     type, val = roberta_classify(text, "./models/RoBERTa")
     if type == 0:
         val = 1 - val
-    value1 = str(xgb.score(text)[0][1] * 100)
-    value2 = str(val * 100)
-    value = value1 + ' , ' + value2
+    value1 = min(100, log_transform(xgb.score(text)[0][1] * 100))
+    value2 = val * 100
+    value = str((value1 + value2) // 2)
+    print(value1, value2, value)
     return jsonify({"value": value})
 
+
+def log_transform(x):
+    # Constants
+    a = 45.56
+    b = 0.1
+
+    # Apply logarithmic transformation
+    y = a * np.log(b * x + 1)
+
+    return y
+
+    # print(x)
+    # return 100-(-np.log10(x/100) * 30)
 
 

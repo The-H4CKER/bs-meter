@@ -51,6 +51,7 @@
 
         .header a:hover {
             color: #3498db;
+            text-decoration: underline;
         }
 
         .header img {
@@ -177,6 +178,21 @@
         }
         .input-box textarea::placeholder {
             color: white;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            margin-top: 10px;
+            gap: 10px;
+        }
+
+        .word-count {
+            color: #bbb;
+            font-size: 0.9rem;
+            margin-left: auto; /* Pushes the word count to the right */
+            margin-right: 10px; /* Adds some spacing */
         }
 
         .attachment-box {
@@ -359,8 +375,11 @@
                 <div id="loadingSpinner" class="spinner" style="display: none;">
                     <div class="loader"></div>
                 </div>
-                <button type="button" id="checkBtn" class="btn btn-primary">Check</button>
-                <button type="button" id="clearBtn" class="btn btn-secondary">Clear</button>
+                <div class="button-container">
+                    <button type="button" id="checkBtn" class="btn btn-primary">Check</button>
+                    <button type="button" id="clearBtn" class="btn btn-secondary">Clear</button>
+                    <div class="word-count" id="wordCount">Words: 0</div>
+                </div>
             </div>
 
             <div class="attachment-box">
@@ -453,9 +472,20 @@
                 });
         });
 
+        // Word Count Functionality
+        const inputText = document.getElementById("inputText");
+        const wordCount = document.getElementById("wordCount");
+
+        inputText.addEventListener("input", () => {
+            const text = inputText.value.trim();
+            const words = text ? text.split(/\s+/).length : 0;
+            wordCount.textContent = `Words: ${words}`;
+        });
+
         document.getElementById("clearBtn").addEventListener("click", function() {
             document.getElementById("inputText").value = "";  // Clear the textarea
             document.getElementById("clearBtn").style.display = "none";  // Hide the "Clear" button
+            wordCount.textContent = "Words: 0";  // Reset word count
         });
 
         function animateNeedle(value) {
