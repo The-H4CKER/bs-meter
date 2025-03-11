@@ -3,7 +3,8 @@ import io
 from flask import Blueprint, request, jsonify
 import PyPDF2
 import docx
-
+import numpy as np
+import re
 
 from website import xgb
 from website.roberta import roberta_classify
@@ -45,16 +46,25 @@ def upload():
     else:
         return jsonify({'error': 'Unsupported file type'}), 400
 
-    # Placeholder for real AI model processing
-    text = ' '.join([i for i in text.split() if i.isalnum()])
+    p_text = parse_text(text)
 
-    type, val = roberta_classify(text, "./models/RoBERTa")
+    type, val = roberta_classify(text, "./model_training/Roberta_Model_testing_4")
     if type == 0:
-        val = 1-val
-    value1 = str(xgb.score(text)[0][1] * 100)
-    value2 = str(val * 100)
-    value = value1 + ' , ' + value2
-    return jsonify({'value': value})
+        val = 1 - val
+    value1 = min(100, log_transform(xgb.score(p_text)[0][1] * 100))
+    value2 = val * 100
+    value = str((value1 + value2) // 2)
+    print(value1, value2, value)
+    print(mode)
+    if mode == "both":
+        return jsonify({'value': value})
+    elif mode == "xgb":
+        return jsonify({'value': str(int(value1))})
+    elif mode == "roberta":
+        return jsonify({'value': str(int(value2))})
+    else:
+        return jsonify({'error': 'Unsupported mode type'}), 400
+
 
 
 @endpoint_bp.route("/process", methods=["POST"])
@@ -64,21 +74,45 @@ def process_text():
     if not data or "text" not in data:
         return jsonify({"error": "No text provided"}), 400
 
-    text = data["text"].strip()
+    p_text = parse_text(data["text"])
+    text = data["text"]
     mode = data.get("mode", "general")
-    print(mode)
-
+    print(text)
     if len(text) == 0:
         return jsonify({"error": "Empty text"}), 400
 
-    # Placeholder for real AI model processing
-    type, val = roberta_classify(text, "./models/RoBERTa")
+    type, val = roberta_classify(text, "./model_training/Roberta_Model_testing_4")
     if type == 0:
         val = 1 - val
-    value1 = str(xgb.score(text)[0][1] * 100)
-    value2 = str(val * 100)
-    value = value1 + ' , ' + value2
-    return jsonify({"value": value})
+    value1 = min(100, log_transform(xgb.score(p_text)[0][1] * 100))
+    value2 = val * 100
+    value = str((value1 + value2) // 2)
+    print(value1, value2, value)
+    print(mode)
+    if mode == "both":
+        return jsonify({'value': value})
+    elif mode == "xgb":
+        return jsonify({'value': str(int(value1))})
+    elif mode == "roberta":
+        return jsonify({'value': str(int(value2))})
+    else:
+        return jsonify({'error': 'Unsupported mode type'}), 400
 
 
+def log_transform(x):
+    a = 45.56
+    b = 0.1
 
+    # Apply logarithmic transformation
+    y = a * np.log(b * x + 1)
+
+    return y
+
+    #print(x)
+    # return 100-(-np.log10(x/100) * 30)
+    #return x
+
+
+def parse_text(text):
+    cleaned_text = re.sub(r'[^a-zA-Z0-9.]+', ' ', text)
+    return cleaned_text
