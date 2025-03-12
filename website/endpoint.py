@@ -46,13 +46,21 @@ def upload():
     else:
         return jsonify({'error': 'Unsupported file type'}), 400
 
-    text = parse_text(text)
+    p_text = parse_text(text)
 
-    value1 = min(100, log_transform(xgb.score(text)[0][1] * 100))
+    value1 = min(100, log_transform(xgb.score(p_text)[0][1] * 100))
     value2 = roberta_classify(text, "./models/RoBERTa")
     value = str((value1 + value2) // 2)
     print(value1, value2, value)
-    return jsonify({'value': value})
+    print(mode)
+    if mode == "both":
+        return jsonify({'value': value})
+    elif mode == "xgb":
+        return jsonify({'value': str(int(value1))})
+    elif mode == "roberta":
+        return jsonify({'value': str(int(value2))})
+    else:
+        return jsonify({'error': 'Unsupported mode type'}), 400
 
 
 @endpoint_bp.route("/process", methods=["POST"])
@@ -62,20 +70,27 @@ def process_text():
     if not data or "text" not in data:
         return jsonify({"error": "No text provided"}), 400
 
-    text = parse_text(data["text"])
+    p_text = parse_text(data["text"])
+    text = data["text"]
     mode = data.get("mode", "general")
     print(text)
     if len(text) == 0:
         return jsonify({"error": "Empty text"}), 400
 
-    # Placeholder for real AI model processing
-    value1 = str(xgb.score(text)[0][1] * 100)
-    value1 = min(100, log_transform(xgb.score(text)[0][1] * 100))
+    value1 = min(100, log_transform(xgb.score(p_text)[0][1] * 100))
     value2 = roberta_classify(text, "./models/RoBERTa")
-
     value = str((value1 + value2) // 2)
     print(value1, value2, value)
-    return jsonify({"value": value})
+    print(mode)
+    if mode == "both":
+        return jsonify({'value': value})
+    elif mode == "xgb":
+        return jsonify({'value': str(int(value1))})
+    elif mode == "roberta":
+        return jsonify({'value': str(int(value2))})
+    else:
+        return jsonify({'error': 'Unsupported mode type'}), 400
+
 
 
 def log_transform(x):
@@ -90,6 +105,9 @@ def log_transform(x):
 
     # print(x)
     # return 100-(-np.log10(x/100) * 30)
+    #print(x)
+    # return 100-(-np.log10(x/100) * 30)
+    #return x
 
 
 def parse_text(text):
