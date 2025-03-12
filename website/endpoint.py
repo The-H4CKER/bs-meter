@@ -46,9 +46,7 @@ def upload():
     else:
         return jsonify({'error': 'Unsupported file type'}), 400
 
-    p_text = parse_text(text)
-
-    return get_classify_result(p_text, mode)
+    return get_classify_result(text, mode)
 
 
 @endpoint_bp.route("/process", methods=["POST"])
@@ -58,18 +56,18 @@ def process_text():
     if not data or "text" not in data:
         return jsonify({"error": "No text provided"}), 400
 
-    p_text = parse_text(data["text"])
     text = data["text"]
     mode = data.get("mode", "general")
     print(text)
     if len(text) == 0:
         return jsonify({"error": "Empty text"}), 400
 
-    return get_classify_result(p_text, mode)
+    return get_classify_result(text, mode)
 
 
 def get_classify_result(text, mode):
-    value1 = min(100, log_transform(xgb.score(text)[0][1] * 100))
+    p_text = parse_text(text)
+    value1 = min(100, log_transform(xgb.score(p_text)[0][1] * 100))
     value2 = roberta_classify(text, "./models/RoBERTa")
     value = str((value1 + value2) // 2)
     print(value1, value2, value)
