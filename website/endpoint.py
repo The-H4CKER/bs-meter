@@ -48,19 +48,7 @@ def upload():
 
     p_text = parse_text(text)
 
-    value1 = min(100, log_transform(xgb.score(p_text)[0][1] * 100))
-    value2 = roberta_classify(text, "./models/RoBERTa")
-    value = str((value1 + value2) // 2)
-    print(value1, value2, value)
-    print(mode)
-    if mode == "both":
-        return jsonify({'value': value})
-    elif mode == "xgb":
-        return jsonify({'value': str(int(value1))})
-    elif mode == "roberta":
-        return jsonify({'value': str(int(value2))})
-    else:
-        return jsonify({'error': 'Unsupported mode type'}), 400
+    return get_classify_result(p_text, mode)
 
 
 @endpoint_bp.route("/process", methods=["POST"])
@@ -77,7 +65,11 @@ def process_text():
     if len(text) == 0:
         return jsonify({"error": "Empty text"}), 400
 
-    value1 = min(100, log_transform(xgb.score(p_text)[0][1] * 100))
+    return get_classify_result(p_text, mode)
+
+
+def get_classify_result(text, mode):
+    value1 = min(100, log_transform(xgb.score(text)[0][1] * 100))
     value2 = roberta_classify(text, "./models/RoBERTa")
     value = str((value1 + value2) // 2)
     print(value1, value2, value)
@@ -90,7 +82,6 @@ def process_text():
         return jsonify({'value': str(int(value2))})
     else:
         return jsonify({'error': 'Unsupported mode type'}), 400
-
 
 
 def log_transform(x):
