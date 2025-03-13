@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 import os
 import re
 
+#returns html file returned from a link
 def get_article(link):
         r = requests.get(link)
         if r.status_code == 200:
@@ -10,7 +11,7 @@ def get_article(link):
         else:
             print('invalid get request')
 
-
+#retrieves the main body of text from a climate policy article
 def get_article_body(r):
     soup = BeautifulSoup(r.content, 'html.parser')
     title = soup.find('h1', class_ = 'c-article-title')
@@ -25,6 +26,7 @@ r = requests.get('https://link.springer.com/journal/10584/articles')
 # check status code for response received
 # success code - 200
 
+#retrieve all the articles from the search page
 soup = BeautifulSoup(r.content, 'html.parser')
 s = soup.find_all('a', attrs={"data-track": "select_article"})
 for elt in s:
