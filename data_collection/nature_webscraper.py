@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 from selenium import  webdriver
 import os
 
+#get nature article html page
 def get_article(suffix):
         r = requests.get('https://www.nature.com' + suffix)
         if r.status_code == 200:
@@ -10,7 +11,7 @@ def get_article(suffix):
         else:
             print('invalid get request')
 
-
+#retrieve main body of text from nature article
 def get_article_body(r):
     soup = BeautifulSoup(r.content, 'html.parser')
     title = soup.find('h1', class_ = 'c-article-title')
@@ -27,6 +28,7 @@ r = requests.get('https://www.nature.com/nclimate/research-articles')
 # success code - 200
 print(r)
 
+#retrieve all of the articles the nature search page
 soup = BeautifulSoup(r.content, 'html.parser')
 s = soup.find_all('a', class_='c-card__link u-link-inherit')
 for elt in s:
