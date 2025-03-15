@@ -30,7 +30,7 @@ pip install -r requirements.txt
 
 ### Add RoBERTa Model
 
-Download [model.tensors](https://drive.google.com/file/d/17ijFRHsRZ4OpU4Qnn0g7NqYw_Jsa1BYc/view?usp=drive_link) and move it to [bs-meter/models/RoBERTa/](https://github.com/The-H4CKER/bs-meter/tree/main/models/RoBERTa).
+Download [model.tensors](https://drive.google.com/file/d/17ijFRHsRZ4OpU4Qnn0g7NqYw_Jsa1BYc/view?usp=drive_link) and move it to [bs-meter/models/RoBERTa/](https://github.com/The-H4CKER/bs-meter/tree/main/model_training/Roberta_Model_testing_4/).
 
 ## Usage
 
