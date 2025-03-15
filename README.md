@@ -19,7 +19,7 @@ cd bs-meter
 
 ```bash
 python -m venv .venv
-source .venv/bin/activate  # On Windows use `venv\Scripts\Activate.ps1`
+source .venv/bin/activate  # On Windows use `.venv\Scripts\Activate.ps1`
 ```
 
 ### Install Dependencies
