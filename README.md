@@ -2,6 +2,10 @@
 
 BS-Meter is an AI-powered text authenticity analyzer that leverages machine learning and Wittgenstein's language philosophy to quantify the likelihood of bullsh*t in any given text. You can try out the [live demo](https://na630.user.srcf.net/). Below are the instructions to get it working locally on your machine.
 
+## Screenshot
+
+![BS-Meter Screenshot](bs-meter-screenshot.png)
+
 ## Installation
 
 ### Prerequisites
