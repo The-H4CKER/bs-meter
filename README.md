@@ -54,7 +54,7 @@ Contributions to enhance the BS Meter are welcome! Please submit issues and pull
 
 If you use the BS Meter in your research or projects, please cite the original paper:
 
-> Trevisan, A., Giddens, H., Dillon, S., & Blackwell, A. F. (2024). *Measuring Bullshit in the Language Games played by ChatGPT*. arXiv preprint arXiv:2411.15129.
+> Trevisan, A., Giddens, H., Dillon, S., & Blackwell, A. F. (2024). [*Measuring Bullshit in the Language Games played by ChatGPT*](https://arxiv.org/pdf/2411.15129). arXiv preprint arXiv:2411.15129.
 
 ## Acknowledgements
 
